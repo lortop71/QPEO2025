@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz PEO 2025</title>
+    <title>Quiz Corte dei Conti</title>
     <style>
         * {
             margin: 0;
@@ -32,25 +32,6 @@
             margin-bottom: 30px;
             padding-bottom: 20px;
             border-bottom: 3px solid #667eea;
-        }
-		
-		.warning-box {		
-            margin-bottom: 20px;
-            background-color: #fff3cd;
-            border: 2px solid #ffc107;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        
-        .warning-icon {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-        
-        .warning-text {
-            color: #856404;
-            font-size: 18px;
-            line-height: 1.5;
         }
 
         h1 {
@@ -254,6 +235,17 @@
             flex: 1;
         }
 
+        .btn-skip {
+            background: #ffc107;
+            color: #333;
+            border: 2px solid #ffc107;
+        }
+
+        .btn-skip:hover {
+            background: #ffb300;
+            border-color: #ffb300;
+        }
+
         .results-screen {
             display: none;
             text-align: center;
@@ -402,13 +394,19 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎓 Quiz PEO 2025</h1>
-            <p class="subtitle">Test di preparazione per le PEO 2025</p>
+            <h1>🎓 Quiz Corte dei Conti</h1>
+            <p class="subtitle">Test di preparazione per concorsi</p>
         </div>
 
         <!-- Schermata iniziale -->
         <div class="start-screen" id="startScreen">
             <h2>Benvenuto al Quiz!</h2>
+            
+            <div style="background: #fff3cd; border: 2px solid #ffc107; border-radius: 10px; padding: 15px; margin: 20px 0; color: #856404;">
+                <strong>⚠️ ATTENZIONE</strong><br>
+                Le domande e le risposte sono state generate da una IA e non sono state validate. In caso di inesattezze comunicatelo.
+            </div>
+            
             <p>
                 Verranno generate <strong>40 domande casuali</strong> dai seguenti argomenti:<br>
                 ROF e RAC, Codice di Comportamento, Prevenzione della Corruzione, Trasparenza,<br>
@@ -417,18 +415,18 @@
                 Funzione Consultiva, Sezioni di Controllo, Giudizio di Primo Grado e altro.
             </p>
             <p>
-                Per ogni domanda, seleziona la risposta che ritieni corretta.<br>
-                Potrai vedere la risposta corretta e la motivazione dopo aver risposto.
+                <strong>Sistema di punteggio:</strong><br>
+                ✅ Risposta corretta: <strong>+1.0 punto</strong><br>
+                ❌ Risposta errata: <strong>-0.5 punti</strong><br>
+                ⚠️ Domanda saltata: <strong>0 punti</strong>
             </p>
-			
-			<div class="warning-box">
-				<div class="warning-icon">⚠️</div>
-				<p class="warning-text">
-					<strong>ATTENZIONE️</strong><br>Le domande e le risposte sono state generate da una IA e non sono state validate. In caso di inesattezze comunicatelo.
-				</p>
-			</div>
-			
-			<button class="btn" onclick="startQuiz()">Inizia il Quiz</button>
+            <p>
+                Per ogni domanda, puoi:<br>
+                • Selezionare una risposta e vedere se è corretta<br>
+                • Saltare la domanda se non conosci la risposta<br>
+                • Visualizzare la motivazione della risposta corretta
+            </p>
+            <button class="btn" onclick="startQuiz()">Inizia il Quiz</button>
         </div>
 
         <!-- Container del quiz -->
@@ -439,7 +437,7 @@
 
             <div class="question-info">
                 <span id="questionNumber">Domanda 1 di 40</span>
-                <span id="score">Punteggio: 0/0</span>
+                <span id="score">Punteggio: 0.0/0</span>
             </div>
 
             <div class="question-box">
@@ -452,6 +450,9 @@
             </div>
 
             <div class="button-group">
+                <button class="btn btn-skip" id="skipBtn" onclick="skipQuestion()">
+                    Salta Domanda
+                </button>
                 <button class="btn btn-secondary" id="showAnswerBtn" onclick="showAnswer()" disabled>
                     Mostra Risposta
                 </button>
@@ -465,6 +466,7 @@
         <div class="results-screen" id="resultsScreen">
             <h2>Quiz Completato!</h2>
             <div class="score-display" id="finalScore">0/40</div>
+            <div class="score-percentage" id="totalPoints">Punteggio Totale: 0.0 punti</div>
             <div class="score-percentage" id="scorePercentage">0%</div>
             
             <div class="score-details">
@@ -476,10 +478,14 @@
                     <h3>Risposte Errate</h3>
                     <p id="incorrectCount">0</p>
                 </div>
+                <div class="score-card">
+                    <h3>Domande Saltate</h3>
+                    <p id="skippedCount">0</p>
+                </div>
             </div>
 
             <div class="review-section" id="reviewSection">
-                <h3>Riepilogo Risposte Errate</h3>
+                <h3>Riepilogo Risposte Errate e Domande Saltate</h3>
                 <div id="reviewContainer"></div>
             </div>
 
@@ -4975,7 +4981,7 @@
 				category: "Funzione di coordinamento"
 			},
 			{
-				question: "Quale è la 'centrale dei pareri'?",
+				question: "Cosa è la 'centrale dei pareri'?",
 				options: ["Un archivio cartaceo presso il MEF", "Una piattaforma interna dove le Sezioni territoriali caricano i propri pareri", "Un database europeo", "Un ufficio delle Sezioni Riunite"],
 				correct: 1,
 				motivation: "La centrale dei pareri è una piattaforma interna della Corte dove ogni Sezione territoriale carica i propri pareri, consentendo alla Sezione delle Autonomie di monitorare gli orientamenti e rilevare eventuali contrasti.",
@@ -5481,7 +5487,7 @@
 				category: "Ricorso per Cassazione"
 			},
 
-            // B07 - Sezioni Riunite (aggiungo alcune domande)
+            // B07 - Sezioni Riunite in sede giurisdizionale
             {
                 question: "Cosa significa etimologicamente il termine 'nomofilachia'?",
                 options: ["Creazione della norma", "Protezione della legge", "Applicazione della sanzione", "Interpretazione soggettiva"],
@@ -6117,8 +6123,8 @@
 			{
 				question: "Qual è la duplice natura del giudizio di parificazione?",
 				options: ["Controllo e giurisdizione", "Decisione e relazione", "Preventivo e successivo", "Interno ed esterno"],
-				correct: 1,
-				motivation: "Il giudizio di parificazione presenta una duplice natura: una decisione sulla regolarità del rendiconto (con effetti indirettamente vincolanti) e una relazione con natura di referto inquadrabile nei controlli collaborativi.",
+				correct: 0,
+				motivation: "Il giudizio di parificazione nasce come funzione di controllo della Corte dei conti sui rendiconti delle Regioni. Allo stesso tempo, il giudizio ha forma e sostanza di sentenza.",
 				category: "Parificazione rendiconto"
 			},
 			{
@@ -6640,7 +6646,11 @@
         let currentQuestions = [];
         let currentQuestionIndex = 0;
         let score = 0;
+        let totalPoints = 0; // Punteggio totale con +1 per corrette e -0.5 per errate
         let answered = 0;
+        let correctAnswers = 0;
+        let incorrectAnswers = 0;
+        let skippedQuestions = 0;
         let userAnswers = [];
 
         // Funzione per mescolare array (Fisher-Yates shuffle)
@@ -6674,7 +6684,11 @@
             
             currentQuestionIndex = 0;
             score = 0;
+            totalPoints = 0;
             answered = 0;
+            correctAnswers = 0;
+            incorrectAnswers = 0;
+            skippedQuestions = 0;
             userAnswers = [];
             
             document.getElementById('startScreen').style.display = 'none';
@@ -6691,7 +6705,7 @@
             document.getElementById('questionNumber').textContent = 
                 `Domanda ${currentQuestionIndex + 1} di ${currentQuestions.length}`;
             document.getElementById('score').textContent = 
-                `Punteggio: ${score}/${answered}`;
+                `Punteggio: ${totalPoints.toFixed(1)}/${answered}`;
             document.getElementById('questionText').textContent = question.question;
             
             // Aggiorna barra di progresso
@@ -6717,6 +6731,7 @@
             document.getElementById('feedback').classList.remove('show', 'correct', 'incorrect');
             document.getElementById('showAnswerBtn').disabled = true;
             document.getElementById('nextBtn').disabled = true;
+            document.getElementById('skipBtn').disabled = false;
         }
 
         // Funzione per selezionare un'opzione
@@ -6750,6 +6765,11 @@
             answered++;
             if (isCorrect) {
                 score++;
+                correctAnswers++;
+                totalPoints += 1; // +1 punto per risposta corretta
+            } else {
+                incorrectAnswers++;
+                totalPoints -= 0.5; // -0.5 punti per risposta errata
             }
             
             // Salva la risposta dell'utente
@@ -6758,7 +6778,8 @@
                 userAnswer: question.options[selectedAnswer],
                 correctAnswer: question.options[question.correct],
                 isCorrect: isCorrect,
-                motivation: question.motivation
+                motivation: question.motivation,
+                skipped: false
             });
             
             // Disabilita tutte le opzioni
@@ -6779,18 +6800,49 @@
             feedback.classList.add('show');
             feedback.classList.add(isCorrect ? 'correct' : 'incorrect');
             
-            document.getElementById('feedbackTitle').textContent = 
-                isCorrect ? '✓ Risposta Corretta!' : '✗ Risposta Errata';
+            const pointsChange = isCorrect ? '+1.0' : '-0.5';
+            const pointsColor = isCorrect ? '#28a745' : '#dc3545';
+            
+            document.getElementById('feedbackTitle').innerHTML = 
+                isCorrect ? 
+                `✓ Risposta Corretta! <span style="color: ${pointsColor};">(${pointsChange} punti)</span>` : 
+                `✗ Risposta Errata <span style="color: ${pointsColor};">(${pointsChange} punti)</span>`;
             document.getElementById('motivationText').innerHTML = 
                 `<strong>Motivazione:</strong> ${question.motivation}`;
             
-            // Disabilita "Mostra Risposta" e abilita "Prossima Domanda"
+            // Disabilita "Mostra Risposta" e "Salta" e abilita "Prossima Domanda"
             document.getElementById('showAnswerBtn').disabled = true;
+            document.getElementById('skipBtn').disabled = true;
             document.getElementById('nextBtn').disabled = false;
             
             // Aggiorna il punteggio
             document.getElementById('score').textContent = 
-                `Punteggio: ${score}/${answered}`;
+                `Punteggio: ${totalPoints.toFixed(1)}/${answered}`;
+        }
+
+        // Funzione per saltare una domanda
+        function skipQuestion() {
+            const question = currentQuestions[currentQuestionIndex];
+            
+            // Registra la domanda come saltata
+            skippedQuestions++;
+            userAnswers.push({
+                question: question.question,
+                userAnswer: 'Domanda saltata',
+                correctAnswer: question.options[question.correct],
+                isCorrect: false,
+                motivation: question.motivation,
+                skipped: true
+            });
+            
+            // Passa alla prossima domanda
+            currentQuestionIndex++;
+            
+            if (currentQuestionIndex < currentQuestions.length) {
+                displayQuestion();
+            } else {
+                showResults();
+            }
         }
 
         // Funzione per passare alla domanda successiva
@@ -6813,30 +6865,44 @@
             
             document.getElementById('finalScore').textContent = 
                 `${score}/${currentQuestions.length}`;
+            document.getElementById('totalPoints').textContent = 
+                `Punteggio Totale: ${totalPoints.toFixed(1)} punti`;
             document.getElementById('scorePercentage').textContent = 
                 `${percentage}%`;
-            document.getElementById('correctCount').textContent = score;
-            document.getElementById('incorrectCount').textContent = 
-                currentQuestions.length - score;
+            document.getElementById('correctCount').textContent = correctAnswers;
+            document.getElementById('incorrectCount').textContent = incorrectAnswers;
+            document.getElementById('skippedCount').textContent = skippedQuestions;
             
-            // Mostra riepilogo risposte errate
+            // Mostra riepilogo risposte errate e saltate
             const reviewContainer = document.getElementById('reviewContainer');
             reviewContainer.innerHTML = '';
             
-            const incorrectAnswers = userAnswers.filter(a => !a.isCorrect);
+            const problemAnswers = userAnswers.filter(a => !a.isCorrect);
             
-            if (incorrectAnswers.length === 0) {
-                reviewContainer.innerHTML = '<p style="text-align: center; color: #28a745; font-size: 1.2em;">🎉 Perfetto! Nessuna risposta errata!</p>';
+            if (problemAnswers.length === 0) {
+                reviewContainer.innerHTML = '<p style="text-align: center; color: #28a745; font-size: 1.2em;">🎉 Perfetto! Nessuna risposta errata o saltata!</p>';
             } else {
-                incorrectAnswers.forEach((answer, index) => {
+                problemAnswers.forEach((answer, index) => {
                     const reviewItem = document.createElement('div');
                     reviewItem.className = 'review-item';
-                    reviewItem.innerHTML = `
-                        <div class="review-question">${index + 1}. ${answer.question}</div>
-                        <div class="review-answer">Tua risposta: ${answer.userAnswer}</div>
-                        <div class="review-correct">Risposta corretta: ${answer.correctAnswer}</div>
-                        <div class="motivation" style="margin-top: 10px;">${answer.motivation}</div>
-                    `;
+                    
+                    if (answer.skipped) {
+                        reviewItem.style.borderLeftColor = '#ffc107';
+                        reviewItem.innerHTML = `
+                            <div class="review-question">${index + 1}. ${answer.question}</div>
+                            <div class="review-answer" style="color: #ffc107;">⚠️ Domanda saltata</div>
+                            <div class="review-correct">Risposta corretta: ${answer.correctAnswer}</div>
+                            <div class="motivation" style="margin-top: 10px;">${answer.motivation}</div>
+                        `;
+                    } else {
+                        reviewItem.innerHTML = `
+                            <div class="review-question">${index + 1}. ${answer.question}</div>
+                            <div class="review-answer">Tua risposta: ${answer.userAnswer}</div>
+                            <div class="review-correct">Risposta corretta: ${answer.correctAnswer}</div>
+                            <div class="motivation" style="margin-top: 10px;">${answer.motivation}</div>
+                        `;
+                    }
+                    
                     reviewContainer.appendChild(reviewItem);
                 });
             }
