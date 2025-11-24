@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Corte dei Conti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 30px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .start-screen {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .start-screen h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .start-screen p {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .quiz-container {
+            display: none;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .question-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .question-box {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            border-left: 5px solid #667eea;
+        }
+
+        .question-text {
+            font-size: 1.2em;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .option {
+            background: white;
+            border: 2px solid #e0e0e0;
+            padding: 15px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+            transform: translateX(5px);
+        }
+
+        .option input[type="radio"] {
+            margin-right: 12px;
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .option.correct {
+            border-color: #28a745;
+            background: #d4edda;
+        }
+
+        .option.incorrect {
+            border-color: #dc3545;
+            background: #f8d7da;
+        }
+
+        .option.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        .feedback {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            display: none;
+        }
+
+        .feedback.show {
+            display: block;
+        }
+
+        .feedback.correct {
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            color: #155724;
+        }
+
+        .feedback.incorrect {
+            background: #f8d7da;
+            border-left: 5px solid #dc3545;
+            color: #721c24;
+        }
+
+        .feedback-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .motivation {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(0,0,0,0.1);
+            font-style: italic;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+            flex: 1;
+        }
+
+        .btn-secondary:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary {
+            flex: 1;
+        }
+
+        .results-screen {
+            display: none;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .results-screen h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .score-display {
+            font-size: 4em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 30px 0;
+        }
+
+        .score-percentage {
+            font-size: 2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .score-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .score-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+        }
+
+        .score-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .score-card p {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .score-card.correct {
+            border-left-color: #28a745;
+        }
+
+        .score-card.correct p {
+            color: #28a745;
+        }
+
+        .score-card.incorrect {
+            border-left-color: #dc3545;
+        }
+
+        .score-card.incorrect p {
+            color: #dc3545;
+        }
+
+        .review-section {
+            margin-top: 40px;
+            text-align: left;
+        }
+
+        .review-section h3 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .review-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 5px solid #dc3545;
+        }
+
+        .review-question {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .review-answer {
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .review-correct {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .question-text {
+                font-size: 1.1em;
+            }
+
+            .score-display {
+                font-size: 3em;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Quiz PEO 2025</h1>
+            <p class="subtitle">Test di preparazione per concorsi</p>
+        </div>
+
+        <!-- Schermata iniziale -->
+        <div class="start-screen" id="startScreen">
+            <h2>Benvenuto al Quiz!</h2>
+            <p>
+                Verranno generate <strong>40 domande casuali</strong> dai seguenti argomenti:<br>
+                ROF e RAC, Codice di Comportamento, Prevenzione della Corruzione, Trasparenza,<br>
+                Sicurezza sul Lavoro, Trasformazione Digitale, Contrattazione Collettiva,<br>
+                Codice dei Contratti Pubblici, Responsabilità Contabile e Amministrativa,<br>
+                Funzione Consultiva, Sezioni di Controllo, Giudizio di Primo Grado e altro.
+            </p>
+            <p>
+                Per ogni domanda, seleziona la risposta che ritieni corretta.<br>
+                Potrai vedere la risposta corretta e la motivazione dopo aver risposto.
+            </p>
+            <button class="btn" onclick="startQuiz()">Inizia il Quiz</button>
+        </div>
+
+        <!-- Container del quiz -->
+        <div class="quiz-container" id="quizContainer">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <div class="question-info">
+                <span id="questionNumber">Domanda 1 di 40</span>
+                <span id="score">Punteggio: 0/0</span>
+            </div>
+
+            <div class="question-box">
+                <div class="question-text" id="questionText"></div>
+                <div class="options" id="optionsContainer"></div>
+                <div class="feedback" id="feedback">
+                    <div class="feedback-title" id="feedbackTitle"></div>
+                    <div class="motivation" id="motivationText"></div>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button class="btn btn-secondary" id="showAnswerBtn" onclick="showAnswer()" disabled>
+                    Mostra Risposta
+                </button>
+                <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>
+                    Prossima Domanda
+                </button>
+            </div>
+        </div>
+
+        <!-- Schermata risultati -->
+        <div class="results-screen" id="resultsScreen">
+            <h2>Quiz Completato!</h2>
+            <div class="score-display" id="finalScore">0/40</div>
+            <div class="score-percentage" id="scorePercentage">0%</div>
+            
+            <div class="score-details">
+                <div class="score-card correct">
+                    <h3>Risposte Corrette</h3>
+                    <p id="correctCount">0</p>
+                </div>
+                <div class="score-card incorrect">
+                    <h3>Risposte Errate</h3>
+                    <p id="incorrectCount">0</p>
+                </div>
+            </div>
+
+            <div class="review-section" id="reviewSection">
+                <h3>Riepilogo Risposte Errate</h3>
+                <div id="reviewContainer"></div>
+            </div>
+
+            <button class="btn" onclick="resetQuiz()">Ricomincia Quiz</button>
+        </div>
+    </div>
+
+    <script>
+        // Database delle domande
+        const questionDatabase = [
+            // A03 - ROF e RAC
+            {
+                question: "Quale articolo della Costituzione attribuisce alla Corte dei conti la funzione di controllo preventivo di legittimità sugli atti del Governo?",
+                options: ["Articolo 99", "Articolo 100", "Articolo 103", "Articolo 55"],
+                correct: 1,
+                motivation: "L'articolo 100 della Costituzione attribuisce alla Corte dei conti la funzione di controllo preventivo di legittimità sugli atti del Governo.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Qual è la funzione principale attribuita alla Corte dei conti dall'articolo 103 della Costituzione?",
+                options: ["Controllo sugli enti locali", "Giurisdizione nelle materie di contabilità pubblica", "Gestione del bilancio dello Stato", "Vigilanza sulle regioni"],
+                correct: 1,
+                motivation: "L'articolo 103 della Costituzione attribuisce alla Corte dei conti la giurisdizione nelle materie di contabilità pubblica.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale legge riconosce l'autonomia finanziaria della Corte dei conti?",
+                options: ["Legge 20/1994", "D.lgs. 165/2001", "D.P.R. 62/2013", "Legge 81/2017"],
+                correct: 0,
+                motivation: "La Legge 20/1994 riconosce l'autonomia finanziaria della Corte dei conti.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale regolamento disciplina l'organizzazione degli uffici amministrativi della Corte dei conti?",
+                options: ["Regolamento delle funzioni di controllo", "ROF - Regolamento di Organizzazione e Funzionamento", "RAC - Regolamento di Autonomia e Contabilità", "PIT - Piano Integrato Triennale"],
+                correct: 1,
+                motivation: "Il ROF (Regolamento di Organizzazione e Funzionamento) disciplina l'organizzazione degli uffici amministrativi della Corte dei conti.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale documento strategico ha sostituito i precedenti piani settoriali nella Corte dei conti?",
+                options: ["PIAO", "PIT - Piano Integrato Triennale", "Codice di comportamento", "Circolare Segretariale"],
+                correct: 1,
+                motivation: "Il PIT (Piano Integrato Triennale) ha sostituito i precedenti piani settoriali nella Corte dei conti.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Qual è il principio fondamentale del lavoro agile nella Corte dei conti?",
+                options: ["Lavoro esclusivamente da remoto", "Lavoro per obiettivi", "Orario flessibile senza limiti", "Nessun monitoraggio"],
+                correct: 1,
+                motivation: "Il principio fondamentale del lavoro agile nella Corte dei conti è il lavoro per obiettivi.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Qual è il termine massimo per la conclusione del procedimento disciplinare?",
+                options: ["30 giorni", "60 giorni", "90 giorni", "120 giorni"],
+                correct: 3,
+                motivation: "Il termine massimo per la conclusione del procedimento disciplinare è di 120 giorni.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale sanzione NON è prevista dall'art. 43 CCNL 2019-2021 per il personale non dirigenziale?",
+                options: ["Rimprovero verbale", "Multa fino a 4 ore di retribuzione", "Sospensione fino a 1 anno", "Licenziamento senza preavviso"],
+                correct: 2,
+                motivation: "La sospensione fino a 1 anno non è prevista dall'art. 43 CCNL 2019-2021 per il personale non dirigenziale.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale principio NON è tra quelli generali del codice di comportamento dei dipendenti pubblici?",
+                options: ["Imparzialità", "Integrità", "Segretezza assoluta", "Trasparenza"],
+                correct: 2,
+                motivation: "La segretezza assoluta non è tra i principi generali del codice di comportamento dei dipendenti pubblici.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale novità ha introdotto il D.P.R. 81/2023 nel codice di comportamento?",
+                options: ["Divieto di utilizzo di strumenti informatici", "Obbligo di formazione etica", "Abolizione dei social media", "Nessuna modifica"],
+                correct: 1,
+                motivation: "Il D.P.R. 81/2023 ha introdotto l'obbligo di formazione etica nel codice di comportamento.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Qual è la nuova Direzione Generale istituita dalla riforma del ROF del luglio 2024?",
+                options: ["Direzione Generale Affari Generali", "Direzione Generale Controllo e Vigilanza", "Direzione Generale Sistemi Informativi", "Direzione Generale Bilancio"],
+                correct: 1,
+                motivation: "La riforma del ROF del luglio 2024 ha istituito la Direzione Generale Controllo e Vigilanza.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale parte dell'avanzo di amministrazione è soggetta a restituzione al bilancio dello Stato?",
+                options: ["Avanzo vincolato", "Avanzo accantonato", "Avanzo libero", "Avanzo destinato"],
+                correct: 2,
+                motivation: "L'avanzo libero è soggetto a restituzione al bilancio dello Stato.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quanti sono i giorni massimi di lavoro agile previsti per il personale ordinario?",
+                options: ["60", "92", "110", "120"],
+                correct: 1,
+                motivation: "I giorni massimi di lavoro agile previsti per il personale ordinario sono 92.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Qual è il termine minimo di preavviso per la convocazione all'audizione disciplinare?",
+                options: ["5 giorni", "10 giorni", "15 giorni", "20 giorni"],
+                correct: 3,
+                motivation: "Il termine minimo di preavviso per la convocazione all'audizione disciplinare è di 20 giorni.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale organo coordina l'attività requirente della Corte dei conti?",
+                options: ["Segretariato Generale", "Procura Generale", "Direzione Generale Risorse Umane", "Consiglio di Presidenza"],
+                correct: 1,
+                motivation: "La Procura Generale coordina l'attività requirente della Corte dei conti.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale documento mantiene separato il Piano di Prevenzione della Corruzione e Trasparenza (PPCT)?",
+                options: ["PIAO", "PIT", "RAC", "ROF"],
+                correct: 1,
+                motivation: "Il PIT mantiene separato il Piano di Prevenzione della Corruzione e Trasparenza (PPCT).",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale tra questi NON è un rischio del lavoro agile?",
+                options: ["Isolamento", "Maggiore adattabilità", "Accesso non autorizzato a informazioni riservate", "Difficoltà a separare lavoro e vita privata"],
+                correct: 1,
+                motivation: "La maggiore adattabilità non è un rischio del lavoro agile, ma un beneficio.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Qual è la fonte principale del codice di comportamento dei dipendenti pubblici?",
+                options: ["D.lgs. 165/2001", "D.P.R. 62/2013", "Legge 20/1994", "D.lgs. 33/2013"],
+                correct: 1,
+                motivation: "Il D.P.R. 62/2013 è la fonte principale del codice di comportamento dei dipendenti pubblici.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale termine è considerato 'perentorio' nel procedimento disciplinare?",
+                options: ["10 giorni per la segnalazione", "30 giorni per la contestazione dell'addebito", "20 giorni di preavviso", "15 giorni per la sospensione"],
+                correct: 1,
+                motivation: "I 30 giorni per la contestazione dell'addebito sono considerati termine perentorio nel procedimento disciplinare.",
+                category: "ROF e RAC"
+            },
+            {
+                question: "Quale caratteristica distingue la Corte dei conti dalle altre pubbliche amministrazioni?",
+                options: ["Applicazione integrale del D.lgs. 165/2001", "Autonomia normativa, organizzativa, funzionale e contabile", "Dipendenza dal Ministero dell'Economia", "Assenza di funzioni giurisdizionali"],
+                correct: 1,
+                motivation: "La Corte dei conti si distingue per la sua autonomia normativa, organizzativa, funzionale e contabile.",
+                category: "ROF e RAC"
+            },
+
+            // A04 - Codice di Comportamento
+            {
+                question: "Qual è la norma principale che disciplina il procedimento disciplinare nel pubblico impiego?",
+                options: ["D.Lgs. 165/2001, art. 55-bis", "D.P.R. 62/2013", "Legge 241/1990", "D.Lgs. 33/2013"],
+                correct: 0,
+                motivation: "Il D.Lgs. 165/2001, art. 55-bis, è la norma principale che disciplina il procedimento disciplinare nel pubblico impiego.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Qual è il termine massimo per la conclusione del procedimento disciplinare dalla contestazione degli addebiti?",
+                options: ["30 giorni", "60 giorni", "90 giorni", "120 giorni"],
+                correct: 3,
+                motivation: "Il termine massimo per la conclusione del procedimento disciplinare è di 120 giorni dalla contestazione degli addebiti.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale sanzione può essere irrogata solo dagli uffici di assegnazione per infrazioni minori?",
+                options: ["Multa", "Sospensione", "Rimprovero verbale", "Licenziamento"],
+                correct: 2,
+                motivation: "Il rimprovero verbale può essere irrogato solo dagli uffici di assegnazione per infrazioni minori.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale principio impone che le sanzioni disciplinari siano predeterminate dalla legge o dal contratto?",
+                options: ["Proporzionalità", "Tipicità", "Contraddittorio", "Immediatezza"],
+                correct: 1,
+                motivation: "Il principio di tipicità impone che le sanzioni disciplinari siano predeterminate dalla legge o dal contratto.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale documento deve essere consegnato al dipendente all'atto dell'assunzione?",
+                options: ["Solo il contratto di lavoro", "Codice di comportamento nazionale e interno", "Solo il CCNL", "Solo il regolamento interno"],
+                correct: 1,
+                motivation: "All'atto dell'assunzione deve essere consegnato il Codice di comportamento nazionale e interno.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Qual è il termine ordinatorio per la segnalazione dei fatti disciplinarmente rilevanti al SPD?",
+                options: ["5 giorni", "10 giorni", "20 giorni", "30 giorni"],
+                correct: 1,
+                motivation: "Il termine ordinatorio per la segnalazione dei fatti disciplinarmente rilevanti al SPD è di 10 giorni.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale principio garantisce il diritto di difesa del dipendente nel procedimento disciplinare?",
+                options: ["Tipicità", "Contraddittorio", "Immediatezza", "Proporzionalità"],
+                correct: 1,
+                motivation: "Il principio del contraddittorio garantisce il diritto di difesa del dipendente nel procedimento disciplinare.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale sanzione è la più grave prevista per il personale non dirigenziale?",
+                options: ["Multa", "Sospensione", "Licenziamento senza preavviso", "Rimprovero scritto"],
+                correct: 2,
+                motivation: "Il licenziamento senza preavviso è la sanzione più grave prevista per il personale non dirigenziale.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale tra questi NON è un criterio per la determinazione della sanzione disciplinare?",
+                options: ["Intenzionalità", "Danno causato", "Anzianità di servizio", "Precedenti disciplinari"],
+                correct: 2,
+                motivation: "L'anzianità di servizio non è un criterio per la determinazione della sanzione disciplinare.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale tra questi è un obbligo specifico previsto dal Codice di comportamento?",
+                options: ["Accettare regali", "Astenersi da conflitti di interesse", "Utilizzare strumenti informatici per fini personali", "Ritardare le comunicazioni"],
+                correct: 1,
+                motivation: "Astenersi da conflitti di interesse è un obbligo specifico previsto dal Codice di comportamento.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale tra queste è una fattispecie che comporta il licenziamento senza preavviso?",
+                options: ["Ritardo nel lavoro", "Falsa attestazione della presenza in servizio", "Mancato aggiornamento professionale", "Discussione con un collega"],
+                correct: 1,
+                motivation: "La falsa attestazione della presenza in servizio comporta il licenziamento senza preavviso.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale documento disciplina l'utilizzo dei social media da parte dei dipendenti pubblici?",
+                options: ["D.Lgs. 165/2001", "D.P.R. 62/2013", "D.P.R. 81/2023", "CCNL 2019-2021"],
+                correct: 2,
+                motivation: "Il D.P.R. 81/2023 disciplina l'utilizzo dei social media da parte dei dipendenti pubblici.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale principio impone che le sanzioni siano proporzionate alla gravità dell'infrazione?",
+                options: ["Immediatezza", "Tipicità", "Proporzionalità", "Contraddittorio"],
+                correct: 2,
+                motivation: "Il principio di proporzionalità impone che le sanzioni siano proporzionate alla gravità dell'infrazione.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale tra questi è un obbligo dei dirigenti secondo il Codice di comportamento?",
+                options: ["Favorire la crescita professionale dei collaboratori", "Ignorare le esigenze dei collaboratori", "Limitare la formazione", "Delegare sempre le responsabilità"],
+                correct: 0,
+                motivation: "Favorire la crescita professionale dei collaboratori è un obbligo dei dirigenti secondo il Codice di comportamento.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale tra questi comportamenti è vietato nell'uso degli strumenti informatici?",
+                options: ["Invio di messaggi oltraggiosi o discriminatori", "Uso limitato per incombenze personali", "Firma digitale sui documenti", "Risposta tempestiva alle email"],
+                correct: 0,
+                motivation: "L'invio di messaggi oltraggiosi o discriminatori è vietato nell'uso degli strumenti informatici.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale tra questi è un termine perentorio nel procedimento disciplinare?",
+                options: ["5 giorni per la segnalazione", "10 giorni per la contestazione", "30 giorni per la contestazione degli addebiti", "60 giorni per la conclusione"],
+                correct: 2,
+                motivation: "I 30 giorni per la contestazione degli addebiti sono un termine perentorio nel procedimento disciplinare.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale tra questi NON è un principio generale del Codice di comportamento?",
+                options: ["Imparzialità", "Segretezza assoluta", "Trasparenza", "Proporzionalità"],
+                correct: 1,
+                motivation: "La segretezza assoluta non è un principio generale del Codice di comportamento.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale tra questi è un obbligo nei rapporti con il pubblico?",
+                options: ["Orientare il comportamento alla soddisfazione dell'utente", "Favorire solo i colleghi", "Rifiutare il dialogo", "Limitare la trasparenza"],
+                correct: 0,
+                motivation: "Orientare il comportamento alla soddisfazione dell'utente è un obbligo nei rapporti con il pubblico.",
+                category: "Codice di Comportamento"
+            },
+            {
+                question: "Quale tra questi comportamenti può comportare responsabilità disciplinare per il dirigente?",
+                options: ["Ostacolare la formazione dei collaboratori", "Promuovere la crescita professionale", "Favorire il benessere organizzativo", "Valorizzare le differenze"],
+                correct: 0,
+                motivation: "Ostacolare la formazione dei collaboratori può comportare responsabilità disciplinare per il dirigente.",
+                category: "Codice di Comportamento"
+            },
+
+            // A06 - Prevenzione della Corruzione
+            {
+                question: "Quale legge rappresenta la fonte principale per la prevenzione della corruzione nella pubblica amministrazione?",
+                options: ["Legge 190/2012", "Decreto legislativo 33/2013", "Legge 241/1990", "D.P.R. 62/2013"],
+                correct: 0,
+                motivation: "La Legge 190/2012 è la fonte principale per la prevenzione e repressione della corruzione nella PA.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Cosa si intende per 'maladministration' secondo il Piano Nazionale Anticorruzione?",
+                options: ["Solo reati penali", "Atti e comportamenti che pregiudicano l'interesse pubblico anche se non sono reati", "Solo violazioni amministrative", "Solo illeciti disciplinari"],
+                correct: 1,
+                motivation: "Il concetto di corruzione si è ampliato includendo anche atti che minano la fiducia dei cittadini, non solo reati.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Chi nomina il Responsabile della Prevenzione della Corruzione e della Trasparenza (RPCT) nella Corte dei conti?",
+                options: ["Il Segretario Generale", "Il Presidente della Corte dei conti", "Il Consiglio di Presidenza", "Il Ministro della Giustizia"],
+                correct: 1,
+                motivation: "Il Presidente della Corte dei conti nomina il RPCT.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Qual è uno degli strumenti fondamentali per la prevenzione della corruzione?",
+                options: ["Il regolamento interno", "Il Piano Triennale di Prevenzione della Corruzione e della Trasparenza (PTPCT)", "Il bilancio annuale", "Il codice civile"],
+                correct: 1,
+                motivation: "Il PTPCT è uno degli strumenti fondamentali per la prevenzione della corruzione.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Quale tra questi NON è un soggetto della prevenzione della corruzione?",
+                options: ["Organi di indirizzo", "Referenti", "Revisori dei conti", "RPCT"],
+                correct: 2,
+                motivation: "I revisori dei conti non sono tra i soggetti della prevenzione della corruzione.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Qual è una misura generale di prevenzione della corruzione?",
+                options: ["Trasparenza", "Incentivi economici", "Premi di produzione", "Aumenti salariali"],
+                correct: 0,
+                motivation: "La trasparenza è una misura generale di prevenzione della corruzione.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Cosa comporta l'inosservanza delle misure di prevenzione?",
+                options: ["Nessuna conseguenza", "Illecito disciplinare", "Solo una segnalazione", "Bonus negato"],
+                correct: 1,
+                motivation: "L'inosservanza delle misure di prevenzione comporta illecito disciplinare.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Quale tra questi è un obbligo previsto dalla misura della trasparenza?",
+                options: ["Pubblicazione dei dati sul portale Internet", "Pubblicazione solo su Intranet", "Nessuna pubblicazione", "Pubblicazione facoltativa"],
+                correct: 0,
+                motivation: "La pubblicazione dei dati sul portale Internet è un obbligo previsto dalla misura della trasparenza.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Chi può presentare una richiesta di accesso civico semplice?",
+                options: ["Solo i dipendenti pubblici", "Chiunque", "Solo i cittadini italiani", "Solo i residenti"],
+                correct: 1,
+                motivation: "Chiunque può presentare una richiesta di accesso civico semplice.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Quale tra questi è un esempio di area di rischio comune a tutte le amministrazioni?",
+                options: ["Attività contrattuale", "Attività sportiva", "Attività ricreativa", "Attività culturale"],
+                correct: 0,
+                motivation: "L'attività contrattuale è un esempio di area di rischio comune a tutte le amministrazioni.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Qual è la funzione principale dei referenti nella prevenzione della corruzione?",
+                options: ["Redigere il bilancio", "Collaborare al monitoraggio e fornire informazioni al RPCT", "Gestire le risorse umane", "Nominare i dirigenti"],
+                correct: 1,
+                motivation: "I referenti collaborano al monitoraggio e forniscono informazioni al RPCT.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Cosa prevede la rotazione del personale come misura generale?",
+                options: ["Nessun limite di permanenza", "Durata massima decennale per dirigenti e funzionari preposti", "Rotazione solo per il personale amministrativo", "Rotazione mensile"],
+                correct: 1,
+                motivation: "La rotazione prevede una durata massima decennale per dirigenti e funzionari preposti.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Quale tra questi NON è uno strumento della prevenzione della corruzione?",
+                options: ["Monitoraggio", "Segnalazione degli illeciti", "Piano ferie", "Formazione"],
+                correct: 2,
+                motivation: "Il piano ferie non è uno strumento della prevenzione della corruzione.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Cosa garantisce la normativa al dipendente che segnala un illecito (whistleblower)?",
+                options: ["Un premio economico", "Riservatezza e protezione da sanzioni", "Trasferimento obbligatorio", "Promozione automatica"],
+                correct: 1,
+                motivation: "La normativa garantisce riservatezza e protezione da sanzioni al whistleblower.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Quale tra questi è un compito del RPCT?",
+                options: ["Gestire le ferie del personale", "Predisporre il PTPCT", "Nominare i revisori dei conti", "Approvare il bilancio"],
+                correct: 1,
+                motivation: "Predisporre il PTPCT è un compito del RPCT.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Qual è la periodicità del monitoraggio annuale sulle misure di prevenzione?",
+                options: ["Mensile", "Annuale", "Triennale", "Semestrale"],
+                correct: 1,
+                motivation: "Il monitoraggio sulle misure di prevenzione è annuale.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Dove si trovano i moduli per l'accesso civico nella Corte dei conti?",
+                options: ["In segreteria", "Sul portale Internet, sezione 'Amministrazione trasparente'", "Solo su richiesta scritta", "In biblioteca"],
+                correct: 1,
+                motivation: "I moduli si trovano sul portale Internet, sezione 'Amministrazione trasparente'.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Quale tra questi è un allegato tipico al PTPCT?",
+                options: ["Mappatura delle attività a rischio", "Statuto dell'ente", "Elenco dei fornitori", "Calendario delle ferie"],
+                correct: 0,
+                motivation: "La mappatura delle attività a rischio è un allegato tipico al PTPCT.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Qual è la funzione della formazione nella prevenzione della corruzione?",
+                options: ["Solo per i nuovi assunti", "Sensibilizzare e aggiornare tutto il personale sulle misure di prevenzione", "Non è prevista", "Solo per i dirigenti"],
+                correct: 1,
+                motivation: "La formazione serve a sensibilizzare e aggiornare tutto il personale sulle misure di prevenzione.",
+                category: "Prevenzione della Corruzione"
+            },
+            {
+                question: "Quale tra questi è un limite all'accesso civico generalizzato?",
+                options: ["Non può riguardare atti giudiziari", "Può essere richiesto solo dai dirigenti", "Non esistono limiti", "Solo per atti pubblici"],
+                correct: 0,
+                motivation: "L'accesso civico generalizzato non può riguardare atti giudiziari.",
+                category: "Prevenzione della Corruzione"
+            },
+
+            // A07 - Trasparenza
+            {
+                question: "In quale legge è stato introdotto esplicitamente il principio di trasparenza tra i principi fondamentali dell'azione amministrativa italiana?",
+                options: ["Legge 190/2012", "Legge 241/1990, modificata dalla legge 15/2005", "Decreto legislativo 33/2013", "Legge 69/2009"],
+                correct: 1,
+                motivation: "Il principio di trasparenza è stato inserito tra i principi fondamentali dell'azione amministrativa con la modifica della legge 241/1990 ad opera della legge 15/2005.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Quale tra questi è un principio collegato alla trasparenza secondo la legge 241/1990?",
+                options: ["Principio di rotazione", "Principio di motivazione", "Principio di economicità", "Principio di pubblicità legale"],
+                correct: 1,
+                motivation: "Il principio di motivazione degli atti amministrativi è strettamente collegato alla trasparenza.",
+                category: "Trasparenza"
+            },
+            {
+                question: "L'accesso agli atti amministrativi è riconosciuto:",
+                options: ["Solo ai cittadini italiani", "A chiunque, senza limiti", "Solo ai soggetti con interesse diretto, concreto e attuale", "Solo ai dipendenti pubblici"],
+                correct: 2,
+                motivation: "L'accesso agli atti è garantito solo a chi dimostra un interesse diretto, concreto e attuale.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Quale tra questi NON è un esempio di pubblico registro?",
+                options: ["Registro automobilistico", "Catasto", "Conservatoria dei registri immobiliari", "Protocollo interno di un ufficio"],
+                correct: 3,
+                motivation: "Il protocollo interno di un ufficio non è un pubblico registro.",
+                category: "Trasparenza"
+            },
+            {
+                question: "L'accesso agli atti può essere escluso per:",
+                options: ["Documenti coperti da segreto di Stato", "Atti pubblicati sul sito istituzionale", "Atti di nomina dei dirigenti", "Bilanci preventivi"],
+                correct: 0,
+                motivation: "L'accesso è escluso per documenti coperti da segreto di Stato o che riguardano la sicurezza nazionale.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Chi sono i controinteressati nell'accesso agli atti?",
+                options: ["I soggetti che hanno presentato domanda di accesso", "I soggetti che potrebbero vedere compromesso il proprio diritto alla riservatezza", "I dipendenti dell'ufficio protocollo", "I membri della commissione giudicatrice"],
+                correct: 1,
+                motivation: "I controinteressati sono coloro che potrebbero subire un pregiudizio alla propria riservatezza dall'accesso agli atti.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Quale tra questi è un esempio di dato 'supersensibile'?",
+                options: ["Numero di telefono", "Stato di salute", "Indirizzo di residenza", "Titolo di studio"],
+                correct: 1,
+                motivation: "I dati relativi allo stato di salute sono considerati supersensibili.",
+                category: "Trasparenza"
+            },
+            {
+                question: "L'accesso ai dati sensibili è consentito:",
+                options: ["Sempre, senza limiti", "Solo se indispensabile per la tutela di interessi giuridici", "Solo ai giornalisti", "Mai"],
+                correct: 1,
+                motivation: "L'accesso ai dati sensibili è consentito solo se strettamente indispensabile per la tutela di interessi giuridici rilevanti.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Quale tra questi è un obbligo di pubblicazione previsto dalla normativa sulla trasparenza?",
+                options: ["Elenco dei fornitori", "Curriculum dei dirigenti", "Dati personali dei cittadini", "Password di accesso ai sistemi"],
+                correct: 1,
+                motivation: "La normativa sulla trasparenza prevede la pubblicazione dei curricula dei dirigenti.",
+                category: "Trasparenza"
+            },
+            {
+                question: "L'accesso civico generalizzato consente:",
+                options: ["Solo ai dipendenti pubblici di accedere agli atti", "A chiunque di accedere a dati e documenti ulteriori rispetto a quelli oggetto di pubblicazione", "Solo ai residenti nel Comune", "Solo ai titolari di un interesse qualificato"],
+                correct: 1,
+                motivation: "L'accesso civico generalizzato è aperto a chiunque, senza necessità di motivare un interesse specifico.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Qual è il termine massimo per la conclusione del procedimento di accesso civico?",
+                options: ["10 giorni", "15 giorni", "30 giorni", "60 giorni"],
+                correct: 2,
+                motivation: "Il procedimento di accesso civico deve concludersi entro 30 giorni dalla presentazione della richiesta.",
+                category: "Trasparenza"
+            },
+            {
+                question: "In caso di diniego dell'accesso civico, il richiedente può:",
+                options: ["Presentare richiesta di riesame al responsabile della prevenzione della corruzione", "Fare ricorso al Presidente della Repubblica", "Chiedere l'intervento del Prefetto", "Non ha alcun rimedio"],
+                correct: 0,
+                motivation: "In caso di diniego, il richiedente può chiedere il riesame al responsabile della prevenzione della corruzione e della trasparenza.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Quale tra questi è un limite all'accesso civico generalizzato?",
+                options: ["La presenza di dati personali non pertinenti", "L'assenza di motivazione nella richiesta", "La richiesta presentata via email", "La richiesta presentata da un avvocato"],
+                correct: 0,
+                motivation: "L'accesso civico generalizzato è limitato quando la richiesta riguarda dati personali non pertinenti.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Chi decide sulle richieste di accesso civico semplice?",
+                options: ["Il Sindaco", "Il responsabile del procedimento", "Il Segretario comunale", "Il Prefetto"],
+                correct: 1,
+                motivation: "È il responsabile del procedimento che valuta e decide sulle richieste di accesso civico semplice.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Quale tra questi è un obbligo per le pubbliche amministrazioni in materia di trasparenza?",
+                options: ["Creare una sezione 'Amministrazione trasparente' sul sito istituzionale", "Pubblicare solo i dati richiesti dai cittadini", "Pubblicare solo i dati relativi ai contratti pubblici", "Pubblicare solo i dati degli ultimi 12 mesi"],
+                correct: 0,
+                motivation: "Tutte le PA devono avere una sezione 'Amministrazione trasparente' dove pubblicare i dati previsti dalla normativa.",
+                category: "Trasparenza"
+            },
+            {
+                question: "L'accesso agli atti può essere differito:",
+                options: ["Solo per motivi di privacy", "Per salvaguardare esigenze dell'amministrazione o interessi dei controinteressati", "Mai", "Solo su richiesta del dirigente"],
+                correct: 1,
+                motivation: "Il differimento può essere disposto per tutelare esigenze amministrative o i diritti dei controinteressati.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Quale tra questi è un rimedio contro il rifiuto di accesso agli atti?",
+                options: ["Ricorso giurisdizionale al TAR", "Richiesta di mediazione al Prefetto", "Segnalazione ai Carabinieri", "Nessun rimedio previsto"],
+                correct: 0,
+                motivation: "Il ricorso al TAR è il rimedio previsto contro il diniego di accesso agli atti amministrativi.",
+                category: "Trasparenza"
+            },
+            {
+                question: "L'obbligo di pubblicazione dei dati relativi agli incarichi dirigenziali riguarda:",
+                options: ["Tutti i dipendenti pubblici", "Solo i dirigenti di vertice", "Solo i dipendenti a tempo determinato", "Solo i collaboratori esterni"],
+                correct: 1,
+                motivation: "La Corte Costituzionale ha stabilito che l'obbligo di pubblicazione dei dati reddituali riguarda solo i dirigenti di vertice.",
+                category: "Trasparenza"
+            },
+            {
+                question: "Il responsabile della trasparenza:",
+                options: ["È sempre il responsabile della prevenzione della corruzione", "È nominato dal Prefetto", "È scelto tra i cittadini", "Non esiste"],
+                correct: 0,
+                motivation: "Di norma, il responsabile della prevenzione della corruzione svolge anche le funzioni di responsabile della trasparenza.",
+                category: "Trasparenza"
+            },
+            {
+                question: "La mancata pubblicazione dei dati obbligatori può comportare:",
+                options: ["Nessuna conseguenza", "Sanzioni disciplinari e decurtazione dell'indennità di risultato", "Solo una segnalazione interna", "L'annullamento di tutti gli atti amministrativi"],
+                correct: 1,
+                motivation: "La mancata pubblicazione può comportare responsabilità disciplinare e la decurtazione dell'indennità di risultato per i responsabili.",
+                category: "Trasparenza"
+            },
+
+            // A08 - Sicurezza sul Lavoro (aggiungo alcune domande)
+            {
+                question: "Qual è la normativa di riferimento attualmente in vigore per la sicurezza sul lavoro in Italia?",
+                options: ["DPR 303/1956", "D.Lgs. 81/2008", "Statuto dei Lavoratori 1970", "D.Lgs. 626/1994"],
+                correct: 1,
+                motivation: "Il D.Lgs. 81/2008, noto come Testo Unico sulla Sicurezza, ha riordinato e aggiornato tutta la normativa precedente.",
+                category: "Sicurezza sul Lavoro"
+            },
+            {
+                question: "Secondo la Costituzione Italiana, quale articolo tutela la salute come diritto fondamentale?",
+                options: ["Art. 41", "Art. 32", "Art. 2087", "Art. 2050"],
+                correct: 1,
+                motivation: "L'articolo 32 della Costituzione tutela la salute come diritto fondamentale dell'individuo e interesse della collettività.",
+                category: "Sicurezza sul Lavoro"
+            },
+            {
+                question: "Chi è il principale responsabile della sicurezza dei lavoratori secondo il D.Lgs. 81/2008?",
+                options: ["Il preposto", "Il medico competente", "Il datore di lavoro", "Il lavoratore"],
+                correct: 2,
+                motivation: "Il datore di lavoro è il principale responsabile della sicurezza e della salute dei lavoratori.",
+                category: "Sicurezza sul Lavoro"
+            },
+            {
+                question: "Quale tra questi è un obbligo non delegabile del datore di lavoro?",
+                options: ["La formazione dei lavoratori", "La nomina del RSPP", "La sorveglianza sanitaria", "La gestione delle emergenze"],
+                correct: 1,
+                motivation: "La nomina del Responsabile del Servizio di Prevenzione e Protezione (RSPP) è un obbligo non delegabile del datore di lavoro.",
+                category: "Sicurezza sul Lavoro"
+            },
+            {
+                question: "Che cos'è il DVR?",
+                options: ["Documento di Valutazione dei Rischi", "Documento di Verifica dei Requisiti", "Documento di Validazione dei Rischi", "Documento di Valutazione delle Risorse"],
+                correct: 0,
+                motivation: "Il DVR è il Documento di Valutazione dei Rischi, obbligatorio per ogni azienda.",
+                category: "Sicurezza sul Lavoro"
+            },
+
+            // A10 - Trasformazione Digitale (aggiungo alcune domande)
+            {
+                question: "Qual è la definizione più corretta di trasformazione digitale nella Corte dei conti?",
+                options: ["Sostituire i computer ogni 5 anni", "Un insieme di azioni che sfruttano strumenti digitali per migliorare l'efficienza organizzativa", "Usare solo la posta elettronica", "Automatizzare solo la protocollazione"],
+                correct: 1,
+                motivation: "La trasformazione digitale è un processo di cambiamento che sfrutta strumenti digitali e tecnologie innovative per migliorare l'efficienza complessiva dell'organizzazione.",
+                category: "Trasformazione Digitale"
+            },
+            {
+                question: "Qual è l'obiettivo generale della trasformazione digitale secondo la Corte dei conti?",
+                options: ["Ridurre il personale", "Rivedere i processi in ottica end-to-end per rispondere in tempo reale alle richieste dell'utenza", "Digitalizzare solo i documenti", "Automatizzare le firme"],
+                correct: 1,
+                motivation: "L'obiettivo è rivedere i processi operativi end-to-end per migliorare efficienza, efficacia, economicità, trasparenza ed equità.",
+                category: "Trasformazione Digitale"
+            },
+            {
+                question: "Quale tra questi è un principio essenziale per il successo della trasformazione digitale?",
+                options: ["Solo innovazione tecnologica", "Managerialità, trasparenza, etica, impegno e rispetto", "Solo formazione informatica", "Solo riduzione dei costi"],
+                correct: 1,
+                motivation: "Oltre alla tecnologia, sono fondamentali managerialità, trasparenza, etica, impegno e rispetto.",
+                category: "Trasformazione Digitale"
+            },
+            {
+                question: "Qual è uno degli ostacoli più frequenti alla trasformazione digitale nella PA?",
+                options: ["Eccesso di hardware", "Eccesso di parole e resistenza al cambiamento", "Troppa innovazione", "Mancanza di carta"],
+                correct: 1,
+                motivation: "L'eccesso di parole e la resistenza al cambiamento sono ostacoli riconosciuti anche in ambienti digitalmente avanzati come la Corte dei conti.",
+                category: "Trasformazione Digitale"
+            },
+            {
+                question: "Cosa si intende per digitalizzare un processo 'end-to-end'?",
+                options: ["Digitalizzare solo la parte iniziale", "Digitalizzare solo la parte finale", "Digitalizzare l'intero processo, dalla richiesta dell'utente alla conclusione", "Digitalizzare solo i documenti"],
+                correct: 2,
+                motivation: "Un processo end-to-end è digitalizzato completamente, senza passaggi cartacei intermedi.",
+                category: "Trasformazione Digitale"
+            },
+
+            // A11 - Contrattazione Collettiva (aggiungo alcune domande)
+            {
+                question: "Quale fu una delle principali ragioni della riforma del pubblico impiego nel 1993?",
+                options: ["Ridurre il numero di dipendenti pubblici", "Applicare strumenti del diritto civile al rapporto di lavoro pubblico", "Eliminare i sindacati", "Aumentare la spesa pubblica"],
+                correct: 1,
+                motivation: "La riforma introdusse la contrattualizzazione, assimilando il rapporto di lavoro pubblico a quello privato, applicando strumenti del diritto civile.",
+                category: "Contrattazione Collettiva"
+            },
+            {
+                question: "Cosa si intende per 'contrattualizzazione' del rapporto di lavoro pubblico?",
+                options: ["Applicazione esclusiva del diritto amministrativo", "Applicazione del diritto civile e della contrattazione collettiva", "Eliminazione dei contratti", "Solo aumenti automatici di stipendio"],
+                correct: 1,
+                motivation: "La contrattualizzazione ha portato all'applicazione del diritto civile e della contrattazione collettiva anche nel pubblico impiego.",
+                category: "Contrattazione Collettiva"
+            },
+            {
+                question: "Quale fu uno degli effetti dell'Accordo interconfederale del 23 luglio 1993?",
+                options: ["Introduzione della scala mobile", "Eliminazione degli automatismi stipendiali", "Abolizione dei sindacati", "Riduzione delle ferie"],
+                correct: 1,
+                motivation: "L'accordo eliminò la scala mobile e gli automatismi stipendiali, ancorando la crescita delle retribuzioni all'inflazione programmata.",
+                category: "Contrattazione Collettiva"
+            },
+            {
+                question: "Qual è la funzione principale dell'ARAN?",
+                options: ["Gestire i concorsi pubblici", "Rappresentare le amministrazioni pubbliche nella contrattazione collettiva", "Erogare stipendi", "Sostituire i sindacati"],
+                correct: 1,
+                motivation: "L'ARAN è l'agenzia che rappresenta le amministrazioni pubbliche nella negoziazione dei contratti collettivi.",
+                category: "Contrattazione Collettiva"
+            },
+            {
+                question: "Come si misura la rappresentatività sindacale per partecipare alla contrattazione collettiva nazionale?",
+                options: ["Solo tramite il numero di iscritti", "Solo tramite votazioni interne", "Media tra dato associativo e dato elettorale, con soglia minima del 5%", "Decisione del governo"],
+                correct: 2,
+                motivation: "La rappresentatività si misura con la media tra percentuale di iscritti e voti ottenuti nelle RSU, con soglia minima del 5%.",
+                category: "Contrattazione Collettiva"
+            },
+
+            // A13 - Codice dei Contratti Pubblici (aggiungo alcune domande)
+            {
+                question: "Qual è la finalità principale del principio di risultato nel nuovo Codice dei contratti pubblici?",
+                options: ["Garantire solo la legalità", "Perseguire il miglior rapporto tra qualità e prezzo con tempestività", "Favorire solo la concorrenza", "Ridurre il numero di gare"],
+                correct: 1,
+                motivation: "Il principio di risultato impone di perseguire il miglior rapporto tra qualità e prezzo, con la massima tempestività, nel rispetto di legalità, trasparenza e concorrenza.",
+                category: "Codice dei Contratti Pubblici"
+            },
+            {
+                question: "Cosa si intende per principio di fiducia?",
+                options: ["Fidarsi solo degli operatori economici", "Presunzione di correttezza nell'azione della stazione appaltante e degli operatori", "Escludere i controlli", "Fidarsi solo dei dirigenti"],
+                correct: 1,
+                motivation: "Il principio di fiducia promuove la fiducia reciproca tra amministrazione e operatori economici, presupponendo la correttezza dell'azione di entrambe le parti.",
+                category: "Codice dei Contratti Pubblici"
+            },
+            {
+                question: "Quale tra questi NON è un principio generale del nuovo Codice?",
+                options: ["Risultato", "Massima partecipazione", "Arbitrio amministrativo", "Buona fede"],
+                correct: 2,
+                motivation: "L'arbitrio amministrativo è escluso: il Codice si fonda su principi come risultato, massima partecipazione e buona fede.",
+                category: "Codice dei Contratti Pubblici"
+            },
+            {
+                question: "A cosa serve la Cabina di Regia presso la Presidenza del Consiglio dei Ministri?",
+                options: ["Solo a controllare i bandi", "Coordinare l'attuazione del Codice e rapportarsi con la Commissione europea", "Sostituire l'ANAC", "Gestire i pagamenti"],
+                correct: 1,
+                motivation: "La Cabina di Regia coordina l'attuazione del Codice, analizza proposte di modifica e rappresenta l'Italia presso la Commissione europea.",
+                category: "Codice dei Contratti Pubblici"
+            },
+            {
+                question: "Qual è il ruolo principale dell'ANAC nel nuovo Codice?",
+                options: ["Solo sanzionare", "Vigilare, promuovere efficienza e supportare le stazioni appaltanti", "Gestire i pagamenti", "Redigere i bandi"],
+                correct: 1,
+                motivation: "L'ANAC vigila sui contratti pubblici, promuove efficienza, supporta le stazioni appaltanti e può irrogare sanzioni.",
+                category: "Codice dei Contratti Pubblici"
+            },
+
+            // B01 - Responsabilità Contabile (aggiungo alcune domande)
+            {
+                question: "Chi è considerato agente contabile secondo la normativa italiana?",
+                options: ["Solo il dipendente pubblico con contratto a tempo indeterminato", "Chiunque abbia il maneggio di denaro o beni pubblici, anche senza formale nomina", "Solo il tesoriere dell'ente", "Solo chi ha un rapporto di impiego con la PA"],
+                correct: 1,
+                motivation: "L'agente contabile è chiunque maneggi denaro o beni pubblici, anche senza formale nomina, purché vi sia la natura pubblica dell'ente e del bene gestito.",
+                category: "Responsabilità Contabile"
+            },
+            {
+                question: "Quando insorge la responsabilità contabile?",
+                options: ["Quando l'agente contabile non restituisce la stessa quantità di denaro o beni ricevuti in carico", "Solo in caso di dolo", "Solo se c'è un danno erariale accertato dal PM", "Quando il PM avvia un'indagine"],
+                correct: 0,
+                motivation: "La responsabilità contabile nasce quando l'agente contabile non restituisce quanto ricevuto in carico, indipendentemente dalla presenza di dolo.",
+                category: "Responsabilità Contabile"
+            },
+            {
+                question: "Quale tra questi NON è un esempio di agente contabile?",
+                options: ["Cassiere", "Economo", "Revisore dei conti", "Consegnatario di beni"],
+                correct: 2,
+                motivation: "Il revisore dei conti non ha maneggio diretto di denaro o beni pubblici, a differenza degli altri ruoli.",
+                category: "Responsabilità Contabile"
+            },
+            {
+                question: "Qual è la differenza principale tra responsabilità amministrativa e responsabilità contabile?",
+                options: ["La responsabilità contabile richiede sempre dolo", "La responsabilità amministrativa può riguardare chiunque abbia un rapporto con la PA, la contabile solo gli agenti contabili", "La responsabilità amministrativa riguarda solo i dirigenti", "Non esistono differenze"],
+                correct: 1,
+                motivation: "La responsabilità amministrativa può coinvolgere chiunque abbia un rapporto con la PA, mentre la contabile solo chi ha maneggio di denaro o beni pubblici.",
+                category: "Responsabilità Contabile"
+            },
+            {
+                question: "In caso di ammanco di cassa, chi deve provare la propria estraneità al danno?",
+                options: ["Il Pubblico Ministero", "Il dirigente dell'ente", "L'agente contabile", "Il revisore dei conti"],
+                correct: 2,
+                motivation: "In caso di ammanco, spetta all'agente contabile dimostrare la propria estraneità al danno.",
+                category: "Responsabilità Contabile"
+            },
+
+            // B02 - Responsabilità Amministrativa (aggiungo alcune domande)
+            {
+                question: "Qual è la definizione più accreditata di responsabilità amministrativa?",
+                options: ["Responsabilità penale dei dipendenti pubblici", "Responsabilità patrimoniale a carattere personale per la tutela delle risorse pubbliche", "Responsabilità civile verso i terzi", "Responsabilità disciplinare interna"],
+                correct: 1,
+                motivation: "La responsabilità amministrativa è una responsabilità patrimoniale, personale, volta a tutelare le risorse pubbliche e la collettività.",
+                category: "Responsabilità Amministrativa"
+            },
+            {
+                question: "Quale tra questi è un presupposto necessario per la responsabilità amministrativa?",
+                options: ["Rapporto di impiego o di servizio con l'ente pubblico", "Essere cittadino italiano", "Aver commesso un reato penale", "Essere dirigente"],
+                correct: 0,
+                motivation: "È necessario il rapporto di impiego o di servizio con l'ente pubblico per configurare la responsabilità amministrativa.",
+                category: "Responsabilità Amministrativa"
+            },
+            {
+                question: "Il danno erariale può consistere in:",
+                options: ["Solo perdita di denaro", "Qualsiasi depauperamento certo, concreto e attuale del patrimonio pubblico", "Solo danni morali", "Solo danni futuri"],
+                correct: 1,
+                motivation: "Il danno erariale è ogni depauperamento certo, concreto e attuale del patrimonio pubblico, anche mancata entrata.",
+                category: "Responsabilità Amministrativa"
+            },
+            {
+                question: "Quale tra questi soggetti può essere chiamato a rispondere davanti alla Corte dei conti?",
+                options: ["Solo dipendenti pubblici", "Anche soggetti privati legati da rapporto di servizio", "Solo amministratori pubblici", "Solo funzionari con incarico dirigenziale"],
+                correct: 1,
+                motivation: "Anche soggetti privati legati da rapporto di servizio con l'ente pubblico possono essere chiamati a rispondere.",
+                category: "Responsabilità Amministrativa"
+            },
+            {
+                question: "Il danno all'immagine della PA può essere risarcito:",
+                options: ["Solo se c'è una sentenza penale irrevocabile per reati contro la PA", "Sempre, anche senza danno patrimoniale", "Solo se c'è una spesa per ripristinare l'immagine", "Mai"],
+                correct: 0,
+                motivation: "Il danno all'immagine è risarcibile solo in presenza di sentenza penale irrevocabile per reati contro la PA.",
+                category: "Responsabilità Amministrativa"
+            },
+
+            // B03 - Funzione Consultiva (aggiungo alcune domande)
+            {
+                question: "La funzione consultiva della Corte dei conti trova fondamento:",
+                options: ["Solo nella Costituzione", "In norme ordinarie e non nella Costituzione", "Solo in regolamenti interni", "Unicamente in prassi amministrative"],
+                correct: 1,
+                motivation: "La funzione consultiva non ha un esplicito riferimento costituzionale, ma è fondata su norme ordinarie.",
+                category: "Funzione Consultiva"
+            },
+            {
+                question: "Quale articolo del r.d. 1214/1934 prevede la funzione consultiva della Corte dei conti?",
+                options: ["Art. 100", "Art. 13", "Art. 7", "Art. 103"],
+                correct: 1,
+                motivation: "L'art. 13 del r.d. 1214/1934 attribuisce alla Corte la facoltà di dare pareri nella formazione di atti e provvedimenti amministrativi.",
+                category: "Funzione Consultiva"
+            },
+            {
+                question: "Le Regioni possono richiedere pareri alle sezioni regionali di controllo della Corte dei conti:",
+                options: ["Solo tramite il Ministero dell'Interno", "In materia di contabilità pubblica", "Solo su questioni di diritto privato", "Solo per questioni tributarie"],
+                correct: 1,
+                motivation: "La legge 131/2003 prevede la richiesta di pareri in materia di contabilità pubblica.",
+                category: "Funzione Consultiva"
+            },
+            {
+                question: "Quale tra questi enti NON è legittimato a richiedere pareri alle sezioni regionali di controllo?",
+                options: ["Comune", "Provincia", "Comunità montana", "Regione"],
+                correct: 2,
+                motivation: "Le comunità montane non sono tra i soggetti legittimati secondo la normativa e la giurisprudenza.",
+                category: "Funzione Consultiva"
+            },
+            {
+                question: "La richiesta di parere è ammissibile solo se:",
+                options: ["Proviene da qualsiasi organo dell'ente", "Proviene dall'organo rappresentativo (es. Sindaco, Presidente)", "È firmata da un cittadino", "È presentata dal segretario comunale"],
+                correct: 1,
+                motivation: "Solo l'organo rappresentativo dell'ente ha legittimazione interna a presentare la richiesta.",
+                category: "Funzione Consultiva"
+            },
+
+            // B04 - Sezione Controllo Enti (aggiungo alcune domande)
+            {
+                question: "Qual è il fondamento costituzionale della funzione di controllo sugli enti della Corte dei conti?",
+                options: ["Articolo 103 della Costituzione", "Articolo 100 della Costituzione", "Articolo 81 della Costituzione", "Articolo 97 della Costituzione"],
+                correct: 1,
+                motivation: "L'articolo 100 della Costituzione attribuisce alla Corte dei conti la funzione di controllo sugli enti cui lo Stato contribuisce in via ordinaria.",
+                category: "Sezione Controllo Enti"
+            },
+            {
+                question: "Secondo la legge 259/1958, quale caratteristica deve avere la contribuzione per assoggettare un ente al controllo?",
+                options: ["Deve essere occasionale", "Deve essere straordinaria", "Deve essere periodica e continuativa", "Deve essere solo in natura di beni"],
+                correct: 2,
+                motivation: "La contribuzione deve avere carattere di periodicità e continuità.",
+                category: "Sezione Controllo Enti"
+            },
+            {
+                question: "Il controllo documentale del magistrato sugli enti prevede:",
+                options: ["Solo la revisione contabile", "L'obbligo per gli enti di inviare bilanci e relazioni entro termini precisi", "Solo ispezioni fisiche", "Nessun obbligo di trasmissione documentale"],
+                correct: 1,
+                motivation: "Gli enti devono inviare i bilanci e le relazioni entro 15 giorni dall'approvazione e comunque entro sei mesi e 15 giorni dalla chiusura dell'esercizio.",
+                category: "Sezione Controllo Enti"
+            },
+            {
+                question: "Il magistrato può richiedere informazioni e formulare rilievi:",
+                options: ["Solo agli organi di revisione", "Solo al Parlamento", "Ai Ministeri, agli organi di vigilanza e ai collegi di revisione", "Solo al Presidente dell'ente"],
+                correct: 2,
+                motivation: "Il magistrato può richiedere informazioni sia agli organi di revisione che ai Ministeri e agli organi di vigilanza.",
+                category: "Sezione Controllo Enti"
+            },
+            {
+                question: "Il controllo ex art. 12 della legge 259/1958 si caratterizza per:",
+                options: ["Essere solo successivo", "Prevedere la presenza del magistrato alle sedute degli organi di gestione e revisione", "Essere solo formale", "Non prevedere alcun rilievo"],
+                correct: 1,
+                motivation: "Il magistrato assiste alle sedute degli organi di gestione e revisione dell'ente.",
+                category: "Sezione Controllo Enti"
+            },
+
+            // B05 - Sezione Autonomie (aggiungo alcune domande)
+            {
+                question: "In quale anno la Sezione delle Autonomie ha assunto la sua attuale denominazione?",
+                options: ["1981", "2003", "2000", "1994"],
+                correct: 1,
+                motivation: "Dal 16 luglio 2003 la Sezione autonomie assume la denominazione attuale.",
+                category: "Sezione Autonomie"
+            },
+            {
+                question: "Qual è la funzione principale attribuita alla Sezione delle Autonomie dall'art. 3, comma 6, L. 20/1994?",
+                options: ["Funzione di controllo preventivo", "Funzione di referto annuale al Parlamento", "Funzione consultiva", "Funzione giurisdizionale"],
+                correct: 1,
+                motivation: "L'art. 3, comma 6, L. 20/1994 individua la funzione di referto annuale al Parlamento.",
+                category: "Sezione Autonomie"
+            },
+            {
+                question: "Chi presiede la Sezione delle Autonomie?",
+                options: ["Il Ministro dell'Economia", "Il Presidente della Corte dei conti", "Il Presidente del Consiglio", "Il Presidente della Camera"],
+                correct: 1,
+                motivation: "La Sezione delle Autonomie è presieduta dal Presidente della Corte dei conti.",
+                category: "Sezione Autonomie"
+            },
+            {
+                question: "Quale tra questi strumenti è utilizzato dalla Sezione delle Autonomie per la funzione di coordinamento?",
+                options: ["Decreti ministeriali", "Linee guida e questioni di massima di interesse generale (QMIG)", "Sentenze della Corte costituzionale", "Circolari interne"],
+                correct: 1,
+                motivation: "Le linee guida e le QMIG sono strumenti principali di coordinamento.",
+                category: "Sezione Autonomie"
+            },
+            {
+                question: "Le linee guida della Sezione delle Autonomie sono rivolte principalmente:",
+                options: ["Ai cittadini", "Agli Organi di Revisione e altri soggetti individuati dalla normativa", "Ai parlamentari", "Alle imprese private"],
+                correct: 1,
+                motivation: "Le linee guida sono rivolte agli Organi di Revisione e altri soggetti previsti dalla normativa.",
+                category: "Sezione Autonomie"
+            },
+
+            // B06 - Giudizio Primo Grado (aggiungo alcune domande)
+            {
+                question: "Qual è il fondamento costituzionale della responsabilità amministrativa patrimoniale?",
+                options: ["Art. 97 Cost.", "Art. 28 Cost.", "Art. 113 Cost.", "Art. 101 Cost."],
+                correct: 1,
+                motivation: "L'art. 28 Cost. stabilisce la responsabilità diretta dei funzionari e dipendenti pubblici per atti compiuti in violazione di diritti.",
+                category: "Giudizio Primo Grado"
+            },
+            {
+                question: "Quale tra questi NON è una componente strutturale della responsabilità amministrativa?",
+                options: ["Rapporto di impiego o servizio", "Danno al patrimonio dell'ente", "Elemento soggettivo (dolo o colpa grave)", "Interesse pubblico prevalente"],
+                correct: 3,
+                motivation: "L'interesse pubblico prevalente non è una componente strutturale della responsabilità amministrativa.",
+                category: "Giudizio Primo Grado"
+            },
+            {
+                question: "La funzione della responsabilità amministrativa è:",
+                options: ["Solo risarcitoria", "Solo deterrente", "Risarcitoria, sanzionatoria e deterrente", "Solo disciplinare"],
+                correct: 2,
+                motivation: "La responsabilità amministrativa ha funzione risarcitoria, sanzionatoria e deterrente.",
+                category: "Giudizio Primo Grado"
+            },
+            {
+                question: "Nel processo contabile, la trattazione avviene:",
+                options: ["Sempre in più udienze", "Di regola in un'unica udienza pubblica", "Solo per iscritto", "Solo in Camera di Consiglio"],
+                correct: 1,
+                motivation: "La trattazione avviene di regola in un'unica udienza pubblica.",
+                category: "Giudizio Primo Grado"
+            },
+            {
+                question: "Quale tra questi è un incidente processuale che può sospendere la trattazione?",
+                options: ["Mancata notifica della sentenza", "Querela di falso", "Mancata produzione di documenti", "Richiesta di rinvio generica"],
+                correct: 1,
+                motivation: "La querela di falso è un incidente processuale che impone la sospensione.",
+                category: "Giudizio Primo Grado"
+            },
+
+            // B07 - Sezioni Riunite (aggiungo alcune domande)
+            {
+                question: "Cosa significa etimologicamente il termine 'nomofilachia'?",
+                options: ["Creazione della norma", "Protezione della legge", "Applicazione della sanzione", "Interpretazione soggettiva"],
+                correct: 1,
+                motivation: "'Nomofilachia' deriva dal greco e significa protezione/custodia della legge, non creazione della norma (che è nomopoiesi).",
+                category: "Sezioni Riunite"
+            },
+            {
+                question: "Qual è la funzione principale della nomofilachia?",
+                options: ["Creare nuove norme", "Garantire la certezza del diritto e l'uniformità dell'interpretazione", "Sanzionare i giudici", "Gestire il bilancio"],
+                correct: 1,
+                motivation: "La nomofilachia mira a garantire la certezza del diritto e l'uniformità interpretativa.",
+                category: "Sezioni Riunite"
+            },
+            {
+                question: "Quale organo, secondo l'art. 65 del r.d. 12/1941, assicura l'esatta osservanza e l'uniforme interpretazione della legge?",
+                options: ["Consiglio di Stato", "Corte dei conti", "Corte di Cassazione", "TAR"],
+                correct: 2,
+                motivation: "L'art. 65 attribuisce questa funzione alla Corte di Cassazione.",
+                category: "Sezioni Riunite"
+            },
+            {
+                question: "La nomofilachia si distingue dalla nomopoiesi perché:",
+                options: ["La prima crea norme, la seconda le interpreta", "La prima interpreta e protegge la legge, la seconda la crea", "Sono sinonimi", "Entrambe sono funzioni legislative"],
+                correct: 1,
+                motivation: "La nomofilachia protegge/interpreta la legge, la nomopoiesi la crea.",
+                category: "Sezioni Riunite"
+            },
+            {
+                question: "L'uniformità dell'interpretazione della legge è:",
+                options: ["Un effetto della nomopoiesi", "Un corollario dell'esatta osservanza", "Un compito del Parlamento", "Un principio solo amministrativo"],
+                correct: 1,
+                motivation: "L'uniformità è conseguenza dell'esatta osservanza della legge.",
+                category: "Sezioni Riunite"
+            }
+        ];
+
+        // Variabili globali
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let answered = 0;
+        let userAnswers = [];
+
+        // Funzione per mescolare array (Fisher-Yates shuffle)
+        function shuffleArray(array) {
+            const newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        }
+
+        // Funzione per iniziare il quiz
+        function startQuiz() {
+            // Seleziona 40 domande casuali
+            currentQuestions = shuffleArray(questionDatabase).slice(0, 40);
+            
+            // Mescola anche le opzioni di risposta per ogni domanda
+            currentQuestions = currentQuestions.map(q => {
+                const options = [...q.options];
+                const correctAnswer = options[q.correct];
+                const shuffledOptions = shuffleArray(options);
+                const newCorrectIndex = shuffledOptions.indexOf(correctAnswer);
+                
+                return {
+                    ...q,
+                    options: shuffledOptions,
+                    correct: newCorrectIndex
+                };
+            });
+            
+            currentQuestionIndex = 0;
+            score = 0;
+            answered = 0;
+            userAnswers = [];
+            
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('quizContainer').style.display = 'block';
+            document.getElementById('resultsScreen').style.display = 'none';
+            
+            displayQuestion();
+        }
+
+        // Funzione per visualizzare una domanda
+        function displayQuestion() {
+            const question = currentQuestions[currentQuestionIndex];
+            
+            document.getElementById('questionNumber').textContent = 
+                `Domanda ${currentQuestionIndex + 1} di ${currentQuestions.length}`;
+            document.getElementById('score').textContent = 
+                `Punteggio: ${score}/${answered}`;
+            document.getElementById('questionText').textContent = question.question;
+            
+            // Aggiorna barra di progresso
+            const progress = ((currentQuestionIndex) / currentQuestions.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+            
+            // Crea le opzioni
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+            
+            question.options.forEach((option, index) => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                optionDiv.innerHTML = `
+                    <input type="radio" name="answer" value="${index}" id="option${index}">
+                    <label for="option${index}">${option}</label>
+                `;
+                optionDiv.onclick = () => selectOption(index);
+                optionsContainer.appendChild(optionDiv);
+            });
+            
+            // Reset feedback e pulsanti
+            document.getElementById('feedback').classList.remove('show', 'correct', 'incorrect');
+            document.getElementById('showAnswerBtn').disabled = true;
+            document.getElementById('nextBtn').disabled = true;
+        }
+
+        // Funzione per selezionare un'opzione
+        function selectOption(index) {
+            // Rimuovi selezione precedente
+            document.querySelectorAll('.option').forEach(opt => {
+                opt.classList.remove('selected');
+            });
+            
+            // Seleziona l'opzione corrente
+            const options = document.querySelectorAll('.option');
+            options[index].classList.add('selected');
+            
+            // Seleziona il radio button
+            document.getElementById(`option${index}`).checked = true;
+            
+            // Abilita il pulsante "Mostra Risposta"
+            document.getElementById('showAnswerBtn').disabled = false;
+        }
+
+        // Funzione per mostrare la risposta
+        function showAnswer() {
+            const selectedRadio = document.querySelector('input[name="answer"]:checked');
+            if (!selectedRadio) return;
+            
+            const selectedAnswer = parseInt(selectedRadio.value);
+            const question = currentQuestions[currentQuestionIndex];
+            const isCorrect = selectedAnswer === question.correct;
+            
+            // Aggiorna statistiche
+            answered++;
+            if (isCorrect) {
+                score++;
+            }
+            
+            // Salva la risposta dell'utente
+            userAnswers.push({
+                question: question.question,
+                userAnswer: question.options[selectedAnswer],
+                correctAnswer: question.options[question.correct],
+                isCorrect: isCorrect,
+                motivation: question.motivation
+            });
+            
+            // Disabilita tutte le opzioni
+            document.querySelectorAll('.option').forEach(opt => {
+                opt.classList.add('disabled');
+                opt.onclick = null;
+            });
+            
+            // Evidenzia risposta corretta e errata
+            const options = document.querySelectorAll('.option');
+            options[question.correct].classList.add('correct');
+            if (!isCorrect) {
+                options[selectedAnswer].classList.add('incorrect');
+            }
+            
+            // Mostra feedback
+            const feedback = document.getElementById('feedback');
+            feedback.classList.add('show');
+            feedback.classList.add(isCorrect ? 'correct' : 'incorrect');
+            
+            document.getElementById('feedbackTitle').textContent = 
+                isCorrect ? '✓ Risposta Corretta!' : '✗ Risposta Errata';
+            document.getElementById('motivationText').innerHTML = 
+                `<strong>Motivazione:</strong> ${question.motivation}`;
+            
+            // Disabilita "Mostra Risposta" e abilita "Prossima Domanda"
+            document.getElementById('showAnswerBtn').disabled = true;
+            document.getElementById('nextBtn').disabled = false;
+            
+            // Aggiorna il punteggio
+            document.getElementById('score').textContent = 
+                `Punteggio: ${score}/${answered}`;
+        }
+
+        // Funzione per passare alla domanda successiva
+        function nextQuestion() {
+            currentQuestionIndex++;
+            
+            if (currentQuestionIndex < currentQuestions.length) {
+                displayQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        // Funzione per mostrare i risultati
+        function showResults() {
+            document.getElementById('quizContainer').style.display = 'none';
+            document.getElementById('resultsScreen').style.display = 'block';
+            
+            const percentage = Math.round((score / currentQuestions.length) * 100);
+            
+            document.getElementById('finalScore').textContent = 
+                `${score}/${currentQuestions.length}`;
+            document.getElementById('scorePercentage').textContent = 
+                `${percentage}%`;
+            document.getElementById('correctCount').textContent = score;
+            document.getElementById('incorrectCount').textContent = 
+                currentQuestions.length - score;
+            
+            // Mostra riepilogo risposte errate
+            const reviewContainer = document.getElementById('reviewContainer');
+            reviewContainer.innerHTML = '';
+            
+            const incorrectAnswers = userAnswers.filter(a => !a.isCorrect);
+            
+            if (incorrectAnswers.length === 0) {
+                reviewContainer.innerHTML = '<p style="text-align: center; color: #28a745; font-size: 1.2em;">🎉 Perfetto! Nessuna risposta errata!</p>';
+            } else {
+                incorrectAnswers.forEach((answer, index) => {
+                    const reviewItem = document.createElement('div');
+                    reviewItem.className = 'review-item';
+                    reviewItem.innerHTML = `
+                        <div class="review-question">${index + 1}. ${answer.question}</div>
+                        <div class="review-answer">Tua risposta: ${answer.userAnswer}</div>
+                        <div class="review-correct">Risposta corretta: ${answer.correctAnswer}</div>
+                        <div class="motivation" style="margin-top: 10px;">${answer.motivation}</div>
+                    `;
+                    reviewContainer.appendChild(reviewItem);
+                });
+            }
+        }
+
+        // Funzione per ricominciare il quiz
+        function resetQuiz() {
+            document.getElementById('resultsScreen').style.display = 'none';
+            document.getElementById('startScreen').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
