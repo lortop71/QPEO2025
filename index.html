@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Corte dei Conti</title>
+    <title>Quiz PEO 2025</title>
     <style>
         * {
             margin: 0;
@@ -32,6 +32,25 @@
             margin-bottom: 30px;
             padding-bottom: 20px;
             border-bottom: 3px solid #667eea;
+        }
+		
+		.warning-box {		
+            margin-bottom: 20px;
+            background-color: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .warning-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .warning-text {
+            color: #856404;
+            font-size: 18px;
+            line-height: 1.5;
         }
 
         h1 {
@@ -384,7 +403,7 @@
     <div class="container">
         <div class="header">
             <h1>🎓 Quiz PEO 2025</h1>
-            <p class="subtitle">Test di preparazione per concorsi</p>
+            <p class="subtitle">Test di preparazione per le PEO 2025</p>
         </div>
 
         <!-- Schermata iniziale -->
@@ -401,7 +420,15 @@
                 Per ogni domanda, seleziona la risposta che ritieni corretta.<br>
                 Potrai vedere la risposta corretta e la motivazione dopo aver risposto.
             </p>
-            <button class="btn" onclick="startQuiz()">Inizia il Quiz</button>
+			
+			<div class="warning-box">
+				<div class="warning-icon">⚠️</div>
+				<p class="warning-text">
+					<strong>ATTENZIONE️</strong><br>Le domande e le risposte sono state generate da una IA e non sono state validate. In caso di inesattezze comunicatelo.
+				</p>
+			</div>
+			
+			<button class="btn" onclick="startQuiz()">Inizia il Quiz</button>
         </div>
 
         <!-- Container del quiz -->
@@ -5876,7 +5903,7 @@
 				category: "Termini e Scadenze"
 			},
 			
-			//B08 - Sezioni riunite controllo
+			// B08 - Sezioni riunite controllo
 			{
 				question: "Quale articolo della Costituzione disciplina il controllo della Corte dei conti sulla gestione del bilancio dello Stato?",
 				options: ["Art. 81 Cost.", "Art. 97 Cost.", "Art. 100 Cost.", "Art. 119 Cost."],
@@ -6242,7 +6269,7 @@
 				category: "Certificazione CCNL"
 			},
 			
-			//B09 - La Procura Generale
+			// B09 - La Procura Generale
 			{
 				question: "Qual è il fondamento costituzionale dell'obbligatorietà dell'azione del P.M. contabile?",
 				options: ["Articoli 101 e 102 della Costituzione", "Articoli 2, 3, 97 e 81 della Costituzione", "Articoli 24 e 111 della Costituzione", "Articoli 103 e 107 della Costituzione"],
