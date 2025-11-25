@@ -491,63 +491,63 @@
 				options: ["60 giorni", "90 giorni", "120 giorni", "150 giorni"],
 				correct: 2,
 				motivation: "Il termine massimo per la conclusione del procedimento disciplinare è di 120 giorni dalla notifica della contestazione degli addebiti al dipendente, come stabilito dall'art. 55-bis, comma 4, del D.Lgs. 165/2001. Si tratta di un termine perentorio a pena di decadenza.",
-				category: "Procedimento disciplinare"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Quale articolo del D.Lgs. 165/2001 disciplina le forme e i termini del procedimento disciplinare?",
 				options: ["Art. 54", "Art. 55", "Art. 55-bis", "Art. 55-quater"],
 				correct: 2,
 				motivation: "L'art. 55-bis del D.Lgs. 165/2001 disciplina specificamente le forme e i termini del procedimento disciplinare, stabilendo la distinzione tra sanzioni minori (rimprovero verbale) di competenza del responsabile della struttura e sanzioni gravi di competenza dell'ufficio procedimenti disciplinari.",
-				category: "Normativa di riferimento"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Entro quanti giorni dalla conoscenza dei fatti il responsabile deve segnalare al SPD le infrazioni potenzialmente gravi?",
 				options: ["5 giorni", "10 giorni", "15 giorni", "20 giorni"],
 				correct: 1,
 				motivation: "Il responsabile della struttura deve segnalare al Servizio per i Procedimenti Disciplinari i fatti ritenuti di rilevanza disciplinare entro 10 giorni dalla conoscenza degli stessi. Si tratta di un termine ordinatorio, il cui mancato rispetto non comporta nullità ma può avere conseguenze sulla responsabilità del dirigente.",
-				category: "Procedimento disciplinare"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Chi è competente per i procedimenti disciplinari che possono concludersi con il rimprovero verbale?",
 				options: ["Il Servizio per i Procedimenti Disciplinari", "Il responsabile della struttura presso cui presta servizio il dipendente", "La Direzione Generale Gestione Risorse Umane", "Il Presidente della Corte dei Conti"],
 				correct: 1,
 				motivation: "Come stabilito dall'art. 55-bis, comma 1, del D.Lgs. 165/2001, i procedimenti disciplinari per infrazioni di minore gravità, punibili con il rimprovero verbale, sono di competenza del responsabile della struttura presso cui presta servizio il dipendente.",
-				category: "Riparto delle competenze"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Qual è il preavviso minimo con cui deve essere convocato il dipendente per l'audizione dopo la contestazione degli addebiti?",
 				options: ["10 giorni", "15 giorni", "20 giorni", "30 giorni"],
 				correct: 2,
 				motivation: "Il dipendente deve essere convocato per l'audizione con un preavviso minimo di 20 giorni dalla notifica della contestazione. Questo termine dilatorio è necessario per garantire al dipendente un tempo congruo per preparare la propria difesa, accedere agli atti e consultare eventualmente un legale o un rappresentante sindacale.",
-				category: "Procedimento disciplinare"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Entro quanti giorni dalla segnalazione il SPD deve procedere alla contestazione scritta dell'addebito?",
 				options: ["15 giorni", "20 giorni", "30 giorni", "60 giorni"],
 				correct: 2,
 				motivation: "Il Servizio per i Procedimenti Disciplinari deve procedere alla contestazione scritta dell'addebito entro 30 giorni dal ricevimento della segnalazione o dalla diretta conoscenza dei fatti. Questo è un termine perentorio: se non viene rispettato, il potere disciplinare decade.",
-				category: "Procedimento disciplinare"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Quale DPR ha modificato recentemente il codice di comportamento dei dipendenti pubblici introducendo norme sull'uso dei social media?",
 				options: ["DPR 62/2013", "DPR 81/2023", "DPR 96/2010", "DPR 165/2001"],
 				correct: 1,
 				motivation: "Il DPR 13 giugno 2023, n. 81 ha introdotto importanti modifiche al codice di comportamento, in particolare relativamente all'utilizzo delle tecnologie informatiche (art. 11-bis) e dei social media (art. 11-ter), oltre a rafforzare gli obblighi dei dirigenti.",
-				category: "Codice di comportamento"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Quale sanzione è prevista per la falsa attestazione della presenza in servizio?",
 				options: ["Sospensione fino a 6 mesi", "Licenziamento con preavviso", "Licenziamento senza preavviso", "Multa fino a 4 ore di retribuzione"],
 				correct: 2,
 				motivation: "La falsa attestazione della presenza in servizio, che comprende qualunque modalità fraudolenta per far risultare il dipendente in servizio, è sanzionata con il licenziamento senza preavviso, come previsto dall'art. 55-quater, comma 4, lett. a) del D.Lgs. 165/2001.",
-				category: "Sanzioni disciplinari"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Con quale deliberazione la Corte dei Conti ha approvato il proprio Codice di comportamento per il personale amministrativo?",
 				options: ["Deliberazione n. 1/2010", "Deliberazione n. 8/2013", "Deliberazione n. 96/2010", "Deliberazione n. 62/2013"],
 				correct: 1,
 				motivation: "La Corte dei Conti ha approvato il proprio Codice di comportamento per il personale amministrativo con la Deliberazione n. 8 del 5 novembre 2013, in attuazione di quanto stabilito dall'art. 54, comma 5 del D.Lgs. 165/2001.",
-				category: "Normativa di riferimento"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Qual è la sanzione massima pecuniaria prevista per il personale non dirigenziale?",
@@ -561,7 +561,7 @@
 				options: ["Discrezionalità dell'azione disciplinare", "Obbligatorietà dell'azione disciplinare", "Facoltatività della contestazione", "Possibilità di sanzioni atipiche"],
 				correct: 1,
 				motivation: "Nel pubblico impiego l'azione disciplinare è obbligatoria (principio sancito dall'art. 97 della Costituzione), diversamente dal settore privato dove il datore di lavoro ha discrezionalità. Il datore di lavoro pubblico deve avviare il procedimento ogni volta che viene a conoscenza di condotte potenzialmente rilevanti.",
-				category: "Natura del procedimento"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Dopo quanti giorni di assenza ingiustificata nell'arco di un biennio scatta il licenziamento?",
@@ -575,7 +575,7 @@
 				options: ["Art. 33", "Art. 36", "Art. 42", "Art. 43"],
 				correct: 3,
 				motivation: "L'art. 43 del CCNL 2019-2021 Comparto Funzioni Centrali elenca le sanzioni disciplinari applicabili al personale non dirigenziale. Per il personale dirigenziale, invece, le sanzioni sono previste dall'art. 36 del CCNL Area Funzioni Centrali Dirigenti.",
-				category: "Normativa di riferimento"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Cosa deve contenere obbligatoriamente l'atto di contestazione disciplinare?",
@@ -603,7 +603,7 @@
 				options: ["Deliberazione del Consiglio di Presidenza n. 1/2010", "Decreto del Dirigente Generale DGRU n. 96/2010", "DPR 62/2013", "Legge 165/2001"],
 				correct: 1,
 				motivation: "Il Servizio per i Procedimenti Disciplinari è stato istituito con Decreto del Dirigente Generale della Direzione Generale Gestione Risorse Umane n. 96/2010, art. 7, come ufficio di livello non dirigenziale.",
-				category: "Struttura organizzativa"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Qual è la natura del termine di 120 giorni per la conclusione del procedimento?",
@@ -680,7 +680,7 @@
 				options: ["Art. 7, comma 1", "Art. 22, comma 1, lett. e)", "Art. 54, comma 2", "Art. 55-bis, comma 1"],
 				correct: 1,
 				motivation: "L'art. 22, comma 1, lett. e) del Regolamento per l'Organizzazione e Funzionamento (R.O.F.), approvato con deliberazione n. 1/2010, assegna alla Direzione Generale Gestione Risorse Umane la competenza per la gestione dei procedimenti disciplinari.",
-				category: "Normativa di riferimento"
+                category: "Codice di Comportamento"
 			},
 			{
 				question: "Il SPD deve archiviare il procedimento quando:",
@@ -864,7 +864,7 @@
 				options: ["31 marzo", "31 dicembre", "31 gennaio", "30 giugno"],
 				correct: 2,
 				motivation: "Il Piano Triennale di Prevenzione della Corruzione e della Trasparenza deve essere adottato entro il 31 gennaio di ogni anno dall'organo di indirizzo politico-amministrativo.",
-				category: "Scadenze operative"
+				category: "Prevenzione della Corruzione"
 			},
 			{
 				question: "Chi sono i destinatari del Piano Triennale di Prevenzione della Corruzione nella Corte dei conti?",
@@ -906,7 +906,7 @@
 				options: ["31 gennaio", "31 marzo", "30 giugno", "31 dicembre"],
 				correct: 1,
 				motivation: "Il RPCT deve trasmettere all'ANAC la relazione annuale sull'attività svolta entro il 31 marzo di ogni anno, utilizzando l'apposito format standardizzato predisposto dall'Autorità.",
-				category: "Scadenze operative"
+				category: "Prevenzione della Corruzione"
 			},
 			{
 				question: "Quale misura specifica di prevenzione è prevista per le sezioni giurisdizionali nella predisposizione dei fascicoli processuali?",
@@ -969,14 +969,14 @@
 				options: ["Trimestrale", "Semestrale", "Annuale", "Biennale"],
 				correct: 2,
 				motivation: "Il monitoraggio sull'attuazione delle misure di prevenzione viene effettuato una volta l'anno, all'inizio dell'anno successivo, attraverso questionari informatici somministrati ai referenti.",
-				category: "Monitoraggio"
+				category: "Prevenzione della Corruzione"
 			},
 			{
 				question: "Con quale frequenza viene effettuato il monitoraggio sulla misura della trasparenza nella Corte dei conti?",
 				options: ["Mensile", "Trimestrale", "Semestrale", "Annuale"],
 				correct: 2,
 				motivation: "Il monitoraggio sulla misura della trasparenza viene effettuato con frequenza semestrale (indicativamente a giugno e dicembre) attraverso circolari del RPCT indirizzate ai dirigenti e funzionari preposti.",
-				category: "Monitoraggio"
+				category: "Prevenzione della Corruzione"
 			},
 			{
 				question: "Quale codice disciplina l'accesso agli atti delle attività giudiziarie della Corte dei conti?",
@@ -1401,7 +1401,7 @@
 				category: "Trasparenza"
 			  },
 
-            // A08 - Sicurezza sul Lavoro (aggiungo alcune domande)
+            // A08 - Sicurezza sul Lavoro
             {
                 question: "Qual è la normativa di riferimento attualmente in vigore per la sicurezza sul lavoro in Italia?",
                 options: ["DPR 303/1956", "D.Lgs. 81/2008", "Statuto dei Lavoratori 1970", "D.Lgs. 626/1994"],
@@ -1442,14 +1442,14 @@
 				options: ["Articolo 32", "Articolo 41", "Articolo 1", "Articolo 21"],
 				correct: 0,
 				motivation: "L'articolo 32 della Costituzione stabilisce che 'La Repubblica tutela la salute come fondamentale diritto dell'individuo e interesse della collettività', ponendo le basi costituzionali della tutela della salute dei lavoratori.",
-				category: "Normativa di riferimento"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Quale Decreto Legislativo rappresenta il Testo Unico sulla Sicurezza attualmente in vigore?",
 				options: ["D.Lgs. 626/1994", "D.Lgs. 81/2008", "DPR 547/1955", "D.Lgs. 38/2000"],
 				correct: 1,
 				motivation: "Il D.Lgs. 81/2008, noto come Testo Unico sulla Sicurezza, è la normativa attualmente in vigore che riordina e coordina l'intera disciplina della salute e sicurezza sul lavoro.",
-				category: "Normativa di riferimento"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Quali sono i due obblighi NON delegabili del datore di lavoro?",
@@ -1498,7 +1498,7 @@
 				options: ["Il Presidente della Corte dei Conti", "Il Segretario Generale", "Il Dirigente Generale della Direzione Gestione Affari Generali (DGAG)", "Il Direttore delle Risorse Umane"],
 				correct: 2,
 				motivation: "Nella Corte dei Conti, il ruolo di Datore di Lavoro per la Sicurezza è attribuito al Dirigente Generale della Direzione Gestione Affari Generali (DGAG), come stabilito dal regolamento di organizzazione.",
-				category: "Organizzazione Corte dei Conti"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Qual è la differenza principale tra Dirigente e Preposto in materia di sicurezza?",
@@ -1547,28 +1547,28 @@
 				options: ["8 ore", "12 ore", "16 ore", "20 ore"],
 				correct: 1,
 				motivation: "Il nuovo Accordo Stato-Regioni prevede per i Preposti un corso base di 12 ore (in aumento rispetto alle precedenti 8 ore), con aggiornamento biennale di 6 ore e divieto di modalità e-learning.",
-				category: "Formazione"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Con quale frequenza deve essere aggiornata la formazione dei Preposti secondo il nuovo Accordo?",
 				options: ["Annuale", "Biennale", "Triennale", "Quinquennale"],
 				correct: 1,
 				motivation: "I Preposti devono aggiornare la loro formazione ogni 2 anni (cadenza biennale) con un corso di almeno 6 ore, una frequenza maggiore rispetto ad altre figure per sottolineare il loro ruolo cruciale nella vigilanza quotidiana.",
-				category: "Formazione"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Entro quanto tempo dalla pubblicazione in Gazzetta Ufficiale i Datori di Lavoro devono completare il corso base di 16 ore?",
 				options: ["6 mesi", "1 anno", "2 anni", "3 anni"],
 				correct: 2,
 				motivation: "Secondo il nuovo Accordo Stato-Regioni (bozza 2024), i Datori di Lavoro devono completare il corso base di 16 ore entro 2 anni dalla pubblicazione in Gazzetta Ufficiale del nuovo Accordo.",
-				category: "Formazione"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Qual è la cadenza dell'aggiornamento formativo per i Dirigenti?",
 				options: ["Biennale", "Triennale", "Quinquennale", "Annuale"],
 				correct: 2,
 				motivation: "I Dirigenti devono aggiornare la loro formazione ogni 5 anni (cadenza quinquennale) con un corso di almeno 6 ore, alla pari dei Datori di Lavoro.",
-				category: "Formazione"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Cosa significa l'acronimo DUVRI?",
@@ -1610,14 +1610,14 @@
 				options: ["Articolo 2043", "Articolo 2050", "Articolo 2087", "Articolo 2094"],
 				correct: 2,
 				motivation: "L'articolo 2087 del Codice Civile stabilisce che l'imprenditore è tenuto ad adottare le misure che, secondo la particolarità del lavoro, l'esperienza e la tecnica, sono necessarie a tutelare l'integrità fisica dei prestatori di lavoro.",
-				category: "Normativa di riferimento"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Quale sanzione prevede l'art. 437 del Codice Penale per l'omissione dolosa di cautele contro infortuni?",
 				options: ["Sanzione amministrativa da 5.000 a 30.000 euro", "Reclusione da 6 mesi a 5 anni", "Sospensione dell'attività", "Multa fino a 50.000 euro"],
 				correct: 1,
 				motivation: "L'art. 437 c.p. prevede la reclusione da 6 mesi a 5 anni per chi omette di collocare o rimuove cautele contro infortuni. Se dal fatto deriva un disastro o un infortunio, la pena sale da 3 a 10 anni.",
-				category: "Normativa di riferimento"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Entro quanti giorni dall'inizio dell'attività una nuova impresa deve elaborare il DVR?",
@@ -1736,7 +1736,7 @@
 				options: ["I Presidenti di Sezione Regionale", "I Dirigenti SAUR (Servizi Amministrativi Uffici Regionali)", "I Magistrati più anziani", "Gli RSPP regionali"],
 				correct: 1,
 				motivation: "Nelle sedi regionali della Corte dei Conti, i Dirigenti dei Servizi Amministrativi Uffici Regionali (SAUR) sono i delegati del Datore di Lavoro per l'attuazione delle misure di sicurezza nella loro struttura organizzativa di competenza.",
-				category: "Organizzazione Corte dei Conti"
+				category: "Sicurezza sul Lavoro"
 			},
 			{
 				question: "Quale livello di rischio richiede 'misure urgenti e indilazionabili'?",
@@ -1781,7 +1781,7 @@
 				category: "Codice di comportamento"
 			},
 
-            // A10 - Trasformazione Digitale (aggiungo alcune domande)
+            // A10 - Trasformazione Digitale
             {
                 question: "Qual è la definizione più corretta di trasformazione digitale nella Corte dei conti?",
                 options: ["Sostituire i computer ogni 5 anni", "Un insieme di azioni che sfruttano strumenti digitali per migliorare l'efficienza organizzativa", "Usare solo la posta elettronica", "Automatizzare solo la protocollazione"],
@@ -2168,7 +2168,7 @@
 				category: "Cybersecurity"
 			},
 
-            // A11 - Contrattazione Collettiva (aggiungo alcune domande)
+            // A11 - Contrattazione Collettiva
             {
                 question: "Quale fu una delle principali ragioni della riforma del pubblico impiego nel 1993?",
                 options: ["Ridurre il numero di dipendenti pubblici", "Applicare strumenti del diritto civile al rapporto di lavoro pubblico", "Eliminare i sindacati", "Aumentare la spesa pubblica"],
@@ -2596,63 +2596,63 @@
 				options: ["D.Lgs. 50/2016", "Legge 78/2022", "D.Lgs. 36/2023", "DPR 207/2010"],
 				correct: 2,
 				motivation: "Il nuovo Codice dei Contratti Pubblici è contenuto nel D.Lgs. 36 del 31 marzo 2023, che sostituisce il precedente D.Lgs. 50/2016. Il Codice è composto da 229 articoli e 36 allegati ed è stato emanato in attuazione della Legge 78/2022 collegata al PNRR.",
-				category: "Quadro normativo"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Quanti articoli e allegati compongono il nuovo Codice dei Contratti Pubblici?",
 				options: ["180 articoli e 25 allegati", "229 articoli e 36 allegati", "250 articoli e 30 allegati", "200 articoli e 40 allegati"],
 				correct: 1,
 				motivation: "Il D.Lgs. 36/2023 è composto da 229 articoli e 36 allegati, rappresentando una codificazione organica e completa della materia dei contratti pubblici.",
-				category: "Quadro normativo"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Quale principio fondamentale del Codice si contrappone al formalismo burocratico?",
 				options: ["Principio di economicità", "Principio del risultato", "Principio di trasparenza", "Principio di rotazione"],
 				correct: 1,
 				motivation: "Il principio del risultato è uno dei tre principi cardine del nuovo Codice e si contrappone al formalismo, orientando l'azione amministrativa al conseguimento effettivo dell'opera pubblica con la massima tempestività e il migliore rapporto qualità-prezzo.",
-				category: "Principi fondamentali"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Quale principio mira a superare la burocrazia difensiva?",
 				options: ["Principio di affidamento", "Principio di fiducia", "Principio di solidarietà", "Principio di trasparenza"],
 				correct: 1,
 				motivation: "Il principio di fiducia mira a superare la burocrazia difensiva, promuovendo la responsabilizzazione dei funzionari pubblici e creando un rapporto di reciproca fiducia tra stazione appaltante e operatori economici.",
-				category: "Principi fondamentali"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Il principio di buona fede nel nuovo Codice rileva anche in fase di contenzioso?",
 				options: ["No, vale solo in fase amministrativa", "Sì, rileva anche in fase giurisdizionale", "Solo nelle procedure sopra soglia", "Solo per i contratti di concessione"],
 				correct: 1,
 				motivation: "Il principio di buona fede rappresenta un obbligo reciproco tra stazione appaltante e operatori economici e rileva anche nella fase di contenzioso giurisdizionale, vincolando il comportamento di entrambe le parti.",
-				category: "Principi fondamentali"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Dove è istituita la Cabina di Regia prevista dal Codice?",
 				options: ["Presso il Ministero dell'Economia", "Presso l'ANAC", "Presso la Presidenza del Consiglio dei Ministri", "Presso il MIT"],
 				correct: 2,
 				motivation: "La Cabina di Regia è istituita presso la Presidenza del Consiglio dei Ministri ai sensi dell'allegato V.3 ed è la sede istituzionale per il coordinamento nell'attuazione del Codice e per la cooperazione con la Commissione europea.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Quale autorità esercita la vigilanza sui contratti pubblici?",
 				options: ["La Corte dei Conti", "Il Ministero delle Infrastrutture", "L'ANAC", "La Cabina di Regia"],
 				correct: 2,
 				motivation: "L'Autorità Nazionale Anticorruzione (ANAC) esercita la vigilanza e il controllo sui contratti pubblici, anche al fine di prevenire e contrastare illegalità e corruzione, con poteri sanzionatori e di indirizzo.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Qual è l'importo minimo delle sanzioni amministrative pecuniarie che l'ANAC può irrogare?",
 				options: ["€ 500", "€ 1.000", "€ 2.000", "€ 5.000"],
 				correct: 0,
 				motivation: "L'ANAC può irrogare sanzioni amministrative pecuniarie con un minimo di € 500 e un massimo di € 5.000 per le violazioni accertate. Le sanzioni e l'eventuale recidiva sono valutate ai fini della qualificazione delle stazioni appaltanti.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Qual è l'importo massimo delle sanzioni che l'ANAC può irrogare per informazioni non veritiere?",
 				options: ["€ 5.000", "€ 10.000", "€ 15.000", "€ 20.000"],
 				correct: 1,
 				motivation: "L'ANAC può irrogare sanzioni pecuniarie da un minimo di € 500 a un massimo di € 10.000 verso soggetti che forniscono informazioni o documenti non veritieri, fatta salva l'eventuale sanzione penale.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "A partire da quale importo scatta l'obbligo di utilizzo dei mercati elettronici per le amministrazioni statali?",
@@ -2771,70 +2771,70 @@
 				options: ["Sì, sempre", "No, sono esclusi", "Solo sopra soglia comunitaria", "Solo se di importo superiore a € 100.000"],
 				correct: 1,
 				motivation: "Le disposizioni del Codice non si applicano ai contratti esclusi, ai contratti attivi e ai contratti a titolo gratuito, anche qualora essi offrano opportunità di guadagno economico indiretto.",
-				category: "Ambito di applicazione"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Il Codice si applica alle opere di urbanizzazione a scomputo?",
 				options: ["No, sono sempre escluse", "Sì, secondo le modalità dell'allegato I.12", "Solo per importi superiori a € 500.000", "Solo se realizzate da imprese qualificate"],
 				correct: 1,
 				motivation: "Il Codice si applica anche all'aggiudicazione dei lavori pubblici da realizzarsi da parte di soggetti privati per opere di urbanizzazione a scomputo totale o parziale del contributo di costruzione. L'allegato I.12 individua le specifiche modalità di affidamento.",
-				category: "Ambito di applicazione"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Per le procedure di affidamento svolte all'estero, chi emana il regolamento?",
 				options: ["Il Ministro dell'Economia", "Il Ministro degli Affari Esteri sentita l'ANAC", "L'ANAC autonomamente", "La Cabina di Regia"],
 				correct: 1,
 				motivation: "Con regolamento del Ministro degli Affari Esteri e della Cooperazione Internazionale, sentita l'ANAC, sono disciplinate le procedure di scelta del contraente da svolgersi all'estero, tenuto conto dei principi fondamentali del Codice e delle procedure UE.",
-				category: "Ambito di applicazione"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Il Codice si applica alle operazioni straordinarie societarie che non comportino nuovi affidamenti?",
 				options: ["Sì, sempre", "No, restano ferme le norme del D.Lgs 175/2016", "Solo per società a totale partecipazione pubblica", "Solo sopra soglia comunitaria"],
 				correct: 1,
 				motivation: "Le disposizioni del Codice non si applicano ai contratti di società e alle operazioni straordinarie che non comportino nuovi affidamenti di lavori, servizi e forniture. Restano ferme le disposizioni del D.Lgs 175/2016 in materia di scelta del socio privato.",
-				category: "Ambito di applicazione"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "L'ANAC può svolgere attività di vigilanza collaborativa?",
 				options: ["No, solo vigilanza ispettiva", "Sì, tramite protocolli di intesa con le stazioni appaltanti", "Solo per affidamenti sopra € 5 milioni", "Solo su richiesta della Cabina di Regia"],
 				correct: 1,
 				motivation: "Per affidamenti di particolare interesse, l'ANAC svolge attività di vigilanza collaborativa tramite protocolli di intesa con le stazioni appaltanti. Il mancato rispetto delle indicazioni ANAC, se non motivato, è valutato ai fini della qualificazione della stazione appaltante.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "L'ANAC elabora costi standard e prezzi di riferimento avvalendosi del supporto di quale ente?",
 				options: ["Del Ministero dell'Economia", "Dell'ISTAT e degli enti del Sistema statistico nazionale", "Della Banca d'Italia", "Del CNEL"],
 				correct: 1,
 				motivation: "L'ANAC elabora costi standard dei lavori e prezzi di riferimento di beni e servizi avvalendosi del supporto dell'ISTAT e degli altri enti del Sistema statistico nazionale, per favorire l'economicità e la trasparenza degli affidamenti.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Quale strumento ANAC promuove l'efficienza delle stazioni appaltanti?",
 				options: ["Solo le sanzioni pecuniarie", "Bandi-tipo, capitolati-tipo e contratti-tipo", "Esclusivamente ispezioni", "Solo la formazione obbligatoria"],
 				correct: 1,
 				motivation: "L'ANAC emana bandi-tipo, capitolati-tipo, contratti-tipo e altri atti amministrativi generali per promuovere l'efficienza e la qualità dell'attività delle stazioni appaltanti, facilitando lo scambio di informazioni e l'omogeneità dei procedimenti.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Il principio del risultato costituisce attuazione di quale altro principio costituzionale?",
 				options: ["Principio di legalità", "Principio del buon andamento", "Principio di imparzialità", "Principio di sussidiarietà"],
 				correct: 1,
 				motivation: "Il principio del risultato costituisce attuazione del principio del buon andamento e dei correlati principi di efficienza, efficacia ed economicità, ed è perseguito nell'interesse della comunità e per il raggiungimento degli obiettivi dell'Unione europea.",
-				category: "Principi fondamentali"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Secondo il Codice, la concorrenza è funzionale a:",
 				options: ["Aumentare il numero di partecipanti", "Conseguire il miglior risultato possibile", "Garantire la rotazione degli operatori", "Ridurre i costi amministrativi"],
 				correct: 1,
 				motivation: "Il Codice stabilisce che la concorrenza è funzionale a conseguire il miglior risultato possibile, superando una visione formale della concorrenza per orientarla al raggiungimento dell'obiettivo sostanziale dell'affidamento.",
-				category: "Principi fondamentali"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "La trasparenza secondo il nuovo Codice è funzionale a:",
 				options: ["Aumentare i controlli", "Massima semplicità e celerità nella corretta applicazione delle regole", "Pubblicare tutti gli atti amministrativi", "Garantire l'accesso agli atti"],
 				correct: 1,
 				motivation: "La trasparenza è funzionale alla massima semplicità e celerità nella corretta applicazione delle regole, rappresentando uno strumento per raggiungere il risultato e non un fine a sé stante.",
-				category: "Principi fondamentali"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "Qual è il termine massimo per una procedura di dialogo competitivo?",
@@ -2925,28 +2925,28 @@
 				options: ["Solo della Polizia di Stato", "Solo della Corte dei Conti", "Altri organi dello Stato e della Guardia di Finanza", "Solo dei consulenti esterni"],
 				correct: 2,
 				motivation: "L'ANAC può disporre ispezioni, anche su richiesta motivata, avvalendosi della collaborazione di altri organi dello Stato e della Guardia di Finanza, garantendo efficacia all'azione di vigilanza.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "L'inadempimento dell'obbligo di trasmissione dati all'ANAC è:",
 				options: ["Non sanzionato", "Sanzionato con sanzioni amministrative", "Solo oggetto di segnalazione", "Rilevante solo sopra soglia"],
 				correct: 1,
 				motivation: "L'inadempimento dell'obbligo di trasmissione dei dati necessari all'ANAC da parte della stazione appaltante è sanzionato e rileva ai fini della qualificazione.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "L'ANAC disciplina con propri atti:",
 				options: ["Solo le sanzioni pecuniarie", "Solo i procedimenti di qualificazione", "I procedimenti sanzionatori", "Solo la vigilanza collaborativa"],
 				correct: 2,
 				motivation: "L'ANAC disciplina i procedimenti sanzionatori con propri atti, garantendo certezza e trasparenza nell'esercizio del potere sanzionatorio.",
-				category: "Governance"
+                category: "Codice dei Contratti Pubblici"
 			},
 			{
 				question: "L'allegato N del Codice è:",
 				options: ["Immediatamente applicabile", "Abrogato dalla data di entrata in vigore del corrispondente regolamento MIT", "Applicabile solo alle procedure sopra soglia", "Facoltativo"],
 				correct: 1,
 				motivation: "In sede di prima applicazione del Codice, l'allegato N è abrogato a decorrere dalla data di entrata in vigore di un corrispondente regolamento MIT che lo sostituisce integralmente anche in qualità di allegato al Codice.",
-				category: "Quadro normativo"
+                category: "Codice dei Contratti Pubblici"
 			},	
 			// A13 - Digitalizzazione del ciclo di vita dei contratti pubblici
 			{
@@ -3073,7 +3073,7 @@
 				options: ["Di eliminare la necessità di documentazione", "Di ridurre i tempi di pagamento", "Di evitare di allegare documentazione già presente nel fascicolo", "Di aumentare il punteggio tecnico"],
 				correct: 2,
 				motivation: "L'interoperabilità consente agli operatori economici di dichiarare il possesso dei requisiti senza dover allegare documentazione già contenuta nel fascicolo virtuale.",
-				category: "Fascicolo virtuale"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "Per quale percentuale di variazione del contratto iniziale è necessaria una nuova procedura invece di una variante?",
@@ -3094,14 +3094,14 @@
 				options: ["Codice dei contratti D.Lgs. 36/2023", "Delibere ANAC", "Regolamento condominiale", "Norme tecniche UNI"],
 				correct: 2,
 				motivation: "Il regolamento condominiale non è rilevante per i contratti pubblici. Le fonti includono il Codice degli appalti, delibere ANAC, norme tecniche e regolamenti pubblici.",
-				category: "Normativa di riferimento"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "Fino a quale percentuale può essere estesa l'anticipazione di pagamento con il nuovo codice?",
 				options: ["10%", "20%", "30%", "40%"],
 				correct: 2,
 				motivation: "Con il nuovo codice degli appalti si può estendere l'anticipazione di pagamento fino a un 30% dell'importo contrattuale.",
-				category: "Pagamenti"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "Cosa si intende con l'espressione 'nativo digitale' riferita ai documenti?",
@@ -3115,7 +3115,7 @@
 				options: ["ISO 9001 (Qualità)", "ISO 14001 (Ambiente)", "ISO 27001 (Sicurezza informatica)", "ISO 45001 (Salute e sicurezza)"],
 				correct: 2,
 				motivation: "Vengono menzionate ISO 9001 (qualità), ISO 14001 (ambiente) e ISO 8000 (rapporti con dipendenti e pari opportunità), ma non ISO 27001.",
-				category: "Fascicolo virtuale"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "Cosa significa l'acronimo SAL nel contesto degli appalti?",
@@ -3150,21 +3150,21 @@
 				options: ["D.Lgs. 33/2013", "D.Lgs. 50/2016", "D.Lgs. 159/2011", "D.Lgs. 231/2001"],
 				correct: 0,
 				motivation: "L'art. 28 del Codice degli Appalti richiama espressamente il D.Lgs. 33/2013 in materia di trasparenza e pubblicità degli atti.",
-				category: "Trasparenza"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "Quale principio NON è menzionato tra i principi fondamentali del nuovo Codice degli Appalti?",
 				options: ["Affidamento e buona fede", "Digitalizzazione", "Risultato", "Massimo ribasso"],
 				correct: 3,
 				motivation: "I principi fondamentali includono affidamento e buona fede, risultato, digitalizzazione e collaborazione. Il massimo ribasso è un criterio di aggiudicazione, non un principio fondamentale.",
-				category: "Principi fondamentali"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "Cosa si intende per 'split payment' nei pagamenti delle pubbliche amministrazioni?",
 				options: ["Pagamento rateizzato in più tranche", "Versamento dell'IVA direttamente all'erario da parte della PA", "Divisione del pagamento tra più fornitori", "Anticipo parziale prima dell'esecuzione"],
 				correct: 1,
 				motivation: "Lo split payment è il meccanismo per cui l'IVA non viene assoggettata all'operatore economico ma viene versata direttamente all'erario dalla stazione appaltante.",
-				category: "Pagamenti"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "Quale articolo del Codice degli Appalti disciplina la risoluzione del contratto?",
@@ -3234,7 +3234,7 @@
 				options: ["Mancanza di certificazione ISO 9001", "Sentenza di condanna passata in giudicato per reati gravi", "Assenza di esperienza pregressa", "Mancato possesso di attestazione SOA"],
 				correct: 1,
 				motivation: "L'art. 94 prevede cause di esclusione obbligatoria tra cui sentenze definitive per reati specifici gravi, che comportano anche la risoluzione del contratto se sopravvenute.",
-				category: "Cause di esclusione"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "In cosa consiste il 'diritto di opzione' di un contratto di appalto?",
@@ -3255,14 +3255,14 @@
 				options: ["Variazioni delle modalità costruttive previste dal capitolato", "Interessi moratori per ritardo nei pagamenti", "Modifiche tecniche non previste nel progetto esecutivo", "Maggiori oneri per circostanze impreviste"],
 				correct: 1,
 				motivation: "Gli interessi moratori non costituiscono riserva, così come le contestazioni sulla validità del contratto. Le riserve riguardano aspetti tecnici ed esecutivi dell'opera.",
-				category: "Riserve"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "Quale organo ha la funzione di indirizzo attraverso delibere e pareri nel settore degli appalti?",
 				options: ["Il MIT (Ministero Infrastrutture e Trasporti)", "L'ANAC", "L'AGID", "La Corte dei Conti"],
 				correct: 1,
 				motivation: "L'ANAC svolge una funzione fondamentale di indirizzo attraverso delibere, pareri e determine che vanno a colmare criticità nell'applicazione dei contratti.",
-				category: "Autorità di vigilanza"
+				category: "Digitalizzazione degli appalti"
 			},
 			{
 				question: "Quale tutela offre un contratto ben definito e articolato?",
@@ -3300,7 +3300,7 @@
 				category: "Risoluzione del contratto"
 			},
 
-            // B01 - Responsabilità Contabile (aggiungo alcune domande)
+            // B01 - Responsabilità Contabile
             {
                 question: "Chi è considerato agente contabile secondo la normativa italiana?",
                 options: ["Solo il dipendente pubblico con contratto a tempo indeterminato", "Chiunque abbia il maneggio di denaro o beni pubblici, anche senza formale nomina", "Solo il tesoriere dell'ente", "Solo chi ha un rapporto di impiego con la PA"],
@@ -3687,7 +3687,7 @@
 				category: "Responsabilità Contabile"
 			},
 
-            // B02 - Responsabilità Amministrativa (aggiungo alcune domande)
+            // B02 - Responsabilità Amministrativa
             {
                 question: "Qual è la definizione più accreditata di responsabilità amministrativa?",
                 options: ["Responsabilità penale dei dipendenti pubblici", "Responsabilità patrimoniale a carattere personale per la tutela delle risorse pubbliche", "Responsabilità civile verso i terzi", "Responsabilità disciplinare interna"],
@@ -3728,42 +3728,42 @@
 				options: ["Art. 97 Cost.", "Art. 103 Cost.", "Art. 28 Cost.", "Art. 54 Cost."],
 				correct: 2,
 				motivation: "L'art. 28 della Costituzione stabilisce che 'i funzionari e i dipendenti dello Stato e degli enti pubblici sono direttamente responsabili, secondo le leggi penali, civili e amministrative, degli atti compiuti in violazione di diritti'. Questo articolo è fondamentale perché sancisce il principio di immedesimazione organica e la responsabilità solidale tra PA e dipendente.",
-				category: "Quadro normativo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Qual è la soglia minima di colpevolezza richiesta per la responsabilità amministrativa dopo la riforma del 1996?",
 				options: ["Colpa lieve", "Colpa lievissima", "Colpa grave o dolo", "Solo dolo"],
 				correct: 2,
 				motivation: "La Legge n. 639/1996 ha modificato l'art. 1 della Legge 20/1994, innalzando il requisito soggettivo minimo alla colpa grave. Prima della riforma era sufficiente la colpa lieve, regime considerato troppo severo e causa di 'burocrazia difensiva'.",
-				category: "Elemento soggettivo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Secondo l'art. 21 del D.L. 76/2020, cosa richiede la prova del dolo?",
 				options: ["La violazione intenzionale dei doveri d'ufficio", "La volontà dell'evento dannoso", "La negligenza intollerabile", "La consapevolezza dell'illiceità"],
 				correct: 1,
 				motivation: "L'art. 21, comma 1, del D.L. 76/2020 (disposizione permanente) stabilisce che 'la prova del dolo richiede la dimostrazione della volontà dell'evento dannoso', introducendo la nozione penalistica di dolo e superando il concetto di 'dolo contrattuale' precedentemente utilizzato dalla giurisprudenza contabile.",
-				category: "Elemento soggettivo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Fino a quando è prevista l'esimente temporanea che limita la responsabilità al solo dolo per le condotte commissive?",
 				options: ["30 giugno 2024", "31 dicembre 2024", "31 dicembre 2025", "Indeterminato"],
 				correct: 1,
 				motivation: "L'art. 21, comma 2, del D.L. 76/2020 ha introdotto una disposizione temporanea che limita la responsabilità al solo dolo per fatti dal 17/07/2020 al 31/12/2024, salvo per omissioni e inerzie. Dal 1° gennaio 2025, salvo proroghe, tornerà applicabile la colpa grave anche per le condotte commissive.",
-				category: "Termini e scadenze"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quali sono i DUE elementi costitutivi del rapporto di servizio secondo la giurisprudenza consolidata?",
 				options: ["Retribuzione pubblica e potere autoritativo", "Nomina formale e giuramento", "Attività per PA e inserimento funzionale nel procedimento", "Contratto scritto e subordinazione"],
 				correct: 2,
 				motivation: "Secondo Cass. SS.UU. n. 4060/1993 e n. 24002/2007, il rapporto di servizio sussiste quando coesistono due elementi: 1) lo svolgimento di attività a favore dell'Amministrazione, e 2) l'inserimento funzionale nel modulo procedimentale amministrativo. Non basta fare qualcosa 'per' la PA, bisogna essere inseriti 'dentro' il procedimento pubblico.",
-				category: "Rapporto di servizio"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Il progettista privato di un'opera pubblica è soggetto alla giurisdizione della Corte dei Conti?",
 				options: ["Sì, sempre", "No, secondo Cass. SS.UU. n. 340/2003", "Sì, ma solo se è anche direttore lavori", "Solo per opere sopra soglia comunitaria"],
 				correct: 1,
 				motivation: "Cass. SS.UU. n. 340/2003 ha stabilito che il progettista privato NON è soggetto alla giurisdizione contabile perché il rapporto è di natura meramente privatistica (contratto d'opera professionale), senza inserimento funzionale nell'organizzazione della PA. Il progetto deve essere fatto proprio dall'Amministrazione mediante approvazione.",
-				category: "Rapporto di servizio"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quale tipologia di danno richiede necessariamente una sentenza penale definitiva come condizione di procedibilità?",
@@ -3798,14 +3798,14 @@
 				options: ["3 anni", "5 anni", "7 anni", "10 anni"],
 				correct: 1,
 				motivation: "L'art. 1, comma 2, della Legge 20/1994 stabilisce che 'il diritto al risarcimento del danno si prescrive in ogni caso in cinque anni decorrenti dalla data in cui si è verificato il fatto dannoso'. Il termine decorre dall'evento lesivo, non dalla condotta.",
-				category: "Termini e scadenze"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Per i fatti commessi dopo il 7 ottobre 2016, qual è il termine massimo assoluto entro cui può essere esercitata l'azione di responsabilità?",
 				options: ["5 anni", "6 anni", "7 anni", "10 anni"],
 				correct: 2,
 				motivation: "Il D.Lgs. 174/2016 (Codice di giustizia contabile) ha introdotto un tetto massimo di 7 anni dall'evento dannoso, anche in caso di interruzione della prescrizione. La prescrizione può essere interrotta una sola volta, ma comunque non può superare i 7 anni. Questa regola garantisce maggiore certezza dei rapporti giuridici.",
-				category: "Termini e scadenze"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Secondo la concezione normativa della colpa grave, cosa rappresenta la colpevolezza?",
@@ -3840,42 +3840,42 @@
 				options: ["È trasmissibile agli eredi", "È solidale tra corresponsabili", "Non si trasmette agli eredi ed è parziaria", "Richiede sempre dolo"],
 				correct: 2,
 				motivation: "Il carattere personale della responsabilità amministrativa si manifesta in: 1) NON trasmissibilità agli eredi, 2) parziarietà (non solidarietà) tra corresponsabili, 3) graduabilità tramite potere riduttivo, 4) valutazione personalizzata della colpevolezza. La solidarietà è prevista solo in casi eccezionali tassativi (es. danno da tangente).",
-				category: "Concetti fondamentali"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quale sentenza della Cassazione ha esteso la giurisdizione contabile ai privati beneficiari di fondi pubblici?",
 				options: ["Cass. SS.UU. n. 500/1999", "Cass. SS.UU. n. 4511/2006", "Cass. SS.UU. n. 340/2003", "Cass. SS.UU. n. 581/2008"],
 				correct: 1,
 				motivation: "Cass. SS.UU. n. 4511/2006 è la sentenza 'capostipite' che ha segnato una svolta: il baricentro passa dalla qualità del soggetto alla natura del danno. Quando un privato riceve fondi pubblici finalizzati, viola il vincolo di scopo e causa un danno alle pubbliche finanze, sussiste la giurisdizione contabile anche senza formale inserimento in un procedimento amministrativo.",
-				category: "Rapporto di servizio"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Cosa si intende per 'occasionalità necessaria' rispetto alla causazione del danno?",
 				options: ["Il danno deve essere voluto", "La condotta deve essere espressamente prevista dalle mansioni", "L'esercizio delle funzioni deve essere stata 'condicio sine qua non' del fatto illecito", "Il danno deve verificarsi durante l'orario di lavoro"],
 				correct: 2,
 				motivation: "L'occasionalità necessaria significa che lo svolgimento delle funzioni deve essere stata 'condicio sine qua non' del fatto illecito, avendone grandemente agevolato la realizzazione in maniera decisiva. La giurisdizione si esclude solo quando il dipendente agisce come semplice privato per fini strettamente personali, senza alcun collegamento con il servizio.",
-				category: "Rapporto di servizio"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quale norma ha introdotto la prima tipizzazione legislativa della colpa grave?",
 				options: ["Legge 20/1994", "D.L. 76/2020", "D.Lgs. 36/2023", "Legge 639/1996"],
 				correct: 2,
 				motivation: "L'art. 2, comma 3, del D.Lgs. 36/2023 (nuovo Codice dei Contratti Pubblici) rappresenta la PRIMA volta che il legislatore 'scrive' cosa sia la colpa grave, definendola per le attività in materia di appalti. Prima esistevano solo definizioni giurisprudenziali.",
-				category: "Quadro normativo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "In presenza di dolo, il giudice può applicare il potere riduttivo?",
 				options: ["Sì, sempre", "Sì, ma solo se le condizioni economiche del convenuto lo richiedono", "No, secondo la giurisprudenza maggioritaria", "Sì, ma solo per il dolo eventuale"],
 				correct: 2,
 				motivation: "La giurisprudenza maggioritaria ritiene che in caso di dolo il giudice NON possa applicare il potere riduttivo previsto dall'art. 52 del Codice di Giustizia Contabile. Il dolo rappresenta la massima riprovevolezza: chi agisce volontariamente per danneggiare l'erario non merita attenuazioni.",
-				category: "Aspetti processuali"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quale articolo costituzionale fonda il dovere di adempiere le pubbliche funzioni 'con disciplina ed onore'?",
 				options: ["Art. 28 Cost.", "Art. 54 Cost.", "Art. 97 Cost.", "Art. 103 Cost."],
 				correct: 1,
 				motivation: "L'art. 54 della Costituzione stabilisce che 'i cittadini cui sono affidate funzioni pubbliche hanno il dovere di adempierle con disciplina ed onore'. Questo dovere di 'onore' è uno dei fondamenti del danno all'immagine e della dimensione etico-giuridica della responsabilità amministrativa.",
-				category: "Quadro normativo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Il giudizio contabile sul danno indiretto è vincolato alla sentenza che ha condannato la PA?",
@@ -3889,42 +3889,42 @@
 				options: ["Probabilità quantitativa-statistica", "Probabilità logica", "Probabilità presuntiva", "Probabilità assoluta"],
 				correct: 1,
 				motivation: "Cass. III Civ. n. 21619/2007 ha chiarito che rileva la PROBABILITÀ LOGICA, non quella quantitativa-statistica. La valutazione avviene caso per caso, sulla base delle circostanze concrete, delle prove disponibili e delle massime di esperienza, non su dati statistici di frequenza.",
-				category: "Nesso causale"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Da quando decorre il termine di prescrizione quinquennale?",
 				options: ["Dalla condotta illecita", "Dal fatto dannoso (evento lesivo)", "Dalla scoperta del danno", "Dalla denuncia alla Procura"],
 				correct: 1,
 				motivation: "L'art. 1, comma 2, della Legge 20/1994 stabilisce che il termine decorre 'dalla data in cui si è verificato il fatto dannoso'. Per fatto dannoso si intende l'evento lesivo, non la condotta. Esempio: se l'autorizzazione è del 2018 ma il pagamento del 2020, il termine decorre dal 2020.",
-				category: "Termini e scadenze"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quale norma ha previsto l'esimente per i decreti di cessazione anticipata delle concessioni autostradali vistati dalla Corte dei Conti?",
 				options: ["D.L. 76/2020", "D.L. 32/2019", "D.Lgs. 36/2023", "Legge 190/2012"],
 				correct: 1,
 				motivation: "L'art. 4, comma 12-ter, del D.L. 32/2019 (conv. L. 55/2019) esclude ogni responsabilità (anche la condotta antigiuridica) per decreti di cessazione anticipata di concessioni autostradali vistati dalla Corte dei Conti, per ogni profilo. È uno 'scudo' totale di immunità decisionale per questa materia specifica.",
-				category: "Quadro normativo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Le carenze organizzative dell'Amministrazione possono rilevare sulla responsabilità del dipendente?",
 				options: ["No, mai", "Sì, possono escludere o attenuare la colpa grave", "Sì, ma solo per i dirigenti", "Solo se documentate per iscritto"],
 				correct: 1,
 				motivation: "La giurisprudenza riconosce che carenze organizzative gravi, diffuse e preesistenti possono: 1) escludere la colpa grave del singolo, 2) attenuare la responsabilità (potere riduttivo), 3) configurare concorso di colpa dell'Ente. Si parla di 'rischio di impresa' che grava sull'Amministrazione mal organizzata.",
-				category: "Elemento soggettivo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quando è entrato in vigore il Codice di Giustizia Contabile (D.Lgs. 174/2016)?",
 				options: ["1 gennaio 2016", "7 ottobre 2016", "1 gennaio 2017", "7 ottobre 2017"],
 				correct: 1,
 				motivation: "Il D.Lgs. 174/2016 è entrato in vigore il 7 ottobre 2016, abrogando il precedente R.D. 1038/1933. Ha introdotto maggiori garanzie difensive, parentesi giurisdizionali in fase istruttoria, riti speciali e il nuovo regime di prescrizione (max 7 anni con interruzione una sola volta).",
-				category: "Quadro normativo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Qual è la funzione principale della responsabilità amministrativa secondo il Consigliere Parisi?",
 				options: ["Sanzionatoria", "Prevalentemente risarcitoria", "Punitiva", "Deterrente"],
 				correct: 1,
 				motivation: "Nonostante la Corte Costituzionale (sent. 371 e 453/1998) abbia riconosciuto che la riforma ha accentuato i profili sanzionatori, la funzione principale resta RISARCITORIA: l'obiettivo è riparare il danno causato all'erario, ripristinare l'equilibrio patrimoniale, non principalmente 'punire' il colpevole.",
-				category: "Concetti fondamentali"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Le Sezioni Unite della Cassazione con quale sentenza hanno riconosciuto la risarcibilità dell'interesse legittimo?",
@@ -3938,35 +3938,35 @@
 				options: ["Sono sinonimi", "Il primo è la lesione dell'interesse, il secondo l'effetto economico", "Il primo è patrimoniale, il secondo no", "Il primo riguarda i terzi, il secondo la PA"],
 				correct: 1,
 				motivation: "La distinzione tradizionale nel nesso causale: il DANNO-EVENTO è la lesione dell'interesse tutelato (art. 2043 c.c., causalità materiale), il DANNO-CONSEGUENZA è l'effetto economico negativo risarcibile (art. 1223 c.c., causalità giuridica). Si valutano in due momenti distinti del rapporto di causalità.",
-				category: "Nesso causale"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Per i fatti commessi prima del 17 luglio 2020, quale concezione di dolo può ancora essere invocata?",
 				options: ["Solo dolo penalistico", "Dolo contrattuale o in adimplendo", "Dolo d'impeto", "Dolo specifico"],
 				correct: 1,
 				motivation: "Per i fatti anteriori al 17/07/2020 (entrata in vigore art. 21 DL 76/2020) può ancora essere invocato il DOLO CONTRATTUALE o IN ADIMPLENDO, che richiedeva solo la violazione intenzionale dei doveri d'ufficio, non la volontà dell'evento dannoso. L'art. 21 ha natura sostanziale quindi non è retroattivo.",
-				category: "Elemento soggettivo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Il direttore dei lavori privato è soggetto alla giurisdizione della Corte dei Conti?",
 				options: ["No, mai", "Solo se è anche progettista", "Sì, perché ha un rapporto di servizio", "Solo per opere pubbliche sopra soglia"],
 				correct: 2,
 				motivation: "Il DIRETTORE DEI LAVORI è soggetto alla giurisdizione contabile perché svolge funzioni di vigilanza, controllo e coordinamento, esercita poteri pubblicistici ed è il 'braccio' dell'Amministrazione sul cantiere. C'è inserimento funzionale nel procedimento amministrativo, a differenza del progettista privato.",
-				category: "Rapporto di servizio"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quale sentenza della Corte Costituzionale ha dichiarato legittima l'esimente temporanea del D.L. 76/2020?",
 				options: ["Sent. 371/1998", "Sent. 355/2010", "Sent. 132/2024", "Sent. 453/1998"],
 				correct: 2,
 				motivation: "La Corte Costituzionale con la sentenza n. 132/2024 ha dichiarato infondate/inammissibili le questioni di legittimità costituzionale dell'art. 21, c. 2, evidenziando il concetto di 'amministrazione di risultato', la necessità di contrastare la 'paura della firma' e auspicando una riforma organica della responsabilità amministrativa.",
-				category: "Quadro normativo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quante volte può essere interrotta la prescrizione per i fatti commessi dopo il 7 ottobre 2016?",
 				options: ["Infinite volte", "Una sola volta", "Due volte", "Tre volte"],
 				correct: 1,
 				motivation: "Il Codice di Giustizia Contabile (D.Lgs. 174/2016) ha introdotto un limite: per i fatti successivi al 7 ottobre 2016, la prescrizione può essere interrotta UNA SOLA VOLTA e comunque il termine massimo non può superare i 7 anni dall'evento dannoso. Questo garantisce maggiore certezza dei rapporti giuridici.",
-				category: "Termini e scadenze"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quale norma prevede la rivalsa obbligatoria della PA nei confronti del dipendente che ha causato danno a terzi?",
@@ -3980,14 +3980,14 @@
 				options: ["Solo sulle condizioni economiche del convenuto", "Solo sulla gravità del comportamento", "Gravità, responsabilità concorrenti, condizioni economiche, entità conseguenze", "Solo sull'entità del danno"],
 				correct: 2,
 				motivation: "L'art. 52 CGC (già art. 1, c. 1-bis, L. 20/1994) prevede che il giudice consideri: 1) gravità del comportamento, 2) responsabilità concorrenti (altri corresponsabili, carenze organizzative), 3) condizioni economiche del convenuto, 4) entità delle conseguenze dannose. È una facoltà discrezionale, non applicabile in caso di dolo.",
-				category: "Aspetti processuali"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "I Parlamentari possono essere sottoposti alla giurisdizione della Corte dei Conti?",
 				options: ["No, mai per immunità assoluta", "Sì, ma solo per atti estranei alle funzioni parlamentari", "Sì, sempre", "Solo con autorizzazione della Camera"],
 				correct: 1,
 				motivation: "Secondo Cass. SS.UU. n. 4582/2006, i Deputati possono essere sottoposti alla giurisdizione contabile, ma l'immunità ex art. 68 Cost. copre le opinioni espresse e i voti dati nell'esercizio delle funzioni. Se il comportamento illecito è estraneo alle funzioni parlamentari, non c'è copertura costituzionale e sussiste la giurisdizione.",
-				category: "Rapporto di servizio"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quale principio costituzionale fonda il danno da disservizio?",
@@ -4001,7 +4001,7 @@
 				options: ["Responsabilità per colpa grave", "Responsabilità solo per dolo", "Esenzione totale da responsabilità", "Responsabilità aggravata"],
 				correct: 1,
 				motivation: "Gli artt. 10-quater e 10-quinquies del D.Lgs. 219/2023 (Statuto del contribuente) prevedono che i funzionari dell'Agenzia delle Entrate che adottano provvedimenti di autotutela obbligatoria o facoltativa rispondono SOLO per DOLO, escludendo quindi la colpa grave. È una scriminante settoriale.",
-				category: "Quadro normativo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "La sentenza di patteggiamento integra la condizione di procedibilità per il danno all'immagine?",
@@ -4015,21 +4015,21 @@
 				options: ["Violazione di qualsiasi norma", "Negligenza intollerabile, trascuratezza imperdonabile", "Errore tecnico", "Violazione colposa"],
 				correct: 1,
 				motivation: "La giurisprudenza consolidata (Cass. SS.UU. n. 43/1996, SR Corte Conti n. 56/1997) definisce la colpa grave come: NEGLIGENZA INTOLLERABILE, TRASCURATEZZA IMPERDONABILE, SUPERFICIALITÀ INESCUSABILE. È l'inosservanza della diligenza minimale che anche l'agente meno preparato avrebbe dovuto usare.",
-				category: "Elemento soggettivo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Gli amministratori di società beneficiarie di fondi pubblici possono essere chiamati a rispondere davanti alla Corte dei Conti?",
 				options: ["No, solo la società", "Sì, se hanno distratto i fondi", "Solo se dipendenti pubblici", "Mai, solo giudice ordinario"],
 				correct: 1,
 				motivation: "Cass. SS.UU. n. 5019/2010 ha stabilito che anche gli AMMINISTRATORI della società beneficiaria rispondono personalmente se hanno distratto i fondi pubblici, frustrando gli scopi perseguiti dalla PA. Il dato fondante è la distrazione dei fondi, quindi ne rispondono sia la società che le persone fisiche che li hanno materialmente distratti.",
-				category: "Rapporto di servizio"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Quale norma mantiene ferma la disciplina della responsabilità anche dopo la contrattualizzazione del pubblico impiego?",
 				options: ["Art. 28 Cost.", "Art. 55 D.Lgs. 165/2001", "Art. 1 L. 20/1994", "Art. 97 Cost."],
 				correct: 1,
 				motivation: "L'art. 55 del D.Lgs. 165/2001 stabilisce espressamente che le previsioni del D.P.R. 3/1957 in tema di responsabilità patrimoniale dei pubblici dipendenti sono state mantenute ferme anche dopo la contrattualizzazione del rapporto di lavoro. La 'privatizzazione' non ha toccato la responsabilità amministrativa.",
-				category: "Quadro normativo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Il danno all'immagine può essere contestato indipendentemente dal danno patrimoniale?",
@@ -4050,39 +4050,31 @@
 				options: ["Valutazione astratta ed ex post", "Valutazione in concreto ed ex ante", "Valutazione oggettiva", "Valutazione solo ex post"],
 				correct: 1,
 				motivation: "La valutazione della colpa grave deve essere condotta 'IN CONCRETO' (considerando quel dipendente specifico, con le sue capacità e le circostanze concrete) ed 'EX ANTE' (ponendosi al momento della condotta, con le conoscenze disponibili allora, non con il senno di poi). Questo realizza la personalizzazione della responsabilità.",
-				category: "Elemento soggettivo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "I Gruppi consiliari regionali sono soggetti alla giurisdizione della Corte dei Conti per la gestione dei contributi?",
 				options: ["No, hanno natura privata", "Sì, secondo Cass. SS.UU. n. 23257/2014", "Solo su autorizzazione del Consiglio", "Solo per importi sopra 100.000 euro"],
 				correct: 1,
 				motivation: "Cass. SS.UU. n. 23257/2014 ha affermato la giurisdizione contabile sui Presidenti dei Gruppi consiliari per gestione contributi. I Gruppi hanno natura 'bivalente' (privata per attività partitica, pubblica per funzione consiliare). Sono organi del Consiglio e i contributi sono fondi pubblici da gestire correttamente.",
-				category: "Rapporto di servizio"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Secondo la Corte Costituzionale (sent. 132/2024), quali sono le prospettive di riforma auspicate?",
 				options: ["Abolizione della responsabilità", "Solo aumento termini prescrizione", "Tipizzazione colpa grave, tetti, esoneri, polizze, potere riduttivo obbligatorio", "Solo riduzione dell'elemento soggettivo"],
 				correct: 2,
 				motivation: "La Corte Cost. sent. 132/2024 auspica una riforma organica su: 1) tipizzazione della colpa grave, 2) tetto massimo di condanna, 3) esoneri per categorie/atti specifici, 4) incentivazione polizze assicurative, 5) potere riduttivo obbligatorio in casi tipizzati. Sottolinea la necessità di bilanciare tutela erario e serenità decisionale.",
-				category: "Quadro normativo"
+                category: "Responsabilità Amministrativa"
 			},
 			{
 				question: "Per quale periodo è applicabile l'esimente temporanea dell'art. 21, comma 2, D.L. 76/2020?",
 				options: ["Dal 1/1/2020 al 31/12/2023", "Dal 17/7/2020 al 31/12/2024", "Dal 1/1/2021 al 31/12/2025", "Periodo indeterminato"],
 				correct: 1,
 				motivation: "L'esimente temporanea che limita la responsabilità al solo dolo (salvo omissioni/inerzie) si applica ai fatti commessi nel periodo DAL 17 LUGLIO 2020 (entrata vigore DL 76/2020) AL 31 DICEMBRE 2024 (termine così prorogato dal DL 215/2023 conv. L. 18/2024). Dal 1° gennaio 2025, salvo nuove proroghe, tornerà la colpa grave.",
-				category: "Termini e scadenze"
+                category: "Responsabilità Amministrativa"
 			},
 
-
-
-
-
-
-
-
-
-            // B03 - Funzione Consultiva (aggiungo alcune domande)
+            // B03 - Funzione Consultiva
             {
                 question: "La funzione consultiva della Corte dei conti trova fondamento:",
                 options: ["Solo nella Costituzione", "In norme ordinarie e non nella Costituzione", "Solo in regolamenti interni", "Unicamente in prassi amministrative"],
@@ -4123,84 +4115,84 @@
 				options: ["Art. 100 Cost.", "Art. 103 Cost.", "La funzione consultiva non è menzionata in Costituzione", "Art. 81 Cost."],
 				correct: 2,
 				motivation: "La funzione consultiva, a differenza delle funzioni di controllo e giurisdizionali, non trova un esplicito riferimento nella Costituzione. È disciplinata da norme di legge ordinaria.",
-				category: "Fondamenti normativi"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Qual è il fondamento normativo generale della funzione consultiva della Corte dei conti?",
 				options: ["Art. 7, comma 8, legge n. 131/2003", "Art. 13, R.D. n. 1214/1934", "Art. 5, d.lgs. n. 175/2016", "Art. 69, d.lgs. n. 174/2016"],
 				correct: 1,
 				motivation: "L'art. 13 del Testo unico delle leggi sulla Corte dei conti del 1934 rappresenta il fondamento generale, stabilendo che la Corte formula proposte e pareri nella formazione di atti e provvedimenti amministrativi indicati dalla legge.",
-				category: "Fondamenti normativi"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Quale norma prevede il parere obbligatorio delle Sezioni riunite sui provvedimenti che modificano le attribuzioni della Corte dei conti?",
 				options: ["R.D. n. 1214/1934", "Legge n. 131/2003", "R.D. n. 273/1939", "D.lgs. n. 174/2016"],
 				correct: 2,
 				motivation: "L'art. 1 del R.D. n. 273/1939 prevede che i provvedimenti che conferiscono nuove attribuzioni alla Corte o modificano quelle esistenti siano adottati previo parere delle Sezioni riunite.",
-				category: "Fondamenti normativi"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "L'art. 7, comma 8, della legge n. 131/2003 consente di richiedere pareri in quale materia?",
 				options: ["Diritto del lavoro pubblico", "Contratti pubblici", "Contabilità pubblica", "Procedimento amministrativo"],
 				correct: 2,
 				motivation: "La norma circoscrive espressamente la competenza consultiva delle Sezioni regionali di controllo alla 'materia della contabilità pubblica'.",
-				category: "Ambito oggettivo"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Secondo la delibera n. 5/2004 delle Sezioni riunite, cosa si intende per contabilità pubblica?",
 				options: ["Solo le norme sul bilancio degli enti pubblici", "Il complesso di principi e norme che regolano l'attività finanziaria e patrimoniale degli enti pubblici", "Esclusivamente le procedure contabili", "Le norme sulla tesoreria"],
 				correct: 1,
 				motivation: "Le Sezioni riunite hanno definito la contabilità pubblica come 'il complesso di principi e di norme che regolano l'attività finanziaria e patrimoniale dello Stato e degli enti pubblici'.",
-				category: "Ambito oggettivo"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Chi può richiedere un parere alle Sezioni regionali di controllo secondo la legge n. 131/2003?",
 				options: ["Solo le Regioni", "Regioni, Comuni, Province e Città metropolitane", "Tutte le amministrazioni pubbliche", "Solo i Comuni capoluogo"],
 				correct: 1,
 				motivation: "L'art. 7, comma 8, della legge n. 131/2003 prevede espressamente che Regioni, Comuni, Province e Città metropolitane possano richiedere pareri in materia di contabilità pubblica.",
-				category: "Legittimazione soggettiva"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Un'Unione di comuni può richiedere un parere alla Corte dei conti?",
 				options: ["No, mai", "Sì, su qualsiasi materia", "Sì, ma solo sulle funzioni esercitate dall'Unione stessa", "Sì, ma solo tramite i singoli Comuni"],
 				correct: 2,
 				motivation: "La delibera n. 1/SEZAUT/2021/QMIG ha stabilito che l'Unione di comuni è legittimata limitatamente a questioni inerenti alle funzioni esercitate dall'Unione stessa.",
-				category: "Legittimazione soggettiva"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Una società a totale capitale pubblico locale può richiedere un parere alla Corte dei conti?",
 				options: ["Sì, sempre", "Sì, se controllata da un Comune", "No, non è legittimata", "Sì, ma solo tramite l'ente controllante"],
 				correct: 2,
 				motivation: "La giurisprudenza esclude la legittimazione delle società a capitale pubblico, anche se interamente pubbliche, in quanto l'elenco dei soggetti legittimati è sostanzialmente tassativo.",
-				category: "Legittimazione soggettiva"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Chi deve firmare la richiesta di parere per un Comune?",
 				options: ["Il Segretario comunale", "La Giunta comunale", "Il Sindaco", "Il Consiglio comunale"],
 				correct: 2,
 				motivation: "La richiesta deve provenire dall'organo di rappresentanza dell'ente. Per i Comuni, l'organo competente è il Sindaco.",
-				category: "Legittimazione soggettiva"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Il Vicesindaco può richiedere un parere alla Corte dei conti?",
 				options: ["Sì, sempre", "No, mai", "Sì, ma solo in caso di impedimento permanente, decadenza o decesso del Sindaco", "Sì, se delegato dal Sindaco"],
 				correct: 2,
 				motivation: "La delibera n. 11/SEZAUT/2020/QMIG ha stabilito che il Vicesindaco è legittimato solo nelle circostanze di cui all'art. 53 del TUEL che giustificano l'esercizio delle funzioni vicarie.",
-				category: "Legittimazione soggettiva"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Il Commissario straordinario prefettizio può richiedere pareri alla Corte dei conti?",
 				options: ["No, non ha questa competenza", "Sì, sostituisce l'organo politico e può rappresentare l'ente", "Sì, ma solo per questioni urgenti", "No, deve attendere la ricostituzione degli organi"],
 				correct: 1,
 				motivation: "È pacifica la legittimazione del commissario straordinario che, in caso di scioglimento degli organi, sostituisce l'organo politico e assume la rappresentanza dell'ente.",
-				category: "Legittimazione soggettiva"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Una Camera di Commercio può richiedere un parere alla Corte dei conti?",
 				options: ["Sì, è un ente pubblico", "No, non rientra tra i soggetti legittimati", "Sì, ma solo tramite la Regione", "Sì, se autorizzata dal Ministero"],
 				correct: 1,
 				motivation: "Le Camere di Commercio non rientrano nell'elenco tassativo dei soggetti legittimati dalla legge n. 131/2003. Le richieste da esse provenienti sono state respinte per inammissibilità.",
-				category: "Legittimazione soggettiva"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Gli organismi rappresentativi degli enti locali (come l'ANCI) possono richiedere pareri alla Corte dei conti?",
@@ -4214,49 +4206,49 @@
 				options: ["Il Consiglio regionale", "Solo il Presidente della Regione", "La Conferenza delle Regioni e la Conferenza dei Presidenti delle Assemblee legislative", "La Giunta regionale"],
 				correct: 2,
 				motivation: "L'art. 6-bis prevede che per le Regioni possano richiedere pareri direttamente alla Sezione delle autonomie la Conferenza delle Regioni, la Conferenza dei Presidenti delle Assemblee legislative e le rispettive componenti nella Conferenza unificata.",
-				category: "Legittimazione soggettiva"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Rientrano nella materia della contabilità pubblica le questioni relative ai contratti collettivi di lavoro?",
 				options: ["Sì, sempre", "Sì, se hanno impatto sulla spesa", "No, sono generalmente escluse", "Sì, ma solo per il personale dirigenziale"],
 				correct: 2,
 				motivation: "La delibera n. 5/2019/QMIG ha escluso le questioni inerenti ai contratti collettivi e al rapporto di lavoro, salvo che riguardino l'interpretazione di norme della finanza pubblica che pongono limiti strumentali al contenimento della spesa.",
-				category: "Ambito oggettivo"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Quale delle seguenti questioni rientra nella materia della contabilità pubblica?",
 				options: ["Interpretazione del CCNL del personale", "Gestione degli equilibri di bilancio", "Procedure di concorso pubblico", "Organizzazione degli uffici"],
 				correct: 1,
 				motivation: "I bilanci e i relativi equilibri rientrano espressamente nell'ambito della contabilità pubblica secondo gli orientamenti della Sezione delle autonomie.",
-				category: "Ambito oggettivo"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "È ammissibile una richiesta di parere su un atto già adottato?",
 				options: ["Sì, per verificarne la legittimità", "No, il parere deve essere preventivo", "Sì, se l'atto non è ancora esecutivo", "Sì, ma solo entro 30 giorni dall'adozione"],
 				correct: 1,
 				motivation: "La funzione consultiva ha natura preventiva. Non è ammissibile l'esercizio della funzione consultiva su atti già adottati.",
-				category: "Requisiti di ammissibilità"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "È ammissibile una richiesta di parere su un caso gestionale specifico?",
 				options: ["Sì, è l'oggetto principale della funzione consultiva", "No, la questione deve avere rilevanza generale", "Sì, se di valore superiore a 1 milione di euro", "Sì, ma solo per gli enti sopra i 5.000 abitanti"],
 				correct: 1,
 				motivation: "La giurisprudenza richiede che la questione abbia rilevanza generale. Non sono scrutinabili richieste concernenti valutazioni su casi o atti gestionali specifici.",
-				category: "Requisiti di ammissibilità"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Una Sezione regionale di controllo può sollevare questioni di legittimità costituzionale in sede consultiva?",
 				options: ["Sì, come qualsiasi giudice", "No, non esercita funzioni giurisdizionali in senso proprio", "Sì, ma solo se rimette alla Sezione delle autonomie", "Sì, ma solo su richiesta dell'ente"],
 				correct: 1,
 				motivation: "In sede consultiva le Sezioni regionali non possono sollevare questioni di legittimità costituzionale, non esercitando funzioni giurisdizionali in senso proprio.",
-				category: "Procedimento"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Cosa accade se una richiesta di parere contiene più quesiti, solo alcuni ammissibili?",
 				options: ["Tutta la richiesta è dichiarata inammissibile", "Si risponde solo ai quesiti ammissibili (inammissibilità parziale)", "Si chiede all'ente di riformulare la richiesta", "Si risponde comunque a tutti i quesiti"],
 				correct: 1,
 				motivation: "È frequente l'inammissibilità parziale della richiesta: la Sezione dichiara inammissibili i quesiti che non hanno i requisiti e risponde nel merito solo a quelli ammissibili.",
-				category: "Procedimento"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Quando una Sezione regionale può rimettere una questione alla Sezione delle autonomie?",
@@ -4277,21 +4269,21 @@
 				options: ["I pareri sono sempre vincolanti", "Il PM deve archiviare in assenza di colpa grave quando l'azione si è conformata al parere", "I pareri hanno valore solo orientativo", "L'ente deve sempre richiedere un parere prima di ogni atto"],
 				correct: 1,
 				motivation: "L'art. 69, comma 2, del d.lgs. n. 174/2016 impone al PM l'archiviazione in assenza di colpa grave quando l'azione amministrativa si è conformata a parere della Corte nel rispetto dei presupposti generali.",
-				category: "Effetti sulla responsabilità"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Un dirigente che adotta un atto conforme a un parere della Corte dei conti è protetto dalla responsabilità amministrativa?",
 				options: ["No, risponde sempre delle sue scelte", "Sì, è sempre esente da responsabilità", "È esclusa la gravità della colpa se rispettati i presupposti", "Solo se il parere è delle Sezioni riunite"],
 				correct: 2,
 				motivation: "La conformità al parere comporta l'esclusione della gravità della colpa, requisito necessario per la responsabilità amministrativa, purché siano rispettati i presupposti generali per il rilascio del parere.",
-				category: "Effetti sulla responsabilità"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "L'art. 95, comma 4, del Codice di giustizia contabile prevede che il giudice:",
 				options: ["Deve sempre conformarsi ai pareri della Corte", "Può ignorare i pareri resi in via consultiva", "Deve considerare i pareri nella valutazione della responsabilità", "Può richiedere nuovi pareri durante il giudizio"],
 				correct: 2,
 				motivation: "L'art. 95, comma 4, prevede che il giudice deve considerare, tra gli elementi di valutazione della responsabilità, anche i pareri resi dalla Corte in via consultiva.",
-				category: "Effetti sulla responsabilità"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Qual è il termine entro cui la Sezione regionale deve deliberare sul parere ex art. 5 TUSP?",
@@ -4326,28 +4318,28 @@
 				options: ["Superiore a 500.000 euro", "Non inferiore a 1 milione di euro", "Superiore a 5 milioni di euro", "Senza limiti di valore"],
 				correct: 1,
 				motivation: "La norma prevede pareri delle Sezioni riunite su fattispecie relative al PNRR e fondi complementari di valore complessivo non inferiore a un milione di euro.",
-				category: "PNRR"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Chi può richiedere pareri in ambito PNRR alle Sezioni riunite?",
 				options: ["Solo gli enti locali", "Solo le Regioni", "Amministrazioni centrali e organismi di diritto pubblico nazionali", "Tutti gli enti pubblici"],
 				correct: 2,
 				motivation: "L'art. 7, comma 1-bis, del d.l. n. 77/2021 prevede che le richieste alle Sezioni riunite provengano da amministrazioni centrali e altri organismi di diritto pubblico nazionali.",
-				category: "PNRR"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Per gli enti locali, i pareri PNRR sono resi da:",
 				options: ["Sezioni riunite", "Sezioni regionali di controllo", "Sezione delle autonomie", "Sezione centrale di legittimità"],
 				correct: 1,
 				motivation: "La stessa norma prevede che i Comuni, Province, Città metropolitane e Regioni richiedano pareri sulle risorse PNRR alle Sezioni regionali di controllo.",
-				category: "PNRR"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "La norma sui pareri PNRR (art. 7, comma 1-bis, d.l. n. 77/2021) ha avuto significative applicazioni pratiche?",
 				options: ["Sì, moltissime", "Sì, alcune decine", "Non risultano ancora significative applicazioni", "Solo per le grandi opere"],
 				correct: 2,
 				motivation: "Come evidenziato nella lezione, nonostante l'ambito applicativo estremamente ampio, non risultano ancora significative applicazioni pratiche di questa norma.",
-				category: "PNRR"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Il progetto di legge C. n. 1621 (Progetto Foti) propone:",
@@ -4361,143 +4353,143 @@
 				options: ["Le Sezioni riunite", "La Sezione delle autonomie", "La Sezione centrale di legittimità", "La Sezione di controllo sulla gestione"],
 				correct: 2,
 				motivation: "Il progetto prevede stranamente che i pareri siano resi dalla Sezione centrale per il controllo di legittimità, che attualmente svolge funzioni di controllo preventivo.",
-				category: "Progetti di riforma"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Cosa prevede il progetto di legge C. n. 1621 se la Corte non rende il parere entro 30 giorni?",
 				options: ["La richiesta decade", "Si forma un silenzio-assenso conforme a quanto prospettato", "Si proroga automaticamente di altri 30 giorni", "L'ente può procedere liberamente"],
 				correct: 1,
 				motivation: "Il progetto prevede un meccanismo di silenzio-assenso: il parere si intende reso in senso conforme a quanto prospettato dall'amministrazione (o negativo se non prospettata soluzione).",
-				category: "Progetti di riforma"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Le Sezioni riunite con la delibera n. 3/2024 sul progetto Foti hanno espresso:",
 				options: ["Pieno consenso", "Numerose criticità e perplessità", "Solo osservazioni formali", "Parere favorevole con riserve minori"],
 				correct: 1,
 				motivation: "Le Sezioni riunite hanno evidenziato numerose criticità, tra cui sovrapposizione di funzioni, snaturamento della funzione consultiva, problemi di sostenibilità del sistema.",
-				category: "Progetti di riforma"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Una delle principali criticità del progetto Foti evidenziate dalla Corte riguarda:",
 				options: ["L'aumento dei costi", "La riduzione del personale", "L'apertura ai pareri su fattispecie concrete e casi gestionali specifici", "L'abolizione dei controlli"],
 				correct: 2,
 				motivation: "La Corte ha evidenziato che l'apertura ai pareri su fattispecie concrete rappresenta un significativo snaturamento della funzione consultiva e rischia di coinvolgere la Corte nell'amministrazione attiva.",
-				category: "Progetti di riforma"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Il meccanismo del silenzio-assenso proposto dal progetto Foti è stato criticato perché:",
 				options: ["È troppo rigido", "Un parere dovrebbe essere frutto di analisi, non il risultato automatico del decorso di un termine", "Favorisce solo gli enti grandi", "È già previsto da altre norme"],
 				correct: 1,
 				motivation: "La Corte ha evidenziato problemi di coerenza sistematica: un parere dovrebbe essere il frutto di un'attività di analisi e valutazione, non il risultato automatico del decorso di un termine.",
-				category: "Progetti di riforma"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Secondo il progetto Foti, chi potrebbe richiedere pareri oltre agli enti territoriali?",
 				options: ["Solo le Regioni a statuto speciale", "Anche le amministrazioni centrali e organismi di diritto pubblico", "Solo le società partecipate", "Nessun altro soggetto"],
 				correct: 1,
 				motivation: "Il progetto propone un'estensione significativa, consentendo anche alle amministrazioni centrali e agli organismi di diritto pubblico di richiedere pareri.",
-				category: "Progetti di riforma"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Quale delle seguenti delibere ha definito la nozione di contabilità pubblica?",
 				options: ["Delibera n. 1/SEZAUT/2021/QMIG", "Delibera n. 5/2004 delle Sezioni riunite", "Delibera n. 3/2024/CONS", "Delibera n. 16/SSRRCO/QMIG/2022"],
 				correct: 1,
 				motivation: "La delibera n. 5/2004 delle Sezioni riunite ha fornito la definizione di contabilità pubblica come 'complesso di principi e norme che regolano l'attività finanziaria e patrimoniale degli enti pubblici'.",
-				category: "Giurisprudenza"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "La delibera n. 1/SEZAUT/2021/QMIG ha riguardato:",
 				options: ["La legittimazione delle Unioni di comuni", "I pareri PNRR", "Le società partecipate", "Il disavanzo di amministrazione"],
 				correct: 0,
 				motivation: "La delibera n. 1/SEZAUT/2021/QMIG ha stabilito che l'Unione di comuni è legittimata a richiedere pareri limitatamente alle funzioni da essa esercitate.",
-				category: "Giurisprudenza"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "La delibera n. 11/SEZAUT/2020/QMIG ha trattato:",
 				options: ["L'indennità dei Sindaci", "La legittimazione del Vicesindaco", "I mutui degli enti locali", "Le assunzioni di personale"],
 				correct: 1,
 				motivation: "La delibera ha stabilito i requisiti per l'ammissibilità delle richieste di parere inoltrate dal Vicesindaco (impedimento permanente, decadenza o decesso del Sindaco).",
-				category: "Giurisprudenza"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Quale delibera ha trattato il tema dei divieti assunzionali per enti dissestati?",
 				options: ["Delibera n. 14/SEZAUT/2022/QMIG", "Delibera n. 4/SEZAUT/2022/QMIG", "Delibera n. 9/SEZAUT/2023/QMIG", "Delibera n. 15/SEZAUT/2024/QMIG"],
 				correct: 1,
 				motivation: "La delibera n. 4/SEZAUT/2022/QMIG ha affrontato il tema dell'applicazione dei divieti assunzionali per gli enti dissestati, deficitari e in riequilibrio finanziario pluriennale.",
-				category: "Giurisprudenza"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "La delibera n. 9/SEZAUT/2023/QMIG ha riguardato:",
 				options: ["Le società partecipate", "Il ripiano del disavanzo di amministrazione", "Le indennità di funzione", "I mutui bancari"],
 				correct: 1,
 				motivation: "La delibera n. 9/SEZAUT/2023/QMIG ha trattato le modalità di ripiano del disavanzo di amministrazione, questione rilevante per la gestione degli equilibri di bilancio.",
-				category: "Giurisprudenza"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Quale delibera ha affrontato la disciplina delle indennità dei Sindaci metropolitani?",
 				options: ["Delibera n. 17/SEZAUT/2023/QMIG", "Delibera n. 11/SEZAUT/2023/QMIG", "Delibera n. 14/SEZAUT/2022/QMIG", "Delibera n. 4/2014/SEZAUT"],
 				correct: 1,
 				motivation: "La delibera n. 11/SEZAUT/2023/QMIG ha trattato la disciplina delle indennità di funzione dei Sindaci metropolitani e dei Comuni delle regioni a statuto ordinario.",
-				category: "Giurisprudenza"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Quale di queste materie NON rientra nell'ambito della contabilità pubblica secondo la giurisprudenza?",
 				options: ["Equilibri di bilancio", "Gestione del patrimonio", "Procedure di concorso senza limiti di spesa", "Indebitamento"],
 				correct: 2,
 				motivation: "Le procedure concorsuali in sé non rientrano nella contabilità pubblica, salvo che la questione riguardi l'interpretazione di norme della finanza pubblica che pongono limiti di spesa.",
-				category: "Ambito oggettivo"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Il Consiglio delle autonomie locali (CAL) è:",
 				options: ["Un organo obbligatorio in tutte le Regioni", "Un organo previsto dall'art. 123 Cost., se istituito a livello regionale", "Un organo statale", "Un organismo dell'ANCI"],
 				correct: 1,
 				motivation: "Il CAL è previsto dall'art. 123 della Costituzione come organo regionale. Se istituito, le richieste degli enti locali dovrebbero transitare di norma attraverso di esso.",
-				category: "Normativa"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Secondo l'art. 123 della Costituzione, il CAL è:",
 				options: ["Obbligatorio", "Facoltativo per le Regioni", "Previsto solo per le Regioni a statuto speciale", "Un organo dello Stato"],
 				correct: 1,
 				motivation: "L'art. 123 Cost. prevede che lo Statuto regionale possa istituire il Consiglio delle autonomie locali, ma non ne impone l'obbligatorietà.",
-				category: "Normativa"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Un privato cittadino può richiedere un parere alla Corte dei conti?",
 				options: ["Sì, su questioni che lo riguardano", "Sì, se paga le spese", "No, non è legittimato", "Sì, ma solo tramite un avvocato"],
 				correct: 2,
 				motivation: "I privati cittadini non sono tra i soggetti legittimati. L'elenco è sostanzialmente tassativo e comprende solo enti pubblici territoriali e loro organismi rappresentativi.",
-				category: "Legittimazione soggettiva"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Una richiesta di parere può riguardare questioni all'esame della Procura contabile?",
 				options: ["Sì, anzi è consigliabile", "No, sono inammissibili", "Sì, se autorizzate dal Procuratore", "Solo se non c'è ancora l'invito a dedurre"],
 				correct: 1,
 				motivation: "Non sono ammissibili richieste su questioni all'esame della Procura contabile che implichino valutazioni di comportamenti amministrativi rilevanti per iniziative giudiziarie.",
-				category: "Requisiti di ammissibilità"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "In quale anno è stata introdotta la possibilità per gli enti territoriali di richiedere pareri in materia di contabilità pubblica?",
 				options: ["1934", "1939", "2003", "2012"],
 				correct: 2,
 				motivation: "La legge n. 131 del 2003, nell'ambito della riforma del Titolo V della Costituzione, ha introdotto l'art. 7, comma 8, che consente agli enti territoriali di richiedere pareri.",
-				category: "Evoluzione storica"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Il Testo unico delle leggi sulla Corte dei conti risale al:",
 				options: ["1923", "1934", "1948", "1961"],
 				correct: 1,
 				motivation: "Il R.D. n. 1214/1934 costituisce il Testo unico delle leggi sulla Corte dei conti, ancora oggi in parte vigente.",
-				category: "Evoluzione storica"
+                category: "Funzione Consultiva"
 			},
 			{
 				question: "Il Codice della giustizia contabile è stato approvato nel:",
 				options: ["2003", "2012", "2016", "2020"],
 				correct: 2,
 				motivation: "Il d.lgs. n. 174/2016 ha approvato il Codice della giustizia contabile, disciplinando tra l'altro gli effetti dei pareri consultivi sulla responsabilità amministrativa.",
-				category: "Normativa"
+                category: "Funzione Consultiva"
 			},		
 
-            // B04 - Sezione Controllo Enti (aggiungo alcune domande)
+            // B04 - Sezione Controllo Enti
             {
                 question: "Qual è il fondamento costituzionale della funzione di controllo sugli enti della Corte dei conti?",
                 options: ["Articolo 103 della Costituzione", "Articolo 100 della Costituzione", "Articolo 81 della Costituzione", "Articolo 97 della Costituzione"],
@@ -4538,280 +4530,280 @@
 				options: ["Art. 97 della Costituzione", "Art. 81 della Costituzione", "Art. 100 della Costituzione", "Art. 103 della Costituzione"],
 				correct: 2,
 				motivation: "L'art. 100 della Costituzione costituisce il fondamento costituzionale della funzione di controllo sugli enti, definendo la Corte dei Conti come organo ausiliario del Parlamento e rinviando alla legge ordinaria per la determinazione dei casi e modi del controllo.",
-				category: "Fondamento normativo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale legge disciplina organicamente il controllo sugli enti a cui lo Stato contribuisce in via ordinaria?",
 				options: ["Legge n. 20/1994", "Legge n. 259/1958", "Legge n. 142/1990", "Legge n. 133/2008"],
 				correct: 1,
 				motivation: "La legge n. 259 del 14 novembre 1958 rappresenta la legge organica di attuazione dell'art. 100 Cost. e disciplina il controllo sugli enti attraverso gli articoli 2 (controllo successivo) e 12 (controllo concomitante).",
-				category: "Fondamento normativo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quanti sono attualmente gli enti sottoposti al controllo della Sezione Controllo Enti?",
 				options: ["Circa 50", "Circa 100", "Oltre 200", "Oltre 500"],
 				correct: 2,
 				motivation: "Attualmente gli enti sottoposti al controllo della Sezione sono oltre 200, distribuiti in diverse categorie funzionali (assistenziali, culturali, di ricerca, previdenziali, regolatori).",
-				category: "Organizzazione"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale sentenza della Corte Costituzionale ha risolto il conflitto di attribuzione tra la Sezione Controllo Enti e il Parlamento?",
 				options: ["Sent. n. 466/1993", "Sent. n. 295/1995", "Sent. n. 139/2001", "Sent. n. 184/2016"],
 				correct: 2,
 				motivation: "La sentenza n. 139/2001 della Corte Costituzionale ha risolto il conflitto di attribuzione, annullando l'abrogazione dell'art. 8 della L. 259/1958 e chiarendo la natura costituzionalmente necessaria del controllo sugli enti.",
-				category: "Giurisprudenza costituzionale"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Entro quanti giorni dall'approvazione gli enti devono trasmettere il bilancio alla Corte dei Conti?",
 				options: ["7 giorni", "15 giorni", "30 giorni", "60 giorni"],
 				correct: 1,
 				motivation: "Gli enti hanno l'obbligo di trasmettere i conti consuntivi e i bilanci entro 15 giorni dalla loro approvazione, come stabilito dall'art. 2 della L. 259/1958.",
-				category: "Scadenze operative"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Qual è il termine massimo assoluto per la trasmissione del bilancio dalla chiusura dell'esercizio?",
 				options: ["3 mesi", "4 mesi e 15 giorni", "6 mesi e 15 giorni", "12 mesi"],
 				correct: 2,
 				motivation: "In ogni caso, la trasmissione deve avvenire entro 6 mesi e 15 giorni dalla chiusura dell'esercizio finanziario. Questo termine è inderogabile e serve a garantire che il controllo possa essere esercitato in tempi ragionevoli.",
-				category: "Scadenze operative"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Entro quanto tempo il magistrato deve depositare la bozza di relazione dal deposito del bilancio?",
 				options: ["3 mesi", "4 mesi", "6 mesi", "9 mesi"],
 				correct: 2,
 				motivation: "Il magistrato deve depositare la bozza di relazione entro 6 mesi dal deposito del bilancio. Questo termine è particolarmente impegnativo considerando tutte le attività istruttorie necessarie.",
-				category: "Scadenze operative"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale articolo della L. 259/1958 disciplina il controllo successivo sulla gestione?",
 				options: ["Art. 1", "Art. 2", "Art. 8", "Art. 12"],
 				correct: 1,
 				motivation: "L'art. 2 della L. 259/1958 disciplina il controllo successivo sulla gestione, stabilendo gli obblighi di trasmissione dei bilanci e le modalità del controllo documentale.",
-				category: "Modalità di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale articolo della L. 259/1958 disciplina il controllo concomitante?",
 				options: ["Art. 2", "Art. 5", "Art. 8", "Art. 12"],
 				correct: 3,
 				motivation: "L'art. 12 della L. 259/1958 disciplina il controllo concomitante, mediante la partecipazione del magistrato delegato alle sedute degli organi di gestione e revisione degli enti.",
-				category: "Modalità di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Qual è il sistema informatico su cui devono essere caricati i bilanci degli enti?",
 				options: ["SIOPE", "SICE", "BDAP", "SICOGE"],
 				correct: 1,
 				motivation: "Il sistema SICE (Sistema Integrato Controllo Enti) è la piattaforma informatica dedicata su cui deve essere caricata tutta la documentazione contestualmente all'invio via PEC alla Sezione.",
-				category: "Strumenti operativi"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Chi decide l'assoggettamento di un ente al controllo della Corte dei Conti?",
 				options: ["La Sezione Controllo Enti", "Il Presidente della Corte dei Conti", "Il legislatore", "Il Ministero vigilante"],
 				correct: 2,
 				motivation: "La valutazione sostanziale della necessità di sottoporre un ente al controllo spetta al legislatore, che decide caso per caso valutando le caratteristiche dell'ente, le sue funzioni e i contributi pubblici ricevuti. L'attuazione avviene poi con decreto del Presidente della Repubblica.",
-				category: "Enti soggetti a controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale legge attribuisce alla Corte dei Conti i poteri di richiedere atti e disporre ispezioni?",
 				options: ["L. 259/1958", "L. 20/1994, art. 3, comma 8", "L. 142/1990", "L. 131/2003"],
 				correct: 1,
 				motivation: "L'art. 3, comma 8 della legge n. 20 del 14 gennaio 1994 attribuisce alla Corte dei Conti ampi poteri istruttori, consentendole di richiedere qualsiasi atto o notizia e di effettuare ispezioni e accertamenti diretti.",
-				category: "Poteri istruttori"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il controllo ex art. 2 è esercitato da:",
 				options: ["Magistrati fuori ruolo", "Magistrati che svolgono altre funzioni primarie", "Magistrati in organico presso la Sezione Controllo Enti", "Funzionari amministrativi"],
 				correct: 2,
 				motivation: "Il controllo ex art. 2 è esercitato da magistrati che fanno parte dell'organico della Sezione Controllo Enti, dedicandosi a tempo pieno a questa attività.",
-				category: "Organizzazione"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il controllo ex art. 12 è esercitato da:",
 				options: ["Magistrati in organico della Sezione", "Magistrati che svolgono altre funzioni primarie come attività aggiuntiva", "Funzionari amministrativi delegati", "Revisori dei conti esterni"],
 				correct: 1,
 				motivation: "Il controllo ex art. 12 è configurato come una funzione aggiuntiva per magistrati che svolgono altre funzioni primarie. Questa scelta è resa necessaria dal numero molto elevato di enti da controllare (oltre 200).",
-				category: "Organizzazione"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "I rilievi del magistrato delegato ex art. 12 costituiscono:",
 				options: ["Pareri preventivi vincolanti", "Osservazioni senza alcun valore giuridico", "Rilievi non vincolanti ma motivati in materia di legittimità e regolarità", "Provvedimenti esecutivi"],
 				correct: 2,
 				motivation: "I rilievi del magistrato delegato NON sono pareri preventivi vincolanti. Sono osservazioni motivate in materia di legittimità e regolarità finanziaria. L'ente mantiene autonomia decisionale, salvo il caso di palesi illegittimità o reati.",
-				category: "Modalità di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Chi partecipa alle riunioni del Gruppo di Lavoro?",
 				options: ["Magistrati e funzionari assegnati", "Solo il magistrato relatore", "Magistrato relatore, coordinatore, altri magistrati (non i funzionari)", "Solo i coordinatori di gruppo"],
 				correct: 2,
 				motivation: "Il Gruppo di Lavoro è composto dal magistrato relatore, dal coordinatore del gruppo, da altri colleghi magistrati e, nel caso di art. 12, dal delegato sostituto. Il funzionario NON partecipa alle riunioni, che hanno natura collegiale riservata ai magistrati.",
-				category: "Organizzazione"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale delle seguenti NON è una categoria di enti controllati?",
 				options: ["Enti di ricerca", "Enti previdenziali", "Regioni e Province autonome", "Enti assistenziali e culturali"],
 				correct: 2,
 				motivation: "Le Regioni e Province autonome sono controllate dalla Sezione delle Autonomie, non dalla Sezione Controllo Enti. La Sezione Enti controlla invece enti di ricerca, previdenziali, assistenziali, culturali, regolatori, etc.",
-				category: "Enti soggetti a controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale ente viene citato come esempio di controllo ex art. 12 nel settore della ricerca?",
 				options: ["ISTAT", "CNR", "INVALSI", "CIRA"],
 				correct: 1,
 				motivation: "Il CNR (Consiglio Nazionale delle Ricerche) è citato come ente di ricerca sottoposto a controllo ex art. 12, insieme all'ENEA. Altri enti di ricerca come ISTAT, INVALSI e CIRA rientrano invece nel controllo ex art. 2.",
-				category: "Enti soggetti a controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Le casse professionali (ingegneri, avvocati, medici) sono finanziate principalmente da:",
 				options: ["Contributi statali", "Contributi degli iscritti", "Imposte locali", "Finanziamenti europei"],
 				correct: 1,
 				motivation: "Le casse professionali sono finanziate per la stragrande maggioranza dai contributi versati dai singoli iscritti, ma mantengono connotazione pubblicistica per la funzione previdenziale integrativa che svolgono e per i contributi statali che comunque ricevono.",
-				category: "Enti soggetti a controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Secondo la sentenza n. 139/2001, gli enti controllati operano spesso in:",
 				options: ["Mercati altamente concorrenziali", "Ambiti di protezione che escludono la garanzia del mercato", "Settori completamente privatizzati", "Mercati internazionali"],
 				correct: 1,
 				motivation: "La Corte Costituzionale ha evidenziato che questi enti operano in 'ambiti di protezione' che escludono la garanzia del mercato e il controllo della concorrenza, rendendo ancora più necessario un controllo pubblico qualificato.",
-				category: "Giurisprudenza costituzionale"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il controllo della Corte dei Conti sugli enti ha come finalità principale:",
 				options: ["La sostituzione degli organi di revisione", "Il controllo penale sugli amministratori", "La tutela delle pubbliche finanze e la trasparenza", "La gestione diretta degli enti"],
 				correct: 2,
 				motivation: "Il controllo ha come finalità costituzionale la tutela delle pubbliche finanze, la trasparenza nella gestione delle risorse pubbliche, l'accountability degli enti verso il Parlamento e la prevenzione di irregolarità gestionali.",
-				category: "Finalità del controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il controllo della Corte dei Conti si distingue dalla revisione contabile perché:",
 				options: ["È meno approfondito della revisione", "Riguarda solo gli aspetti penali", "Esamina la gestione complessiva, non solo la correttezza formale", "È facoltativo per gli enti"],
 				correct: 2,
 				motivation: "Il controllo della Corte è più ampio della revisione contabile: riguarda la gestione finanziaria complessiva dell'ente, non solo la correttezza formale dei conti, e ha natura magistratuale e imparziale.",
-				category: "Natura del controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale documento NON deve essere trasmesso obbligatoriamente alla Corte dei Conti?",
 				options: ["Bilancio di esercizio", "Relazione dell'organo amministrativo", "Relazione del collegio dei revisori", "Piano industriale triennale"],
 				correct: 3,
 				motivation: "Gli enti devono trasmettere: conti consuntivi, bilanci di esercizio con conto economico, relazione dell'organo amministrativo e relazione dei revisori. Il piano industriale non è tra i documenti obbligatori, salvo specifica richiesta istruttoria.",
-				category: "Obblighi degli enti"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "La nozione di 'contribuzione in via ordinaria' ha carattere:",
 				options: ["Formale e rigido", "Sostanziale e aspecifico", "Penalistico", "Esclusivamente finanziario"],
 				correct: 1,
 				motivation: "La nozione ha carattere sostanziale e aspecifico: può essere qualsiasi tipo di erogazione con qualsiasi denominazione. Ciò che conta è la sostanza: risorse pubbliche destinate alla gestione dell'ente con carattere di continuità.",
-				category: "Enti soggetti a controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Per quale motivo il controllo ex art. 12 è configurato come funzione aggiuntiva?",
 				options: ["Per ridurre i costi della Corte", "Perché è meno importante dell'art. 2", "Per l'elevato numero di enti (oltre 200) e il sotto-organico", "Per scelta discrezionale del Presidente"],
 				correct: 2,
 				motivation: "Il controllo ex art. 12 è configurato come funzione aggiuntiva per motivi organizzativi: sarebbe impossibile attribuire tutti gli enti (oltre 200) ai soli magistrati in organico della Sezione, che peraltro è in situazione di sotto-organico.",
-				category: "Organizzazione"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il funzionario amministrativo può esprimere giudizi sulla regolarità della gestione dell'ente?",
 				options: ["Sì, in modo vincolante", "Sì, ma solo in assenza del magistrato", "No, ma può formulare proposte e osservazioni al magistrato", "No, non può esprimersi in alcun modo"],
 				correct: 2,
 				motivation: "Il giudizio sulla regolarità e gestione finanziaria spetta esclusivamente al magistrato, ma il funzionario può formulare proposte e osservazioni tecniche che il magistrato valuterà autonomamente.",
-				category: "Ruolo dei funzionari"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale sistema ha sostituito le 'aziende autonome statali' menzionate nella L. 259/1958?",
 				options: ["Le regioni", "Il concetto policentrico di pubblica amministrazione a geometria variabile", "Le province", "Le autorità indipendenti"],
 				correct: 1,
 				motivation: "Le aziende autonome statali menzionate nella legge del 1958 non esistono più, ma sono state sostituite dal concetto policentrico di pubblica amministrazione a geometria variabile, di matrice europea e sostanziale.",
-				category: "Evoluzione normativa"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Su quali aspetti si concentra particolarmente il controllo del magistrato?",
 				options: ["Solo sugli aspetti contabili formali", "Compensi organi, personale, contratti, contenzioso, società controllate", "Solo sul bilancio consolidato", "Esclusivamente sulle entrate"],
 				correct: 1,
 				motivation: "Il magistrato si concentra su: compensi organi e spese di rappresentanza, spese di personale e reclutamento, modifiche pianta organica, attività contrattuale e Codice contratti, contenzioso, società del gruppo, applicazione TUSP.",
-				category: "Oggetto del controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il contraddittorio con l'ente avviene quando:",
 				options: ["Sempre, per ogni relazione", "Mai, il controllo è unilaterale", "Solo quando la bozza di relazione contiene rilievi", "Solo su richiesta dell'ente"],
 				correct: 2,
 				motivation: "Il contraddittorio con l'ente avviene quando la bozza di relazione contiene rilievi. L'ente ha la facoltà di presentare controdeduzioni in termini brevi (generalmente 15-20 giorni) che il magistrato deve poi valutare.",
-				category: "Procedimento di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale ente è citato come esempio di controllo nel settore radiotelevisivo?",
 				options: ["Mediaset", "Sky Italia", "RAI", "Discovery Italia"],
 				correct: 2,
 				motivation: "La RAI è citata come esempio emblematico di ente che opera in ambito di protezione (servizio radiotelevisivo) e che fu al centro del caso che diede origine alla sentenza costituzionale n. 139/2001.",
-				category: "Enti soggetti a controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Cosa significa che il controllo ha 'funzione referente o di referto'?",
 				options: ["Che sostituisce gli organi dell'ente", "Che informa il Parlamento sullo stato degli enti", "Che giudica penalmente gli amministratori", "Che approva preventivamente le decisioni"],
 				correct: 1,
 				motivation: "La funzione referente o di referto significa che la Corte, come organo ausiliario del Parlamento, informa quest'ultimo sullo stato degli enti controllati, fornendo elementi conoscitivi per le determinazioni parlamentari.",
-				category: "Finalità del controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "La CSEA (Cassa Servizi Energetici Ambientali) è un esempio di ente sottoposto a controllo per:",
 				options: ["Contributi periodici", "Capacità di imporre contribuzioni", "Finanziamenti europei", "Donazioni private"],
 				correct: 1,
 				motivation: "La CSEA è un esempio di ente sottoposto a controllo perché ha la capacità di imporre contribuzioni a carico dei gestori pubblici delle energie. Questa caratteristica ha determinato la sua trasformazione in ente pubblico economico e la sottoposizione al controllo nel 2018.",
-				category: "Enti soggetti a controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "In caso di palesi illegittimità o reati, il magistrato delegato ex art. 12:",
 				options: ["Non può intervenire per rispetto dell'autonomia", "Deve intervenire immediatamente e formalmente", "Deve attendere l'approvazione del bilancio", "Può solo segnalare alla Procura"],
 				correct: 1,
 				motivation: "In caso di palesi illegittimità o ipotesi di reato, il magistrato delegato ha l'obbligo di intervenire immediatamente e formalmente, superando il carattere normalmente non vincolante dei suoi rilievi.",
-				category: "Modalità di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale delle seguenti affermazioni sul controllo ex art. 2 è corretta?",
 				options: ["È un controllo preventivo", "È un controllo concomitante", "È un controllo successivo sulla gestione", "È un controllo penale"],
 				correct: 2,
 				motivation: "Il controllo ex art. 2 è essenzialmente un controllo successivo che si svolge dopo che i fatti gestionali si sono conclusi e sono stati cristallizzati nel bilancio consuntivo dell'ente.",
-				category: "Modalità di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Chi assegna gli enti ai gruppi di lavoro?",
 				options: ["I magistrati si auto-assegnano", "Il Presidente della Sezione e il Dirigente", "Il Ministero vigilante", "La Presidenza della Corte dei Conti"],
 				correct: 1,
 				motivation: "L'assegnazione di ciascun ente a un gruppo di lavoro è effettuata dal Presidente della Sezione e dal Dirigente, sulla base della complessità dell'ente e della rilevanza del contributo statale.",
-				category: "Organizzazione"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il termine di 6 mesi per la relazione del magistrato è definito dalla docente come:",
 				options: ["Facilmente rispettabile", "Di difficile attuazione", "Eccessivamente lungo", "Non vincolante"],
 				correct: 1,
 				motivation: "Il termine di 6 mesi è definito 'di difficile attuazione' per la complessità degli enti, la necessità di attendere risposte istruttorie, il contraddittorio, il sotto-organico della Sezione e il coordinamento di più soggetti.",
-				category: "Criticità operative"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale attività NON rientra tra i compiti del funzionario amministrativo?",
 				options: ["Esame preliminare del bilancio", "Invio richieste istruttorie", "Partecipazione al Gruppo di Lavoro", "Solleciti agli enti inadempienti"],
 				correct: 2,
 				motivation: "Il funzionario NON partecipa alle riunioni del Gruppo di Lavoro, che hanno natura collegiale riservata ai magistrati. Svolge invece attività tecniche e amministrative di supporto.",
-				category: "Ruolo dei funzionari"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "La specializzazione dei gruppi di lavoro per tipologia di enti serve a:",
 				options: ["Ridurre il numero di magistrati necessari", "Sviluppare competenze specifiche su problematiche e normativa di settore", "Evitare conflitti di interesse", "Rispettare le competenze territoriali"],
 				correct: 1,
 				motivation: "La specializzazione consente di sviluppare competenze specifiche sulle caratteristiche, le problematiche e la normativa di settore di ciascuna categoria di enti, migliorando la qualità del controllo.",
-				category: "Organizzazione"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale forma di trasmissione è obbligatoria per i bilanci degli enti?",
 				options: ["Solo cartacea", "Solo telematica via SICE", "Sia caricamento SICE che invio PEC", "Solo tramite il Ministero vigilante"],
 				correct: 2,
 				motivation: "La trasmissione deve avvenire sia tramite caricamento sul sistema SICE che mediante invio via PEC alla Sezione Controllo Enti, contestualmente.",
-				category: "Modalità operative"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il controllo successivo previsto dall'art. 100 Cost. avviene quando:",
 				options: ["Durante l'elaborazione del bilancio", "Prima dell'approvazione del bilancio", "Dopo che i fatti gestionali sono cristallizzati nel bilancio", "Durante l'esercizio finanziario"],
 				correct: 2,
 				motivation: "Il controllo successivo avviene quando i fatti gestionali sono già conclusi e cristallizzati nel bilancio, permettendo alla Corte di rendere edotto il Parlamento sulle problematiche gestionali emerse.",
-				category: "Modalità di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale dei seguenti NON è un ente previdenziale citato?",
@@ -4825,73 +4817,73 @@
 				options: ["Sono più soggetti a frodi", "Hanno bilanci più complessi", "Spesso non hanno strutture burocratiche adeguate e contezza degli obblighi", "Ricevono maggiori contributi"],
 				correct: 2,
 				motivation: "Gli enti di piccole dimensioni spesso non dispongono di strutture burocratiche adeguate e non hanno piena contezza degli obblighi derivanti dalla sottoposizione al controllo, necessitando quindi di maggiore supporto e sollecitazioni.",
-				category: "Aspetti operativi"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il carattere di 'periodicità' della contribuzione significa che:",
 				options: ["Deve essere mensile", "Deve essere annuale", "Deve avere carattere di continuità, non necessariamente essere effettiva", "Deve essere trimestrale"],
 				correct: 2,
 				motivation: "Il carattere di periodicità significa continuità della contribuzione. Non rileva se l'erogazione sia effettivamente avvenuta o comporti solo iscrizione di poste contabili passive: l'importante è la continuità.",
-				category: "Enti soggetti a controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Dopo l'approvazione del Gruppo di Lavoro, la relazione viene:",
 				options: ["Immediatamente trasmessa al Parlamento", "Depositata in segreteria per l'adunanza della Sezione", "Archiviata", "Inviata all'ente per approvazione"],
 				correct: 1,
 				motivation: "Dopo l'approvazione del Gruppo di Lavoro e le eventuali modifiche, la relazione viene depositata in segreteria per l'iscrizione all'ordine del giorno dell'adunanza plenaria della Sezione.",
-				category: "Procedimento di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Chi firma la relazione finale prima della trasmissione al Parlamento?",
 				options: ["Solo il magistrato relatore", "Il coordinatore del gruppo", "Il magistrato relatore e il Presidente della Sezione", "Tutti i componenti del Gruppo"],
 				correct: 2,
 				motivation: "La relazione definitiva viene firmata dal magistrato relatore e dal Presidente della Sezione prima di essere trasmessa al Parlamento, adempiendosi così alla funzione referente costituzionale.",
-				category: "Procedimento di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale settore NON è menzionato tra gli ambiti di protezione privi di controllo di mercato?",
 				options: ["Telecomunicazioni", "Trasporto ferroviario", "Commercio al dettaglio", "Servizio postale"],
 				correct: 2,
 				motivation: "La Corte Costituzionale ha citato come ambiti di protezione: telecomunicazioni, trasporto ferroviario e aereo, servizio postale e servizio radiotelevisivo. Il commercio al dettaglio non è menzionato tra questi.",
-				category: "Giurisprudenza costituzionale"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il magistrato può richiedere informazioni direttamente a:",
 				options: ["Solo all'ente controllato", "Solo al collegio dei revisori", "Ministeri, organi di vigilanza e organi di controllo", "Solo al Parlamento"],
 				correct: 2,
 				motivation: "Il magistrato può richiedere direttamente ai Ministeri vigilanti e agli organi di vigilanza informazioni e formulare rilievi. I componenti dei collegi di revisione hanno l'obbligo di riferire al magistrato.",
-				category: "Poteri istruttori"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Quale criterio NON è utilizzato per l'assegnazione degli enti ai gruppi?",
 				options: ["Complessità dell'ente", "Rilevanza del contributo statale", "Ubicazione territoriale dell'ente", "Tipologia funzionale"],
 				correct: 2,
 				motivation: "I criteri di assegnazione sono la complessità dell'ente (consolidato o meno), la rilevanza del contributo statale e la tipologia funzionale per la specializzazione. L'ubicazione territoriale non è un criterio rilevante.",
-				category: "Organizzazione"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Cosa avviene se l'ente non rispetta i termini di trasmissione del bilancio?",
 				options: ["Sanzioni pecuniarie automatiche", "Scioglimento immediato dell'ente", "Solleciti formali e possibile segnalazione al Parlamento", "Nulla, i termini sono indicativi"],
 				correct: 2,
 				motivation: "Se l'ente non rispetta i termini, la Sezione procede con solleciti formali. Il ritardo comporta difficoltà nel rispetto del termine semestrale per la relazione. Nei casi gravi, può esserci segnalazione agli organi di vigilanza e al Parlamento.",
-				category: "Conseguenze inadempimenti"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "Il funzionario si relaziona con quale figura dell'ente controllato?",
 				options: ["Solo con il presidente", "Con un referente designato (responsabile affari legali, finanziario, etc.)", "Direttamente con il collegio dei revisori", "Con tutti gli organi indistintamente"],
 				correct: 1,
 				motivation: "Il funzionario si relaziona con un referente individuato dall'ente, che può essere il responsabile degli affari legali, il responsabile finanziario, il direttore dell'ufficio bilancio o altra figura con funzioni analoghe.",
-				category: "Aspetti operativi"
+                category: "Sezione Controllo Enti"
 			},
 			{
 				question: "L'adunanza plenaria della Sezione può:",
 				options: ["Solo approvare le relazioni", "Approvare, richiedere modifiche o ulteriori approfondimenti", "Solo bocciare le relazioni", "Solo prendere atto senza decidere"],
 				correct: 1,
 				motivation: "L'adunanza plenaria della Sezione esamina e approva definitivamente la relazione, ma può anche richiedere ulteriori approfondimenti o modifiche prima dell'approvazione finale.",
-				category: "Procedimento di controllo"
+                category: "Sezione Controllo Enti"
 			},
 			
-            // B05 - Sezione Autonomie (aggiungo alcune domande)
+            // B05 - Sezione Autonomie
             {
                 question: "In quale anno la Sezione delle Autonomie ha assunto la sua attuale denominazione?",
                 options: ["1981", "2003", "2000", "1994"],
@@ -5292,7 +5284,7 @@
 				category: "Funzione di referto"
 			},
 
-            // B06 - Giudizio Primo Grado (aggiungo alcune domande)
+            // B06 - Giudizio Primo Grado
             {
                 question: "Qual è il fondamento costituzionale della responsabilità amministrativa patrimoniale?",
                 options: ["Art. 97 Cost.", "Art. 28 Cost.", "Art. 113 Cost.", "Art. 101 Cost."],
@@ -5333,7 +5325,7 @@
 				options: ["Art. 27 Cost.", "Art. 28 Cost.", "Art. 97 Cost.", "Art. 111 Cost."],
 				correct: 1,
 				motivation: "L'articolo 28 della Costituzione stabilisce che i funzionari e dipendenti dello Stato e degli enti pubblici sono direttamente responsabili, secondo le leggi penali, civili e amministrative, degli atti compiuti in violazione di diritti.",
-				category: "Fondamenti costituzionali"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Quanti sono gli elementi costitutivi della responsabilità amministrativa?",
@@ -5347,7 +5339,7 @@
 				options: ["Per tutte le condotte", "Solo per le condotte commissive", "Solo per le condotte omissive", "Non rileva più in nessun caso"],
 				correct: 2,
 				motivation: "Il D.L. 76/2020 ha modificato la disciplina stabilendo che la colpa grave rileva solo per le condotte omissive. Per le condotte commissive è necessario il dolo.",
-				category: "Elemento soggettivo"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "La responsabilità amministrativa si trasmette agli eredi?",
@@ -5410,7 +5402,7 @@
 				options: ["Sì, sempre", "No, perché è possibile rilasciare procura ad hoc", "Solo se grave", "Solo se certificata da medico pubblico"],
 				correct: 1,
 				motivation: "Secondo la Cassazione (sent. Sez. II, n. 7/2014), uno stato di malattia non è considerato causa non imputabile perché è comunque possibile rilasciare una procura ad hoc per la costituzione.",
-				category: "Riammissione in termini"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Chi ha giurisdizione sulla querela di falso?",
@@ -5438,98 +5430,98 @@
 				options: ["1 mese", "6 mesi", "3 mesi", "2 mesi"],
 				correct: 2,
 				motivation: "L'art. 106, comma 2, del CGC prevede che la sospensione su istanza concorde delle parti può essere disposta per una sola volta e per un periodo non superiore a 3 mesi.",
-				category: "Sospensione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "La pendenza del processo penale obbliga sempre alla sospensione del processo contabile?",
 				options: ["Sì, sempre", "No, solo se c'è pregiudizialità giuridica", "Solo su richiesta delle parti", "Solo se il PM lo richiede"],
 				correct: 1,
 				motivation: "Secondo le Sezioni Riunite (sent. 11/2018 e 13/2019), non sussiste automaticamente l'obbligo di sospensione. Occorre pregiudizialità giuridica, non semplice pregiudizialità logica. Il processo contabile è autonomo.",
-				category: "Sospensione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Cosa accade in caso di morte del convenuto durante il processo?",
 				options: ["Il processo prosegue con gli eredi", "Il processo si sospende automaticamente", "Il processo si interrompe", "Il processo si estingue immediatamente"],
 				correct: 2,
 				motivation: "L'art. 108 del CGC prevede che il processo si interrompe in caso di morte della parte. Il PM può poi chiedere l'estinzione se non sussiste illecito arricchimento del de cuius (art. 109, co. 6).",
-				category: "Interruzione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Entro quale termine va riassunto il processo dopo l'interruzione?",
 				options: ["1 anno", "6 mesi", "3 mesi", "60 giorni"],
 				correct: 2,
 				motivation: "Il processo interrotto deve essere riassunto entro 3 mesi dalla possibilità di riassunzione, come previsto dall'art. 109 del CGC. In mancanza, il processo si estingue.",
-				category: "Interruzione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Su chi grava l'onere della prova nel processo contabile?",
 				options: ["Solo sul Pubblico Ministero", "Solo sul convenuto", "Sulle parti", "Sul giudice d'ufficio"],
 				correct: 2,
 				motivation: "L'art. 94 del CGC stabilisce che l'onere di fornire le prove concernenti i fatti posti a fondamento delle domande e delle eccezioni è a carico delle parti.",
-				category: "Prove"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Quali mezzi di prova sono espressamente esclusi nel processo contabile?",
 				options: ["Testimonianza e documenti", "Giuramento e interrogatorio formale", "Consulenza tecnica e presunzioni", "Documenti e perizie"],
 				correct: 1,
 				motivation: "L'art. 94, comma 4, del CGC esclude espressamente il giuramento e l'interrogatorio formale, che sono prove legali incompatibili con l'esigenza di ricostruire la verità processuale.",
-				category: "Prove"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Il giudice contabile può utilizzare sentenze penali come mezzo di prova?",
 				options: ["No, mai", "Solo se passate in giudicato", "Sì, come prove atipiche", "Solo le sentenze di assoluzione"],
 				correct: 2,
 				motivation: "Il giudice contabile può utilizzare sentenze di altri giudizi, comprese quelle penali e di patteggiamento, come prove atipiche per desumere elementi sulla sussistenza del dolo o della colpa.",
-				category: "Prove"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "La consulenza tecnica è un mezzo di prova nel processo contabile?",
 				options: ["Sì, è il principale mezzo di prova", "No, è un ausilio per il giudice", "Solo se richiesta dalle parti", "Solo in appello"],
 				correct: 1,
 				motivation: "La consulenza tecnica non è un mezzo di prova ma un ausilio al giudice per acquisire conoscenze tecniche, valutare situazioni di fatto e valutare le prove fornite (può essere valutativa o percipiente).",
-				category: "Consulenza tecnica"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Come valuta il giudice le prove nel processo contabile?",
 				options: ["Secondo regole di prova legale", "Secondo il prudente apprezzamento", "Solo in base a documenti pubblici", "Secondo quanto richiesto dal PM"],
 				correct: 1,
 				motivation: "L'art. 95 del CGC stabilisce che il giudice valuta le prove secondo il suo prudente apprezzamento, senza essere vincolato da regole di prova legale.",
-				category: "Valutazione prove"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "I fatti non contestati dalle parti necessitano di prova?",
 				options: ["Sì, sempre", "No, per il principio di non contestazione", "Solo se richiesto dal giudice", "Solo in primo grado"],
 				correct: 1,
 				motivation: "Secondo l'art. 95, comma 1, del CGC, il giudice può porre a fondamento della decisione i fatti non specificamente contestati dalle parti costituite, applicando il principio di non contestazione.",
-				category: "Valutazione prove"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Dove viene deliberata la decisione della causa?",
 				options: ["In udienza pubblica", "In camera di consiglio nel segreto", "Nell'ufficio del Presidente", "In aula magna"],
 				correct: 1,
 				motivation: "L'art. 101 del CGC prevede che la decisione è deliberata in camera di consiglio nel segreto, con la partecipazione dei soli giudici che hanno assistito alla discussione.",
-				category: "Decisione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Qual è l'ordine di votazione nella deliberazione?",
 				options: ["Presidente, relatore, altri giudici", "Altri giudici, presidente, relatore", "Relatore, altri giudici, presidente", "Presidente, altri giudici, relatore"],
 				correct: 2,
 				motivation: "L'art. 101, comma 4, del CGC stabilisce che il primo a votare è il relatore, quindi gli altri giudici e infine il Presidente.",
-				category: "Deliberazione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Entro quale termine deve essere redatta la sentenza?",
 				options: ["30 giorni dalla decisione", "45 giorni dalla decisione", "60 giorni dalla decisione", "90 giorni dalla decisione"],
 				correct: 1,
 				motivation: "L'art. 103, comma 1, del CGC prevede che la sentenza deve essere redatta non oltre il 45° giorno dalla decisione della causa.",
-				category: "Sentenza"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Entro quale termine deve essere depositata la sentenza?",
 				options: ["30 giorni dalla camera di consiglio", "45 giorni dalla camera di consiglio", "60 giorni dalla camera di consiglio", "90 giorni dalla camera di consiglio"],
 				correct: 2,
 				motivation: "Secondo l'art. 100, comma 2, del CGC, la sentenza deve essere depositata in segreteria entro 60 giorni dalla conclusione della camera di consiglio.",
-				category: "Sentenza"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Qual è lo scopo del rito abbreviato?",
@@ -5662,28 +5654,28 @@
 				options: ["6 mesi", "1 anno", "2 anni", "3 anni"],
 				correct: 1,
 				motivation: "L'art. 111, comma 3, del CGC prevede che il processo si estingue quando è decorso 1 anno senza che sia stata fatta alcuna istanza di fissazione dell'udienza o altro atto di procedura.",
-				category: "Estinzione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "L'estinzione del processo estingue anche l'azione?",
 				options: ["Sì, sempre", "No, l'azione resta", "Solo se dichiarata dal giudice", "Dipende dalle circostanze"],
 				correct: 1,
 				motivation: "L'art. 111, comma 5, del CGC stabilisce espressamente che l'estinzione del processo non estingue l'azione, che può quindi essere riproposta.",
-				category: "Estinzione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Qual è il termine di prescrizione dell'azione di responsabilità amministrativa?",
 				options: ["3 anni", "5 anni", "10 anni", "7 anni"],
 				correct: 1,
 				motivation: "La L. 20/1994 stabilisce che l'azione di responsabilità amministrativa si prescrive in 5 anni dal compimento del fatto, salvo occultamento doloso (dalla scoperta).",
-				category: "Prescrizione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Quale atto interrompe la prescrizione dell'azione di responsabilità?",
 				options: ["La notizia di danno", "L'invito a fornire deduzioni", "La delibera di giunta", "Il parere dell'avvocatura"],
 				correct: 1,
 				motivation: "L'invito a fornire deduzioni notificato dal Pubblico Ministero è il principale atto interruttivo della prescrizione, salvo che l'amministrazione abbia già notificato una messa in mora stragiudiziale.",
-				category: "Prescrizione"
+                category: "Giudizio Primo Grado"
 			},
 			{
 				question: "Qual è il termine per il ricorso per Cassazione contro sentenza non notificata?",
@@ -5797,35 +5789,35 @@
 				options: ["Cass. SS.UU. n. 2242/2015", "Cass. SS.UU. n. 30254/2008", "Cass. SS.UU. n. 500/1999", "Cass. SS.UU. n. 1/2020"],
 				correct: 1,
 				motivation: "La sentenza Cass. SS.UU. n. 30254/2008 ha sviluppato il concetto di giurisdizione dinamica, affermando che è norma sulla giurisdizione non solo quella che individua i presupposti dell'attribuzione del potere, ma anche quella che stabilisce le forme di tutela.",
-				category: "Giurisdizione Dinamica"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Secondo la Corte Costituzionale, il bilancio è qualificato come:",
 				options: ["Un atto amministrativo complesso", "Un bene della vita costituzionalmente tutelato", "Una fonte normativa secondaria", "Un atto politico"],
 				correct: 1,
 				motivation: "La Corte costituzionale con la sentenza n. 184/2016 ha qualificato il bilancio come 'bene della vita costituzionalmente tutelato' e 'bene pubblico', aprendo la strada a una tutela giurisdizionale oggettiva.",
-				category: "Bene Bilancio"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Quali sono i tre attributi essenziali del bilancio secondo la Corte Costituzionale (sent. n. 157/2020)?",
 				options: ["Legalità, trasparenza, efficacia", "Copertura, pareggio, equilibrio", "Sincerità, equilibrio, continuità", "Preventività, universalità, pubblicità"],
 				correct: 2,
 				motivation: "La Corte costituzionale ha individuato il trittico: sincerità (sent. n. 192/2012), equilibrio dinamico (sent. n. 60/2013) e continuità (sent. n. 274/2017). Questi tre elementi formano una struttura logica inscindibile.",
-				category: "Bene Bilancio"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Quale norma costituzionale è definita 'norma-ponte' per la disciplina delle verifiche sui saldi?",
 				options: ["Art. 81, co. 6 Cost.", "Art. 100 Cost.", "Art. 5, co. 1, lett. a) L. cost. n. 1/2012", "Art. 111, co. 8 Cost."],
 				correct: 2,
 				motivation: "L'art. 5, co. 1, lett. a) della L. cost. n. 1/2012 è la norma-ponte che impone alla legge rinforzata di disciplinare le 'verifiche preventive e consuntive' sull'andamento della finanza pubblica.",
-				category: "Bene Bilancio - Normativa"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Quanti sono i livelli della struttura dei conti secondo la lezione?",
 				options: ["Due livelli", "Tre livelli", "Quattro livelli", "Cinque livelli"],
 				correct: 2,
 				motivation: "La struttura dei conti si articola su quattro livelli: 1) pezze giustificative, 2) scritture contabili (contabilità analitica), 3) rendiconto e bilancio, 4) i saldi (che misurano le variazioni nel tempo).",
-				category: "Bene Bilancio - Struttura"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Quale articolo del Codice di giustizia contabile disciplina la giurisdizione in unico grado delle Sezioni Riunite?",
@@ -5874,7 +5866,7 @@
 				options: ["Una fase unica", "Due fasi: officiosa e contenziosa", "Tre fasi: istruttoria, decisoria e impugnatoria", "Quattro fasi progressive"],
 				correct: 1,
 				motivation: "Il giudizio in unico grado ha una struttura bifasica peculiare: una prima fase officiosa (davanti alle Sezioni Regionali di Controllo) obbligatoria, e una seconda fase eventuale contenziosa (davanti alle Sezioni Riunite).",
-				category: "Struttura Bifasica"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Chi stabilisce le priorità per l'esame dei conti all'inizio di ogni anno?",
@@ -6056,21 +6048,21 @@
 				options: ["CGUE C-500/2019", "CGUE C-161/21 (Camerota, 4.10.2021)", "CGUE C-300/2020", "CGUE C-100/2018"],
 				correct: 1,
 				motivation: "La CGUE con la sent. C-161/21 (Camerota) del 4 ottobre 2021 ha dichiarato irricevibile l'ordinanza di rimessione della SRC Campania, affermando che le Sezioni regionali svolgerebbero 'funzione amministrativa e non giurisdizionale'.",
-				category: "Criticità del Sistema"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Quale è il principale punto di debolezza del sistema secondo la lezione?",
 				options: ["Eccessiva durata dei giudizi", "Costi elevati", "Mancata definizione generale delle parti necessarie nella fase officiosa", "Incompetenza dei magistrati"],
 				correct: 2,
 				motivation: "Il principale punto di debolezza è la mancata definizione in via generale delle parti necessarie nella fase officiosa. Questo può integrare un vulnus al diritto di difesa e alimentare i dubbi sulla natura giurisdizionale.",
-				category: "Criticità del Sistema"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Quale equilibrio viene bilanciato nella fase officiosa secondo la giurisprudenza?",
 				options: ["Art. 24 e art. 111 Cost.", "Art. 97 Cost. (buon andamento) e art. 111 Cost. (giusto processo)", "Art. 100 e art. 103 Cost.", "Art. 3 e art. 53 Cost."],
 				correct: 1,
 				motivation: "La fase officiosa con contraddittorio limitato risponde a un bilanciamento tra l'art. 97 Cost. (buon andamento della PA) che richiede celerità, e l'art. 111 Cost. (giusto processo) che richiede contraddittorio pieno.",
-				category: "Criticità del Sistema"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Cosa giustifica il contraddittorio limitato nella fase officiosa?",
@@ -6084,35 +6076,35 @@
 				options: ["Art. 2, co. 4", "Art. 3, co. 4", "Art. 5, co. 2", "Art. 10, co. 1"],
 				correct: 1,
 				motivation: "L'art. 3, comma 4, del D.lgs. n. 118/2011 disciplina il riaccertamento ordinario dei residui, che deve avvenire al termine del successivo esercizio finanziario per verificare l'attendibilità delle poste.",
-				category: "Termini e Scadenze"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Quando si presume l'inattendibilità delle poste di bilancio?",
 				options: ["Dopo 6 mesi", "Se non riaccertate al termine del successivo esercizio finanziario", "Dopo 3 anni", "Solo in caso di dissesto"],
 				correct: 1,
 				motivation: "Secondo il D.lgs. 118/2011, le poste si presumono inattendibili se non sono riaccertate al termine del successivo esercizio finanziario attraverso il riaccertamento ordinario.",
-				category: "Termini e Scadenze"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "Il termine per il ripiano del disavanzo è riferito:",
 				options: ["Al momento dell'emersione del disavanzo", "Alla natura del disavanzo", "All'approvazione del bilancio", "Alla fine del mandato"],
 				correct: 1,
 				motivation: "La sent. n. 6/2021/EL ha chiarito che i termini per il ripiano del disavanzo non devono essere riferiti al 'quando' della sua emersione, ma alla natura dello stesso.",
-				category: "Termini e Scadenze"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "I ritardi imputabili a terzi e non all'ente come sono valutati nel piano di riequilibrio?",
 				options: ["Sono sempre causa di rigetto", "Non inficiano il piano", "Comportano sospensione", "Richiedono nuova delibera"],
 				correct: 1,
 				motivation: "La sent. n. 7/2021/EL ha affermato che il piano di riequilibrio non è inficiato da ritardi finanziari imputabili a terzi e non riconducibili alla volontà dell'ente locale, applicando il carattere dinamico del giudizio.",
-				category: "Termini e Scadenze"
+                category: "Sezioni Riunite"
 			},
 			{
 				question: "L'approvazione tardiva del piano di riequilibrio comporta:",
 				options: ["Automatico rigetto del piano", "Possibile rigetto se inadeguato", "Nullità della delibera", "Commissariamento immediato"],
 				correct: 1,
 				motivation: "La sent. n. 32/2020 ha stabilito che l'approvazione tardiva del piano di riequilibrio può comportare il rigetto se le misure sono inadeguate, valutando la congruità complessiva del percorso di risanamento.",
-				category: "Termini e Scadenze"
+                category: "Sezioni Riunite"
 			},
 			
 			// B08 - Sezioni riunite controllo
@@ -6121,84 +6113,84 @@
 				options: ["Art. 81 Cost.", "Art. 97 Cost.", "Art. 100 Cost.", "Art. 119 Cost."],
 				correct: 2,
 				motivation: "L'art. 100 Cost. stabilisce che la Corte dei conti esercita il controllo preventivo di legittimità sugli atti del Governo e quello successivo sulla gestione del bilancio dello Stato, partecipando anche al controllo sulla gestione finanziaria degli enti sovvenzionati dallo Stato.",
-				category: "Fondamenti costituzionali"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Qual è il quorum minimo di votanti richiesto per le deliberazioni delle Sezioni Riunite?",
 				options: ["10 votanti", "12 votanti", "15 votanti", "20 votanti"],
 				correct: 2,
 				motivation: "Le Sezioni Riunite decidono con non meno di quindici votanti, come previsto dall'art. 3 del R.D. 1214/1934. Questo quorum garantisce la rappresentatività e l'autorevolezza delle decisioni.",
-				category: "Composizione e organizzazione"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Entro quale data le Sezioni Riunite devono definire il quadro programmatico annuale delle indagini di finanza pubblica?",
 				options: ["30 settembre", "31 ottobre", "30 novembre", "31 dicembre"],
 				correct: 1,
 				motivation: "Entro il 30 ottobre di ciascun anno, le Sezioni Riunite definiscono il quadro di riferimento programmatico delle indagini di finanza pubblica e dei controlli sulla gestione, come previsto dal Regolamento per l'organizzazione delle funzioni di controllo.",
-				category: "Scadenze e termini"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Con quale periodicità la Corte dei conti trasmette al Parlamento le relazioni sulle coperture finanziarie delle leggi?",
 				options: ["Mensile", "Bimestrale", "Quadrimestrale", "Semestrale"],
 				correct: 2,
 				motivation: "L'art. 17, comma 9, della legge n. 196/2009 prevede che ogni quattro mesi la Corte dei conti trasmetta alle Camere una relazione sulla tipologia delle coperture finanziarie adottate nelle leggi approvate nel periodo considerato.",
-				category: "Scadenze e termini"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale norma ha introdotto il giudizio di parificazione dei rendiconti regionali?",
 				options: ["L. 20/1994", "L. 131/2003", "D.L. 174/2012", "D.L. 78/2009"],
 				correct: 2,
 				motivation: "Il D.L. 174/2012 ha introdotto la regionalizzazione dei controlli, includendo il giudizio di parificazione dei rendiconti delle Regioni, estendendo così a livello regionale il modello già applicato allo Stato.",
-				category: "Evoluzione normativa"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "In quante vesti funzionali operano le Sezioni Riunite?",
 				options: ["Due: controllo e giurisdizione", "Tre: controllo, consultiva e deliberante", "Quattro: controllo, consultiva, deliberante e giurisdizionale", "Cinque: controllo, consultiva, deliberante, giurisdizionale e nomofilattica"],
 				correct: 1,
 				motivation: "Le Sezioni Riunite operano in tre diverse vesti: sede di controllo (funzione referente verso il Parlamento), sede consultiva (pareri su atti normativi) e sede deliberante (autonomia organizzativa).",
-				category: "Composizione e organizzazione"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale articolo del R.D. 1214/1934 disciplina il procedimento di parificazione del rendiconto generale dello Stato?",
 				options: ["Artt. 25-27", "Artt. 30-32", "Artt. 39-41", "Artt. 50-52"],
 				correct: 2,
 				motivation: "Gli articoli 39-41 del R.D. 1214/1934 disciplinano rispettivamente: la verifica del rendiconto (art. 39), la deliberazione a Sezioni Riunite (art. 40) e il contenuto della relazione al Parlamento (art. 41).",
-				category: "Parificazione rendiconto"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Con quale frequenza la Corte dei conti riferisce al Parlamento sullo stato di attuazione del PNRR?",
 				options: ["Trimestrale", "Quadrimestrale", "Semestrale", "Annuale"],
 				correct: 2,
 				motivation: "L'art. 7, comma 7, del D.L. 77/2021 prevede che la Corte dei conti riferisca al Parlamento con cadenza semestrale sullo stato di attuazione del Piano Nazionale di Ripresa e Resilienza.",
-				category: "Scadenze e termini"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale principio costituzionale fonda le relazioni quadrimestrali sulle coperture finanziarie?",
 				options: ["Art. 81, comma 1, Cost. - Equilibrio di bilancio", "Art. 81, comma 3, Cost. - Copertura finanziaria", "Art. 97, comma 1, Cost. - Buon andamento", "Art. 119, comma 6, Cost. - Limiti indebitamento"],
 				correct: 1,
 				motivation: "L'art. 81, terzo comma, della Costituzione stabilisce che ogni legge che importi nuovi o maggiori oneri debba provvedere ai mezzi per farvi fronte. Le relazioni quadrimestrali verificano il rispetto di questo principio.",
-				category: "Fondamenti costituzionali"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale sentenza della Corte costituzionale ha riconosciuto la legittimazione delle Sezioni Riunite a sollevare questioni di costituzionalità in sede di parifica?",
 				options: ["Sent. 15/2015", "Sent. 45/2016", "Sent. 89/2017", "Sent. 103/2018"],
 				correct: 2,
 				motivation: "La sentenza n. 89/2017 della Corte costituzionale ha riconosciuto la legittimazione delle Sezioni Riunite a sollevare questioni di costituzionalità in sede di parificazione, valorizzando la natura eterogenea e composita di tale giudizio.",
-				category: "Giurisprudenza costituzionale"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Qual è la natura giuridica prevalente del giudizio di parificazione secondo l'orientamento nomofilattico della Corte?",
 				options: ["Giurisdizione contenziosa pura", "Controllo referente con funzione ausiliaria", "Atto amministrativo vincolante", "Parere obbligatorio non vincolante"],
 				correct: 1,
 				motivation: "L'orientamento nomofilattico della Corte inquadra il giudizio di parifica nella tipologia del controllo quale manifestazione della funzione ausiliaria rispetto al Parlamento, pur se reso con le formalità della giurisdizione contenziosa.",
-				category: "Parificazione rendiconto"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Chi presiede le Sezioni Riunite della Corte dei conti?",
 				options: ["Il Presidente anziano di sezione", "Il Primo Presidente aggiunto", "Il Presidente della Corte dei conti", "Un Presidente eletto annualmente"],
 				correct: 2,
 				motivation: "Le Sezioni Riunite sono presiedute dal Presidente della Corte dei conti, coadiuvato da due presidenti di sezione, come previsto dall'art. 3 del R.D. 1214/1934.",
-				category: "Composizione e organizzazione"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale norma ha introdotto la funzione nomofilattica delle Sezioni Riunite per il coordinamento della finanza pubblica?",
@@ -6212,7 +6204,7 @@
 				options: ["L. 142/1990", "L. 20/1994", "L. 131/2003", "L. 196/2009"],
 				correct: 1,
 				motivation: "La legge n. 20/1994 ha operato una riforma fondamentale riducendo drasticamente il numero degli atti sottoposti al controllo preventivo di legittimità e introducendo una nuova forma di controllo successivo sulla gestione del bilancio e del patrimonio.",
-				category: "Evoluzione normativa"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Cosa deve contenere la relazione allegata alla deliberazione di parificazione secondo l'art. 41 del R.D. 1214/1934?",
@@ -6254,7 +6246,7 @@
 				options: ["L. 20/1994", "L. cost. 3/2001", "L. 131/2003, art. 7", "D.L. 174/2012"],
 				correct: 2,
 				motivation: "L'art. 7 della legge n. 131/2003 ha attribuito alla Corte dei conti il controllo sul rispetto degli equilibri di bilancio da parte di Comuni, Province, Città metropolitane e Regioni, ai fini del coordinamento della finanza pubblica.",
-				category: "Evoluzione normativa"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Cosa prevede l'art. 1 del R.D. 273/1939?",
@@ -6268,21 +6260,21 @@
 				options: ["1994", "1998", "2000", "2003"],
 				correct: 2,
 				motivation: "Il Regolamento per l'organizzazione delle funzioni di controllo è stato deliberato dalle Sezioni Riunite il 16 giugno 2000 con delibera n. 14/DEL/2000, e successivamente modificato e integrato.",
-				category: "Normativa organizzativa"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale articolo costituzionale sancisce il principio di copertura finanziaria delle leggi di spesa?",
 				options: ["Art. 75 Cost.", "Art. 81 Cost.", "Art. 100 Cost.", "Art. 119 Cost."],
 				correct: 1,
 				motivation: "L'art. 81, comma 3, della Costituzione stabilisce che ogni legge che importi nuovi o maggiori oneri deve provvedere ai mezzi per farvi fronte, sancendo il principio fondamentale di copertura finanziaria.",
-				category: "Fondamenti costituzionali"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Cosa caratterizza il controllo della Corte dei conti rispetto ai controlli interni delle amministrazioni?",
 				options: ["È un controllo interno rafforzato", "È un controllo esterno svolto in veste neutrale", "È un controllo politico", "È un controllo gerarchico"],
 				correct: 1,
 				motivation: "Il controllo della Corte dei conti è un controllo di tipo esterno, svolto in veste neutrale da un organo indipendente, a garanzia dell'interesse generale alla regolarità e al buon andamento dell'azione amministrativa.",
-				category: "Natura del controllo"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale Sezione ha competenza nomofilattica specifica sulle questioni risolte in maniera difforme dalle Sezioni Regionali, secondo il D.L. 174/2012?",
@@ -6296,35 +6288,35 @@
 				options: ["Principio di gerarchia", "Principio di sussidiarietà verticale", "Principio di supremazia statale", "Principio di coordinamento orizzontale"],
 				correct: 1,
 				motivation: "La legge cost. 3/2001 ha dato piena attuazione al principio di sussidiarietà verticale, riconoscendo le autonomie locali quali enti esponenziali preesistenti deputati all'azione di governo al livello più vicino ai cittadini.",
-				category: "Fondamenti costituzionali"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quanti documenti tra audizioni e memorie hanno predisposto le Sezioni Riunite nel 2023?",
 				options: ["7 documenti", "9 documenti", "11 documenti", "15 documenti"],
 				correct: 2,
 				motivation: "Nel 2023 sono stati predisposti dalle Sezioni Riunite complessivamente 11 documenti: 7 audizioni e 4 memorie, prevalentemente per le Commissioni Bilancio di Camera e Senato.",
-				category: "Attività parlamentare"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Cosa accade a un atto governativo registrato con riserva dalle Sezioni Riunite?",
 				options: ["Viene annullato", "Resta sospeso in attesa del Parlamento", "Acquista piena efficacia", "Deve essere ritirato"],
 				correct: 2,
 				motivation: "L'atto registrato con riserva acquista piena efficacia, ma può dare luogo a responsabilità politica del Governo. La Corte trasmette periodicamente al Parlamento l'elenco degli atti registrati con riserva.",
-				category: "Registrazione con riserva"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale norma ha introdotto la relazione annuale sul costo del lavoro pubblico?",
 				options: ["D.Lgs. 29/1993", "D.Lgs. 165/2001, art. 60", "L. 196/2009", "D.L. 78/2009"],
 				correct: 1,
 				motivation: "L'art. 60, comma 4, del D.Lgs. n. 165/2001 prevede che la Corte dei conti riferisca annualmente al Parlamento sulla gestione delle risorse finanziarie destinate al personale del settore pubblico.",
-				category: "Relazione costo lavoro"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Su quale fonte si basa l'elaborazione della relazione sul costo del lavoro pubblico?",
 				options: ["Bilancio dello Stato", "Conto Annuale del MEF", "Relazioni delle singole amministrazioni", "Dati ISTAT"],
 				correct: 1,
 				motivation: "La relazione sul costo del lavoro si basa sui dati del Conto Annuale elaborato dal Ministero dell'Economia e delle Finanze, che fornisce informazioni complete sulla spesa per il personale pubblico.",
-				category: "Relazione costo lavoro"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Qual è la duplice natura del giudizio di parificazione?",
@@ -6352,14 +6344,14 @@
 				options: ["Controllo politico", "Controllo di gestione e sui risultati", "Controllo gerarchico", "Controllo ispettivo"],
 				correct: 1,
 				motivation: "La riforma del 1994 ha spostato l'attenzione dal controllo preventivo di legittimità sui singoli atti al controllo successivo di gestione, valutando i risultati delle gestioni pubbliche e la sana gestione finanziaria.",
-				category: "Evoluzione normativa"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Il bilancio pubblico, dopo la riforma del 1994, viene qualificato come:",
 				options: ["Atto amministrativo", "Bene pubblico", "Atto politico", "Documento programmatico"],
 				correct: 1,
 				motivation: "Dopo la riforma del 1994, il bilancio viene qualificato come 'bene pubblico', tutelando così l'interesse della collettività dei contribuenti a un corretto uso delle risorse pubbliche.",
-				category: "Evoluzione normativa"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale norma disciplina il procedimento per l'acquisizione del parere della Corte su modifiche alla contabilità generale dello Stato?",
@@ -6373,7 +6365,7 @@
 				options: ["L. 168/1989", "L. 537/1993, art. 5", "L. 43/2005", "D.Lgs. 165/2001"],
 				correct: 1,
 				motivation: "L'art. 5, comma 21, della legge n. 537/1993 prevede che la Corte dei conti predisponga un referto sul sistema universitario per offrire al Parlamento un quadro conoscitivo dei profili finanziari e gestionali.",
-				category: "Referti e rapporti"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale caratteristica distingue l'obbligo di conformazione nella nomofilachia di controllo rispetto a quella giurisdizionale?",
@@ -6387,14 +6379,14 @@
 				options: ["Il Presidente della Corte autonomamente", "I due Presidenti di coordinamento, di concerto con il Presidente", "Il Consiglio di Presidenza", "Le Sezioni Riunite collegialmente"],
 				correct: 1,
 				motivation: "I due Presidenti di coordinamento delle Sezioni Riunite, di concerto con il Presidente della Corte, nominano i magistrati relatori per i singoli affari e provvedono alla formazione dei collegi.",
-				category: "Composizione e organizzazione"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Qual è la finalità ultima del controllo esercitato dalle Sezioni Riunite?",
 				options: ["Sanzionare le irregolarità", "Sostituirsi alle amministrazioni", "Verificare la tenuta degli equilibri di bilancio secondo i parametri UE", "Approvare preventivamente le spese"],
 				correct: 2,
 				motivation: "La finalità del controllo è verificare la tenuta degli equilibri di bilancio sulla base dei parametri finanziari concordati con l'Unione europea, assicurando la regolarità e il buon andamento della gestione finanziaria pubblica.",
-				category: "Natura del controllo"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale procedimento caratterizza l'istruttoria per la parificazione del rendiconto?",
@@ -6408,35 +6400,35 @@
 				options: ["È relativo e superabile", "È assoluto e annulla il provvedimento", "È sospensivo in attesa del Parlamento", "È meramente consultivo"],
 				correct: 1,
 				motivation: "Per alcuni atti espressamente contemplati dall'art. 25 del R.D. 1214/1934, il rifiuto di registrazione è assoluto e annulla il provvedimento, non essendo possibile procedere alla registrazione con riserva.",
-				category: "Registrazione con riserva"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale testo unico disciplina le società a partecipazione pubblica oggetto del referto delle Sezioni Riunite?",
 				options: ["D.Lgs. 165/2001", "D.Lgs. 267/2000", "D.Lgs. 175/2016", "D.Lgs. 118/2011"],
 				correct: 2,
 				motivation: "Il D.Lgs. n. 175/2016 (Testo Unico in materia di società a partecipazione pubblica) disciplina le società partecipate dalle amministrazioni pubbliche, oggetto del referto periodico delle Sezioni Riunite.",
-				category: "Referti e rapporti"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale articolo costituzionale garantisce l'indipendenza della Corte dei conti e dei suoi componenti?",
 				options: ["Art. 97 Cost.", "Art. 100 Cost.", "Art. 103 Cost.", "Art. 108 Cost."],
 				correct: 1,
 				motivation: "L'art. 100, ultimo comma, della Costituzione stabilisce che la legge assicura l'indipendenza della Corte dei conti e dei suoi componenti di fronte al Governo, garantendo la neutralità del controllo.",
-				category: "Fondamenti costituzionali"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale norma ha introdotto le relazioni semestrali sul PNRR?",
 				options: ["D.L. 34/2020", "D.L. 77/2021", "D.L. 152/2021", "L. 238/2021"],
 				correct: 1,
 				motivation: "L'art. 7, comma 7, del decreto-legge n. 77 del 31 maggio 2021 ha introdotto l'obbligo per la Corte dei conti di riferire semestralmente al Parlamento sullo stato di attuazione del PNRR.",
-				category: "Relazioni PNRR"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Cosa devono verificare le Sezioni Riunite nella certificazione dei CCNL oltre alla quantificazione dei costi?",
 				options: ["La convenienza economica", "La compatibilità con gli strumenti di programmazione e bilancio", "L'equità retributiva", "La soddisfazione dei sindacati"],
 				correct: 1,
 				motivation: "Le Sezioni Riunite devono certificare non solo l'attendibilità della quantificazione dei costi, ma anche la compatibilità con gli strumenti di programmazione e di bilancio e il rispetto dei vincoli di bilancio.",
-				category: "Certificazione CCNL"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Qual è l'effetto principale delle pronunce di orientamento generale delle Sezioni Riunite ex art. 17, comma 31, D.L. 78/2009?",
@@ -6464,21 +6456,21 @@
 				options: ["La relazione sul costo del lavoro", "Il rapporto sul coordinamento della finanza pubblica", "La relazione quadrimestrale sulle coperture", "Il referto sul sistema universitario"],
 				correct: 1,
 				motivation: "Il rapporto annuale sul coordinamento della finanza pubblica esamina i grandi comparti della spesa pubblica, con particolare attenzione a previdenza, assistenza, sanità e investimenti pubblici.",
-				category: "Referti e rapporti"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quale principio costituzionale è alla base dell'autonomia funzionale della Corte dei conti?",
 				options: ["Solo l'art. 100 Cost.", "Solo l'art. 103 Cost.", "Il combinato disposto degli artt. 100 e 103 Cost.", "L'art. 97 Cost."],
 				correct: 2,
 				motivation: "L'autonomia funzionale della Corte dei conti, quale organo di rilevanza costituzionale, trova fondamento nel combinato disposto degli artt. 100 e 103 della Costituzione, garantendo indipendenza organizzativa e finanziaria.",
-				category: "Fondamenti costituzionali"
+				category: "Sezioni riunite controllo"
 			},
 			{
 				question: "Quando la Corte dei conti riferisce al Parlamento sulla definitiva quantificazione dei costi contrattuali?",
 				options: ["Prima della certificazione", "Durante la trattativa", "Dopo la sottoscrizione del contratto", "Mai, è compito dell'ARAN"],
 				correct: 2,
 				motivation: "La Corte riferisce al Parlamento sulla definitiva quantificazione dei costi contrattuali, sulla loro copertura finanziaria e sulla compatibilità con gli strumenti della programmazione dopo il completamento del procedimento di certificazione.",
-				category: "Certificazione CCNL"
+				category: "Sezioni riunite controllo"
 			},
 			
 			// B09 - La Procura Generale
@@ -6487,363 +6479,363 @@
 				options: ["Articoli 101 e 102 della Costituzione", "Articoli 2, 3, 97 e 81 della Costituzione", "Articoli 24 e 111 della Costituzione", "Articoli 103 e 107 della Costituzione"],
 				correct: 1,
 				motivation: "L'obbligatorietà dell'azione risarcitoria o sanzionatoria del P.M. contabile trova fondamento negli articoli 2 (tutela dei diritti), 3 (uguaglianza), 97 (buon andamento della P.A.) e 81 (equilibrio di bilancio) della Costituzione.",
-				category: "Quadro costituzionale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale articolo del codice di giustizia contabile disciplina l'apertura del procedimento istruttorio?",
 				options: ["Art. 54 c.g.c.", "Art. 12 c.g.c.", "Art. 11 c.g.c.", "Art. 114 c.g.c."],
 				correct: 0,
 				motivation: "L'art. 54 c.g.c. stabilisce che il P.M., ove non disponga l'archiviazione immediata, deve disporre l'apertura di un procedimento istruttorio. Questo articolo regola anche i criteri obiettivi di assegnazione dei fascicoli.",
-				category: "Normativa procedurale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quanti anni di esperienza nelle funzioni giurisdizionali e di procura devono avere i magistrati per essere assegnati alla Procura generale?",
 				options: ["Almeno 2 anni", "Almeno 5 anni", "Almeno 4 anni", "Almeno 3 anni"],
 				correct: 2,
 				motivation: "I magistrati assegnati all'Ufficio della Procura generale devono aver svolto almeno 4 anni nelle funzioni giurisdizionali e di procura, garantendo così un'adeguata esperienza professionale.",
-				category: "Composizione e organizzazione"
+				category: "Procura Generale"
 			},
 			{
 				question: "In quale città ha sede l'ufficio distaccato della Procura generale per la Sezione di appello siciliana?",
 				options: ["Catania", "Messina", "Palermo", "Siracusa"],
 				correct: 2,
 				motivation: "L'ufficio distaccato della Procura generale presso la Sezione di appello per la Regione siciliana ha sede a Palermo ed è preposto da un Consigliere.",
-				category: "Composizione e organizzazione"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale disposizione ha istituito il Servizio di coordinamento della Procura generale?",
 				options: ["Disposizione n. 96 del 2022", "Disposizione di servizio 2/2020", "Disposizione di servizio 4/2021/AC", "Nota prot. 571 del 2022"],
 				correct: 2,
 				motivation: "La disposizione di servizio 4/2021/AC ha istituito il Servizio di coordinamento dell'attività dei procuratori regionali, modificando la precedente disposizione n. 2/2020 e riorganizzando gli uffici della Procura generale.",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quanti sono gli uffici specializzati della Procura generale secondo la riorganizzazione del 2021?",
 				options: ["Quattro uffici", "Cinque uffici", "Sei uffici", "Sette uffici"],
 				correct: 2,
 				motivation: "La disposizione 4/2021 ha organizzato la Procura generale in sei uffici specializzati: appelli e ricorsi per revocazione, ricorsi per cassazione, ricorsi Sezioni riunite, affari internazionali, coordinamento e studi, ufficio disciplinare.",
-				category: "Composizione e organizzazione"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale articolo del c.g.c. attribuisce al Procuratore generale il potere di coordinamento?",
 				options: ["Art. 11, c. 3 c.g.c.", "Art. 54, c. 1 c.g.c.", "Art. 12, c. 3 c.g.c.", "Art. 114, c. 2 c.g.c."],
 				correct: 2,
 				motivation: "L'art. 12, comma 3, del codice di giustizia contabile (già art. 2, c. 3, d.l. n. 453/93 conv. in l. n. 19/94) attribuisce al Procuratore generale il potere di emanare indirizzi di coordinamento vincolanti.",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Qual è la natura del coordinamento del Procuratore generale secondo il 'principio Garri'?",
 				options: ["Gerarchia amministrativa con vincolo di subordinazione", "Non gerarchia, ma collegialità dialettica e vincolatività", "Mera consultazione senza vincoli", "Potere discrezionale assoluto"],
 				correct: 1,
 				motivation: "Il coordinamento del Procuratore generale, secondo il principio Garri, non è una gerarchia ma si caratterizza per la collegialità e dialettica nell'adozione degli indirizzi, che sono poi vincolanti per tutti i Procuratori regionali.",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quando è stata emanata la disposizione di coordinamento sui giudizi di parifica regionale?",
 				options: ["23 ottobre 2013, nota 2216", "5 aprile 2022, nota prot. 494", "3 maggio 2022, nota prot. 550", "5 maggio 2022, nota prot. 571"],
 				correct: 3,
 				motivation: "La nota prot. 571 del 5 maggio 2022 ha fornito gli indirizzi di coordinamento sui giudizi di parifica regionale, disciplinando le modalità operative per i Procuratori regionali.",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale disposizione disciplina il dovere di astensione del P.M.?",
 				options: ["Nota prot. 550 del 3 maggio 2022", "Nota prot. 494 del 5 aprile 2022", "Disposizione n. 96 del 21 gennaio 2022", "Nota 2216 del 23 ottobre 2013"],
 				correct: 0,
 				motivation: "La nota prot. 550 del 3 maggio 2022 ha chiarito in quali situazioni il magistrato della Procura deve astenersi dal trattare un procedimento (ad esempio per rapporti di parentela o interesse personale).",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale ufficio della Procura generale cura i rapporti con OLAF ed EPPO?",
 				options: ["Ufficio ricorsi Sezioni riunite", "Ufficio affari internazionali", "Ufficio coordinamento e studi", "Ufficio appelli"],
 				correct: 1,
 				motivation: "L'Ufficio affari internazionali e per i rapporti interistituzionali si occupa della collaborazione con OLAF (Ufficio europeo antifrode) ed EPPO (Procura europea) per il contrasto alle frodi ai danni dei fondi UE.",
-				category: "Composizione e organizzazione"
+				category: "Procura Generale"
 			},
 			{
 				question: "Qual è il termine per proporre appello contro le sentenze delle sezioni regionali?",
 				options: ["30 giorni dalla notifica", "45 giorni dalla notifica", "60 giorni dalla notifica", "90 giorni dalla notifica"],
 				correct: 2,
 				motivation: "L'art. 207 c.g.c. stabilisce il termine perentorio di 60 giorni dalla notifica della sentenza per proporre appello contro le sentenze delle sezioni regionali. L'inosservanza comporta l'inammissibilità dell'impugnazione.",
-				category: "Termini processuali"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale articolo della Costituzione garantisce l'indipendenza dei magistrati e si applica analogicamente alla Procura contabile?",
 				options: ["Art. 100 Cost.", "Art. 103 Cost.", "Art. 107 Cost.", "Art. 111 Cost."],
 				correct: 2,
 				motivation: "L'art. 107 della Costituzione, che stabilisce che i magistrati si distinguono solo per diversità di funzioni e sono inamovibili, si applica analogicamente ai magistrati della Procura contabile garantendone l'indipendenza.",
-				category: "Quadro costituzionale"
+				category: "Procura Generale"
 			},
 			{
 				question: "In quale sede le Sezioni Riunite giudicano il Rendiconto generale dello Stato?",
 				options: ["In sede giurisdizionale", "In sede di controllo", "In sede deliberante", "In sede consultiva"],
 				correct: 1,
 				motivation: "Il giudizio annuale di parificazione del Rendiconto generale dello Stato avviene davanti alle Sezioni Riunite in sede di controllo, secondo gli artt. 13, 39 ss. del R.D. n. 1214/1934.",
-				category: "Funzioni"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale criterio deve essere seguito nell'assegnazione dei fascicoli ai magistrati?",
 				options: ["Criteri discrezionali del Procuratore", "Criteri soggettivi basati sulla fiducia", "Criteri obiettivi ed automatici", "Criteri liberi senza vincoli"],
 				correct: 2,
 				motivation: "L'art. 54, comma 1, c.g.c. stabilisce che l'assegnazione delle vertenze deve avvenire secondo criteri obiettivi ed automatici, garantendo trasparenza e impedendo arbitrarietà nella distribuzione dei fascicoli.",
-				category: "Organizzazione del lavoro"
+				category: "Procura Generale"
 			},
 			{
 				question: "Cosa avviene se il Procuratore regionale non condivide la proposta di archiviazione di un magistrato?",
 				options: ["Deve accettare comunque la proposta", "Può avocare il fascicolo", "Deve richiedere parere alle Sezioni Riunite", "Deve rinviare al magistrato con osservazioni non vincolanti"],
 				correct: 1,
 				motivation: "In caso di dissenso sull'archiviazione, il Procuratore regionale può avocare il fascicolo, togliendolo al magistrato assegnatario per disporre l'apertura del procedimento o ulteriori accertamenti, pur rispettando l'autonomia del magistrato.",
-				category: "Rapporti interni"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale norma disciplina i ricorsi per cassazione nel processo contabile?",
 				options: ["Artt. 54-60 c.g.c.", "Artt. 114-119 c.g.c.", "Artt. 207-210 c.g.c. e art. 362 c.p.c.", "Artt. 11-15 c.g.c."],
 				correct: 2,
 				motivation: "I ricorsi e controricorsi per cassazione nel processo contabile sono disciplinati dagli artt. 207-210 del codice di giustizia contabile, in combinato con l'art. 362 del codice di procedura civile.",
-				category: "Normativa procedurale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Chi predispone i turni e calendari di udienza per la Procura generale?",
 				options: ["Il magistrato coordinatore di ciascun ufficio", "Il Procuratore generale tramite la Segreteria", "Il Dirigente di Segreteria autonomamente", "Ogni magistrato per sé stesso"],
 				correct: 1,
 				motivation: "È il Procuratore generale, tramite la Segreteria, che predispone i turni calendari di udienza, assicurando la copertura di tutte le udienze e preferibilmente la partecipazione dei P.M. titolari dei fascicoli.",
-				category: "Organizzazione del lavoro"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quando deve avvenire l'inserimento degli atti processuali nel sistema Giudico?",
 				options: ["Entro 7 giorni dalla redazione", "Entro 3 giorni lavorativi", "Entro 15 giorni", "Immediatamente (stesso giorno)"],
 				correct: 3,
 				motivation: "L'inserimento degli atti processuali nel sistema informatico Giudico deve avvenire immediatamente (stesso giorno della redazione) per garantire a tutti gli operatori una visione aggiornata dello stato del procedimento.",
-				category: "Organizzazione del lavoro"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale articolo del c.g.c. regola i giudizi davanti alle Sezioni Riunite in speciale composizione?",
 				options: ["Art. 54 c.g.c.", "Art. 12 c.g.c.", "Art. 11 c.g.c.", "Art. 119 c.g.c."],
 				correct: 2,
 				motivation: "L'art. 11 c.g.c. disciplina i giudizi in unico grado davanti alle Sezioni Riunite in speciale composizione, che riguardano materie come piani di riequilibrio, ammissione al Fondo di rotazione, rendiconti di gruppi consiliari regionali.",
-				category: "Normativa procedurale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale disposizione ha costituito gruppi di lavoro per valutare la produttività degli uffici?",
 				options: ["Nota prot. 571 del 5 maggio 2022", "Disposizione n. 96 del 21 gennaio 2022", "Nota prot. 550 del 3 maggio 2022", "Disp. serv. 4/2021/AC"],
 				correct: 1,
 				motivation: "La disposizione n. 96 del 21 gennaio 2022 ha costituito gruppi di lavoro per valutare la produttività e il peso delle istruttorie e delle citazioni, ottimizzando la distribuzione del carico di lavoro.",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Entro quale termine deve essere concluso il giudizio di parificazione del Rendiconto generale dello Stato?",
 				options: ["Entro marzo dell'anno successivo", "Entro dicembre dello stesso anno", "Entro luglio dell'anno successivo", "Entro aprile dell'anno successivo"],
 				correct: 2,
 				motivation: "Il giudizio di parificazione del Rendiconto generale dello Stato davanti alle Sezioni Riunite deve concludersi entro luglio dell'anno successivo a quello del rendiconto, secondo gli artt. 13, 39 ss. R.D. n. 1214/1934.",
-				category: "Scadenze operative"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale norma previgente è confluita nell'attuale art. 12, c. 3, c.g.c. sul coordinamento?",
 				options: ["Art. 1, c. 2, l. n. 19/94", "Art. 2, c. 3, d.l. n. 453/93 conv. in l. n. 19/94", "Art. 3, c. 1, l. n. 20/94", "Art. 4, c. 2, d.l. n. 453/93"],
 				correct: 1,
 				motivation: "Il potere di coordinamento del Procuratore generale era originariamente previsto dall'art. 2, c. 3, del d.l. n. 453/93 convertito in l. n. 19/94, poi confluito nell'art. 12, c. 3, del codice di giustizia contabile.",
-				category: "Normativa procedurale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale principio fondamentale deve guidare i rapporti tra uffici requirenti e giudicanti?",
 				options: ["Collaborazione gerarchica", "Rispetto dei ruoli e imparzialità", "Dipendenza funzionale", "Subordinazione operativa"],
 				correct: 1,
 				motivation: "Il principio fondamentale che deve sempre guidare i rapporti tra uffici requirenti e giudicanti è il rispetto dei ruoli e l'imparzialità, garantendo l'autonomia di ciascuno nelle valutazioni di merito pur collaborando negli aspetti organizzativi.",
-				category: "Sinergie organizzative"
+				category: "Procura Generale"
 			},
 			{
 				question: "Qual è il termine per proporre ricorso per cassazione contro le sentenze d'appello?",
 				options: ["30 giorni dalla notifica", "45 giorni dalla notifica", "60 giorni dalla notifica", "90 giorni dalla notifica"],
 				correct: 2,
 				motivation: "Il termine per proporre ricorso per cassazione contro le sentenze delle sezioni centrali d'appello è di 60 giorni dalla notifica della sentenza, secondo gli artt. 207-210 c.g.c. È un termine perentorio.",
-				category: "Termini processuali"
+				category: "Procura Generale"
 			},
 			{
 				question: "Chi sovrintende all'Ufficio di Segreteria della Procura generale?",
 				options: ["Il Procuratore generale direttamente", "Il Procuratore generale aggiunto", "Il Dirigente di Segreteria", "Il magistrato coordinatore più anziano"],
 				correct: 2,
 				motivation: "L'Ufficio di Segreteria della Procura generale è diretto dal Dirigente di Segreteria, che coordina il personale amministrativo, la gestione documentale e i flussi procedimentali.",
-				category: "Composizione e organizzazione"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale disposizione disciplina la gestione delle discordanze tra P.G. e P.M. di udienza?",
 				options: ["Nota prot. 571 del 2022", "Nota prot. 494 del 2022", "Nota 2216 del 23 ottobre 2013", "Disposizione n. 96 del 2022"],
 				correct: 2,
 				motivation: "L'indirizzo di coordinamento del 23 ottobre 2013, nota 2216, disciplina la gestione delle discordanze tra il Procuratore generale e il P.M. di udienza o tra atto scritto e conclusioni orali.",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale ufficio redige i ricorsi della Procura per la Corte di Cassazione?",
 				options: ["Ufficio appelli e ricorsi per revocazione", "Ufficio ricorsi e controricorsi per cassazione", "Ufficio ricorsi Sezioni riunite", "Ufficio coordinamento e studi"],
 				correct: 1,
 				motivation: "L'Ufficio ricorsi e controricorsi per cassazione si occupa specificamente della redazione dei ricorsi della Procura per cassazione e dei controricorsi alle impugnazioni delle parti private (artt. 207-210 c.g.c. e 362 c.p.c.).",
-				category: "Composizione e organizzazione"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale articolo della Costituzione attribuisce alla Corte dei conti la giurisdizione in materia di contabilità pubblica?",
 				options: ["Art. 100, comma 1 Cost.", "Art. 103, comma 2 Cost.", "Art. 107 Cost.", "Art. 111 Cost."],
 				correct: 1,
 				motivation: "L'art. 103, comma 2, della Costituzione stabilisce che la Corte dei conti ha giurisdizione nelle materie di contabilità pubblica e nelle altre specificate dalla legge.",
-				category: "Quadro costituzionale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Qual è il termine per il controricorso in cassazione dalla notifica del ricorso avverso?",
 				options: ["20 giorni", "30 giorni", "40 giorni", "60 giorni"],
 				correct: 2,
 				motivation: "Il termine per depositare il controricorso per cassazione è di 40 giorni dalla notifica del ricorso della controparte, secondo l'art. 207 c.g.c. È comunque possibile presentarlo fino a 5 giorni prima dell'udienza.",
-				category: "Termini processuali"
+				category: "Procura Generale"
 			},
 			{
 				question: "In che anno è stata emanata la Legge n. 20 sull'autonomia finanziaria della Corte dei conti?",
 				options: ["1992", "1993", "1994", "1995"],
 				correct: 2,
 				motivation: "La Legge 14 gennaio 1994, n. 20 ha introdotto disposizioni in materia di giurisdizione e controllo della Corte dei conti, prevedendo all'art. 4 l'autonomia finanziaria dell'istituzione.",
-				category: "Normativa procedurale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale documento raccoglie organicamente tutti gli indirizzi emanati dal Procuratore generale?",
 				options: ["Il Regolamento interno della Procura", "Il Testo Unico delle disposizioni di coordinamento", "Il Codice di comportamento della Procura", "Il Piano Integrato Triennale"],
 				correct: 1,
 				motivation: "Il Testo Unico delle disposizioni di coordinamento è il documento che raccoglie in modo organico tutti gli indirizzi emanati dal Procuratore generale nel corso del tempo, costituendo il riferimento operativo per i Procuratori regionali.",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale articolo del c.g.c. disciplina le Sezioni Riunite per questioni di massima?",
 				options: ["Art. 11 c.g.c.", "Art. 54 c.g.c.", "Artt. 114 ss. c.g.c.", "Art. 207 c.g.c."],
 				correct: 2,
 				motivation: "Gli artt. 114 e seguenti del codice di giustizia contabile disciplinano le Sezioni Riunite quando si pronunciano su questioni di massima di particolare rilevanza giuridica.",
-				category: "Normativa procedurale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quando è stata emanata la disposizione sul dovere di riservatezza del P.M. e i mass media?",
 				options: ["23 ottobre 2013", "21 gennaio 2022", "5 aprile 2022", "5 maggio 2022"],
 				correct: 2,
 				motivation: "La nota prot. 494 del 5 aprile 2022 ha disciplinato il dovere di riservatezza del P.M. e i rapporti con i mass media, stabilendo il divieto di rilasciare dichiarazioni sui procedimenti in corso.",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Con quale frequenza si tengono generalmente i Consigli di Procura?",
 				options: ["Mensilmente", "Bimestralmente", "Trimestralmente o semestralmente", "Annualmente"],
 				correct: 2,
 				motivation: "I Consigli di Procura, riunioni tra il Procuratore generale e i Procuratori regionali per discutere questioni giuridiche e adottare indirizzi, si tengono generalmente con periodicità trimestrale o semestrale.",
-				category: "Coordinamento"
+				category: "Procura Generale"
 			},
 			{
 				question: "Qual è il sistema informatico utilizzato per la gestione dei fascicoli processuali della Corte dei conti?",
 				options: ["SistemaCDC", "Giudico", "ProcuraWeb", "ContabilitApp"],
 				correct: 1,
 				motivation: "Giudico è il sistema informatico che gestisce tutti i fascicoli processuali della Corte dei conti. Richiede l'inserimento immediato degli atti per garantire a tutti gli operatori una visione aggiornata dei procedimenti.",
-				category: "Organizzazione del lavoro"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale tipo di controllo esercita il Procuratore regionale sul provvedimento di archiviazione proposto dal magistrato?",
 				options: ["Controllo di merito vincolante", "Controllo gerarchico assoluto", "Controllo di regolarità formale", "Nessun controllo"],
 				correct: 2,
 				motivation: "Il 'visto' del Procuratore regionale sulla proposta di archiviazione è un controllo di regolarità formale che verifica che siano stati espletati tutti gli accertamenti necessari, senza sostituire la valutazione del magistrato assegnatario.",
-				category: "Rapporti interni"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale organizzazione internazionale si occupa della lotta antifrode nell'Unione Europea?",
 				options: ["EPPO", "INTOSAI", "OLAF", "EUROSAI"],
 				correct: 2,
 				motivation: "OLAF (Ufficio europeo per la lotta antifrode) è l'organizzazione che si occupa della repressione delle frodi ai danni del bilancio UE. La Procura generale ha stipulato un accordo di collaborazione con OLAF per lo scambio di informazioni.",
-				category: "Funzioni"
+				category: "Procura Generale"
 			},
 			{
 				question: "Chi può rimettere una questione di massima alle Sezioni Riunite?",
 				options: ["Solo il Presidente della Corte dei conti", "Solo le sezioni giudicanti", "Anche la Procura generale", "Solo il Procuratore regionale"],
 				correct: 2,
 				motivation: "Anche la Procura generale può rimettere una questione di massima alle Sezioni Riunite quando una questione giuridica particolarmente rilevante richiede una pronuncia di principio vincolante per tutte le sezioni.",
-				category: "Funzioni"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale norma stabilisce che i magistrati sono inamovibili?",
 				options: ["Art. 100 Cost.", "Art. 103 Cost.", "Art. 107 Cost.", "Art. 54 c.g.c."],
 				correct: 2,
 				motivation: "L'art. 107 della Costituzione stabilisce che i magistrati sono inamovibili, principio che si applica analogicamente anche ai magistrati della Procura contabile per garantirne l'indipendenza.",
-				category: "Quadro costituzionale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Entro quale termine devono essere trasmessi gli atti al gruppo di lavoro per il controllo formale?",
 				options: ["Entro 10 giorni dalla redazione", "Entro 3 giorni dalla redazione", "Entro 5 giorni dalla redazione", "Entro 7 giorni dalla redazione"],
 				correct: 2,
 				motivation: "Secondo la prassi organizzativa interna, gli atti devono essere trasmessi al gruppo di lavoro assegnato per il controllo formale entro 5 giorni dalla redazione, per verificarne la regolarità prima della notifica.",
-				category: "Organizzazione del lavoro"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale articolo della Costituzione sancisce il principio di buon andamento della pubblica amministrazione?",
 				options: ["Art. 81 Cost.", "Art. 97 Cost.", "Art. 100 Cost.", "Art. 103 Cost."],
 				correct: 1,
 				motivation: "L'art. 97 della Costituzione sancisce il principio di buon andamento della pubblica amministrazione, che costituisce uno dei fondamenti dell'obbligatorietà dell'azione del P.M. contabile in caso di danno erariale.",
-				category: "Quadro costituzionale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale ufficio si occupa della gestione dei procedimenti disciplinari?",
 				options: ["Ufficio coordinamento e studi", "Ufficio affari internazionali", "Ufficio disciplinare", "Ufficio ricorsi Sezioni riunite"],
 				correct: 2,
 				motivation: "L'Ufficio disciplinare, uno dei sei uffici specializzati della Procura generale istituiti con la disposizione 4/2021, gestisce i procedimenti disciplinari a carico del personale amministrativo e dei magistrati quando di competenza.",
-				category: "Composizione e organizzazione"
+				category: "Procura Generale"
 			},
 			{
 				question: "In quale periodo dell'anno si svolgono generalmente i giudizi di parifica dei rendiconti regionali?",
 				options: ["Gennaio-marzo", "Aprile-giugno", "Maggio-luglio", "Settembre-novembre"],
 				correct: 2,
 				motivation: "I giudizi di parifica dei rendiconti regionali si svolgono generalmente nel periodo maggio-luglio, anche se ogni Regione ha un proprio calendario specifico, secondo quanto disciplinato dalla nota prot. 571 del 5 maggio 2022.",
-				category: "Scadenze operative"
+				category: "Procura Generale"
 			},
 			{
 				question: "Qual è l'acronimo della Procura europea istituita con Regolamento UE 2017/1939?",
 				options: ["OLAF", "EUROSAI", "EPPO", "INTOSAI"],
 				correct: 2,
 				motivation: "EPPO (European Public Prosecutor's Office) è la Procura europea istituita con Regolamento (UE) 2017/1939 per perseguire i reati contro gli interessi finanziari dell'Unione. La Procura generale collabora con EPPO.",
-				category: "Funzioni"
+				category: "Procura Generale"
 			},
 			{
 				question: "Con quale periodicità i magistrati coordinatori degli uffici riferiscono al Procuratore generale sull'attività svolta?",
 				options: ["Mensilmente", "Bimestralmente", "Trimestralmente", "Semestralmente"],
 				correct: 2,
 				motivation: "I magistrati coordinatori degli uffici della Procura generale hanno l'obbligo di riferire trimestralmente al Procuratore generale e al Procuratore aggiunto sull'attività svolta, entro 15 giorni dalla fine di ogni trimestre.",
-				category: "Organizzazione del lavoro"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale articolo del c.g.c. disciplina i conflitti di competenza tra sezioni regionali?",
 				options: ["Art. 54 c.g.c.", "Art. 11 c.g.c.", "Art. 119, c. 1 c.g.c.", "Art. 207 c.g.c."],
 				correct: 2,
 				motivation: "L'art. 119, comma 1, del codice di giustizia contabile disciplina i conflitti di competenza tra sezioni regionali, che vengono risolti dalle Sezioni Riunite con la partecipazione della Procura generale.",
-				category: "Normativa procedurale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale attività di vertice si svolge tradizionalmente nel periodo gennaio-febbraio?",
 				options: ["Parificazione Rendiconto generale dello Stato", "Inaugurazione anno giudiziario con relazione del P.G.", "Giudizi di parifica regionali", "Consigli di Procura ordinari"],
 				correct: 1,
 				motivation: "L'inaugurazione dell'anno giudiziario della Corte dei conti, con la relazione del Procuratore generale sull'attività svolta e le linee per l'anno successivo, si svolge tradizionalmente nel periodo gennaio-febbraio.",
-				category: "Scadenze operative"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale principio garantisce che ogni danno alla finanza pubblica sia perseguito con uguale rigore?",
 				options: ["Principio di discrezionalità dell'azione", "Principio di opportunità politica", "Principio di obbligatorietà dell'azione", "Principio di facoltatività processuale"],
 				correct: 2,
 				motivation: "Il principio di obbligatorietà dell'azione, fondato sugli artt. 2, 3, 97 e 81 Cost., garantisce che ogni danno alla finanza pubblica sia perseguito con uguale rigore, indipendentemente da chi lo ha causato.",
-				category: "Quadro costituzionale"
+				category: "Procura Generale"
 			},
 			{
 				question: "Quale organizzazione internazionale delle Istituzioni Superiori di Controllo opera a livello europeo?",
 				options: ["INTOSAI", "OLAF", "EUROSAI", "EPPO"],
 				correct: 2,
 				motivation: "EUROSAI è l'organizzazione europea delle Istituzioni Superiori di Controllo (il corrispettivo europeo di INTOSAI), con cui la Procura generale collabora per lo scambio di metodologie di controllo e best practices.",
-				category: "Funzioni"
+				category: "Procura Generale"
 			},
 			{
 				question: "Entro quale termine il Procuratore regionale dovrebbe apporre il visto sulla proposta di archiviazione?",
 				options: ["Entro 5 giorni", "Entro 10 giorni", "Entro 15 giorni", "Entro 30 giorni"],
 				correct: 2,
 				motivation: "Secondo la prassi organizzativa interna, il Procuratore regionale dovrebbe apporre il visto sulla proposta di archiviazione entro 15 giorni, per garantire la tempestività nella definizione dei procedimenti.",
-				category: "Termini processuali"
+				category: "Procura Generale"
 			},
 			{
 				question: "A chi vengono trasmessi i risultati del giudizio di parificazione del Rendiconto generale dello Stato?",
 				options: ["Al Governo", "Al Parlamento", "Alla Corte Costituzionale", "Al Presidente della Repubblica"],
 				correct: 1,
 				motivation: "La decisione delle Sezioni Riunite sul giudizio di parificazione del Rendiconto generale dello Stato viene trasmessa al Parlamento e costituisce la base per l'approvazione parlamentare del rendiconto.",
-				category: "Funzioni"
+				category: "Procura Generale"
 			}
         ];
