@@ -3,7 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz PEO 2025</title>
+    <title>Quiz PEO 2025 (unoffical)</title>
+    <!--
+    ========================================
+    COME MODIFICARE I PUNTEGGI:
+    ========================================
+    Per modificare i punteggi del quiz, cerca nel codice JavaScript (sezione <script>)
+    le seguenti costanti all'inizio:
+    
+    const POINTS_CORRECT = 0.5;    // Punteggio per risposta corretta
+    const POINTS_INCORRECT = -0.2;  // Punteggio per risposta errata (deve essere negativo)
+    const POINTS_SKIPPED = 0;       // Punteggio per domanda saltata
+    
+    Modifica questi valori secondo le tue esigenze.
+    Ricorda di aggiornare anche il testo nella schermata iniziale se necessario.
+    ========================================
+    -->
     <style>
         * {
             margin: 0;
@@ -401,7 +416,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎓 Quiz PEO 2025</h1>
+            <h1>🎓 Quiz PEO 2025 (unofficial)</h1>
             <p class="subtitle">Test di preparazione per le PEO 2025</p>
         </div>
 
@@ -423,8 +438,8 @@
             </p>
             <p>
                 <strong>Sistema di punteggio:</strong><br>
-                ✅ Risposta corretta: <strong>+1.0 punto</strong><br>
-                ❌ Risposta errata: <strong>-0.5 punti</strong><br>
+                ✅ Risposta corretta: <strong>+0.5 punti</strong><br>
+                ❌ Risposta errata: <strong>-0.2 punti</strong><br>
                 ⚠️ Domanda saltata: <strong>0 punti</strong>
             </p>
             <p>
@@ -502,6 +517,14 @@
     </div>
 
     <script>
+        // ========================================
+        // PARAMETRI DI CONFIGURAZIONE PUNTEGGIO
+        // ========================================
+        const POINTS_CORRECT = 0.5;   // Punteggio per risposta corretta
+        const POINTS_INCORRECT = -0.2; // Punteggio per risposta errata (negativo)
+        const POINTS_SKIPPED = 0;      // Punteggio per domanda saltata
+        // ========================================
+
         // Database delle domande
         const questionDatabase = [
             // A03 - ROF e RAC
@@ -7478,10 +7501,10 @@
             if (isCorrect) {
                 score++;
                 correctAnswers++;
-                totalPoints += 0.5; // +0.5 punto per risposta corretta
+                totalPoints += POINTS_CORRECT; // Usa la costante parametrizzata
             } else {
                 incorrectAnswers++;
-                totalPoints -= 0.2; // -0.2 punti per risposta errata
+                totalPoints += POINTS_INCORRECT; // Usa la costante parametrizzata (già negativa)
             }
             
             // Salva la risposta dell'utente
@@ -7513,7 +7536,7 @@
             feedback.classList.add('show');
             feedback.classList.add(isCorrect ? 'correct' : 'incorrect');
             
-            const pointsChange = isCorrect ? '+0.5' : '-0.2';
+            const pointsChange = isCorrect ? `+${POINTS_CORRECT.toFixed(1)}` : `${POINTS_INCORRECT.toFixed(1)}`;
             const pointsColor = isCorrect ? '#28a745' : '#dc3545';
             
             document.getElementById('feedbackTitle').innerHTML = 
