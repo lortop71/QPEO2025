@@ -7478,10 +7478,10 @@
             if (isCorrect) {
                 score++;
                 correctAnswers++;
-                totalPoints += 1; // +1 punto per risposta corretta
+                totalPoints += 0.5; // +0.5 punto per risposta corretta
             } else {
                 incorrectAnswers++;
-                totalPoints -= 0.5; // -0.5 punti per risposta errata
+                totalPoints -= 0.2; // -0.2 punti per risposta errata
             }
             
             // Salva la risposta dell'utente
@@ -7513,7 +7513,7 @@
             feedback.classList.add('show');
             feedback.classList.add(isCorrect ? 'correct' : 'incorrect');
             
-            const pointsChange = isCorrect ? '+1.0' : '-0.5';
+            const pointsChange = isCorrect ? '+0.5' : '-0.2';
             const pointsColor = isCorrect ? '#28a745' : '#dc3545';
             
             document.getElementById('feedbackTitle').innerHTML = 
