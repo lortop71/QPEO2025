@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz PEO 2025</title>
+    <title>Quiz Corte dei Conti</title>
     <style>
         * {
             margin: 0;
@@ -107,9 +107,16 @@
         .question-info {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             margin-bottom: 20px;
             color: #666;
             font-size: 0.9em;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .question-info span {
+            white-space: nowrap;
         }
 
         .question-box {
@@ -394,8 +401,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎓 Quiz PEO 2025</h1>
-            <p class="subtitle">Test di preparazione al Quiz per le PEO 2025</p>
+            <h1>🎓 Quiz Corte dei Conti</h1>
+            <p class="subtitle">Test di preparazione per concorsi</p>
         </div>
 
         <!-- Schermata iniziale -->
@@ -416,8 +423,8 @@
             </p>
             <p>
                 <strong>Sistema di punteggio:</strong><br>
-                ✅ Risposta corretta: <strong>+0.5 punti</strong><br>
-                ❌ Risposta errata: <strong>-0.2 punti</strong><br>
+                ✅ Risposta corretta: <strong>+1.0 punto</strong><br>
+                ❌ Risposta errata: <strong>-0.5 punti</strong><br>
                 ⚠️ Domanda saltata: <strong>0 punti</strong>
             </p>
             <p>
@@ -437,6 +444,7 @@
 
             <div class="question-info">
                 <span id="questionNumber">Domanda 1 di 40</span>
+                <span id="questionCategory" style="color: #667eea; font-weight: 600;">📚 Categoria</span>
                 <span id="score">Punteggio: 0.0/0</span>
             </div>
 
@@ -3037,7 +3045,7 @@
 				category: "Contrattazione Collettiva"
 			},
 			{
-				question: "Quale percentuale dello 0,22% del monte salari 2018 può essere utilizzata per incrementare il Fondo Risorse Decentrate?",
+				question: "Quale percentuale del monte salari 2018 può essere utilizzata per incrementare il Fondo Risorse Decentrate?",
 				options: ["Fino allo 0,15%", "Fino allo 0,30%", "Fino allo 0,22%", "Fino allo 0,50%"],
 				correct: 2,
 				motivation: "L'art. 1, c. 604 della L. 234/2021 prevede che ciascuna amministrazione possa incrementare il FRD di un importo non superiore allo 0,22% del monte salari 2018 per esigenze organizzative o gestionali.",
@@ -7348,7 +7356,7 @@
         let currentQuestions = [];
         let currentQuestionIndex = 0;
         let score = 0;
-        let totalPoints = 0; // Punteggio totale con +0.5 per corrette e -0.2 per errate
+        let totalPoints = 0; // Punteggio totale con +1 per corrette e -0.5 per errate
         let answered = 0;
         let correctAnswers = 0;
         let incorrectAnswers = 0;
@@ -7406,6 +7414,8 @@
             
             document.getElementById('questionNumber').textContent = 
                 `Domanda ${currentQuestionIndex + 1} di ${currentQuestions.length}`;
+            document.getElementById('questionCategory').textContent = 
+                `📚 ${question.category}`;
             document.getElementById('score').textContent = 
                 `Punteggio: ${totalPoints.toFixed(1)}/${answered}`;
             document.getElementById('questionText').textContent = question.question;
@@ -7468,15 +7478,16 @@
             if (isCorrect) {
                 score++;
                 correctAnswers++;
-                totalPoints += 0.5; // +0.5 punto per risposta corretta
+                totalPoints += 1; // +1 punto per risposta corretta
             } else {
                 incorrectAnswers++;
-                totalPoints -= 0.2; // -0.2 punti per risposta errata
+                totalPoints -= 0.5; // -0.5 punti per risposta errata
             }
             
             // Salva la risposta dell'utente
             userAnswers.push({
                 question: question.question,
+                category: question.category,
                 userAnswer: question.options[selectedAnswer],
                 correctAnswer: question.options[question.correct],
                 isCorrect: isCorrect,
@@ -7502,7 +7513,7 @@
             feedback.classList.add('show');
             feedback.classList.add(isCorrect ? 'correct' : 'incorrect');
             
-            const pointsChange = isCorrect ? '+0.5' : '-0.2';
+            const pointsChange = isCorrect ? '+1.0' : '-0.5';
             const pointsColor = isCorrect ? '#28a745' : '#dc3545';
             
             document.getElementById('feedbackTitle').innerHTML = 
@@ -7530,6 +7541,7 @@
             skippedQuestions++;
             userAnswers.push({
                 question: question.question,
+                category: question.category,
                 userAnswer: 'Domanda saltata',
                 correctAnswer: question.options[question.correct],
                 isCorrect: false,
@@ -7591,6 +7603,7 @@
                     if (answer.skipped) {
                         reviewItem.style.borderLeftColor = '#ffc107';
                         reviewItem.innerHTML = `
+                            <div style="color: #667eea; font-weight: 600; margin-bottom: 8px;">📚 ${answer.category}</div>
                             <div class="review-question">${index + 1}. ${answer.question}</div>
                             <div class="review-answer" style="color: #ffc107;">⚠️ Domanda saltata</div>
                             <div class="review-correct">Risposta corretta: ${answer.correctAnswer}</div>
@@ -7598,6 +7611,7 @@
                         `;
                     } else {
                         reviewItem.innerHTML = `
+                            <div style="color: #667eea; font-weight: 600; margin-bottom: 8px;">📚 ${answer.category}</div>
                             <div class="review-question">${index + 1}. ${answer.question}</div>
                             <div class="review-answer">Tua risposta: ${answer.userAnswer}</div>
                             <div class="review-correct">Risposta corretta: ${answer.correctAnswer}</div>
