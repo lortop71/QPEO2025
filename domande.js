@@ -1,6 +1,370 @@
 // Database delle domande
         const questionDatabase = [
-            // A03 - ROF e RAC
+            
+			// A02 - Lavoro 
+			{
+				question: "Quale legge nazionale disciplina il lavoro agile nel settore pubblico?",
+				options: ["Legge n. 104/1992", "Legge n. 165/2001", "Legge n. 81/2017", "Legge n. 191/1998"],
+				correct: 2,
+				motivation: "La legge n. 81/2017 è la norma nazionale che disciplina il lavoro agile, con particolare riferimento alla conciliazione dei tempi di vita e di lavoro.",
+				category: "Normativa lavoro agile"
+			},
+			{
+				question: "Quale circolare segretariale ha introdotto le prime linee guida sul lavoro agile in Corte dei conti dopo il periodo emergenziale?",
+				options: ["Circolare n. 244/2023", "Circolare n. 270/2022", "Circolare n. 165/2021", "Circolare n. 180/2022"],
+				correct: 1,
+				motivation: "La circolare segretariale n. 270/2022 ha definito le linee guida per lo svolgimento del lavoro agile, disciplinando le attività espletabili in modalità agile e introducendo il lavoro per obiettivi.",
+				category: "Normativa lavoro agile"
+			},
+			{
+				question: "Qual è il tetto massimo di giorni di lavoro agile per anno solare per il personale ordinario?",
+				options: ["110 giorni", "92 giorni", "80 giorni", "120 giorni"],
+				correct: 1,
+				motivation: "Il tetto massimo di lavoro agile è fissato a 92 giorni per anno solare per il personale ordinario, mentre per i lavoratori fragili è previsto un limite più ampio di 110 giorni.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale profilo orario giornaliero deve essere rispettato nel lavoro agile?",
+				options: ["6,00 ore", "8,00 ore", "7,12 ore", "7,42 ore"],
+				correct: 2,
+				motivation: "Il profilo orario nel lavoro agile è di 7,12 ore giornaliere, che diventano 7,42 ore se si include la pausa pranzo e il buono pasto.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Entro quale data deve essere pubblicata annualmente la circolare segretariale che regola il lavoro agile per l'anno successivo?",
+				options: ["31 dicembre", "30 novembre", "31 ottobre", "15 dicembre"],
+				correct: 1,
+				motivation: "Entro il 30 novembre di ogni anno viene pubblicata la circolare segretariale che disciplina il lavoro agile per l'anno solare successivo.",
+				category: "Scadenze lavoro agile"
+			},
+			{
+				question: "Quale decreto presidenziale ha introdotto il Piano Integrato Triennale (PIT Cdc)?",
+				options: ["Decreto n. 160 del 3 luglio 2023", "Decreto n. 180 del 5 giugno 2023", "Decreto n. 150 del 3 luglio 2022", "Decreto n. 170 del 10 luglio 2023"],
+				correct: 0,
+				motivation: "Il decreto presidenziale n. 160 del 3 luglio 2023 ha introdotto il Piano Integrato Triennale, documento unitario di programmazione triennale degli interventi dell'Istituto.",
+				category: "PIT e programmazione"
+			},
+			{
+				question: "Quale principio deve essere rispettato nella fruizione del lavoro agile?",
+				options: ["Principio della parità", "Principio della rotazione", "Principio della prevalenza", "Principio della flessibilità"],
+				correct: 2,
+				motivation: "Deve essere rispettato il criterio della prevalenza (settimanale, mensile e trimestrale) della presenza in servizio rispetto al lavoro agile.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Con quale periodicità deve essere compilata la Scheda di rendicontazione unificata?",
+				options: ["Mensile", "Semestrale", "Trimestrale", "Annuale"],
+				correct: 2,
+				motivation: "La Scheda trimestrale di rendicontazione unificata deve essere compilata con periodicità trimestrale dal dipendente in lavoro agile.",
+				category: "Monitoraggio lavoro agile"
+			},
+			{
+				question: "Quale articolo del CCNL 2019-2021 disciplina il lavoro agile?",
+				options: ["Articolo 3, lettera f", "Articolo 5, lettera g", "Articolo 7, lettera h", "Articolo 4, lettera e"],
+				correct: 1,
+				motivation: "L'articolo 5, lettera g del CCNL 2019-2021 è oggetto di confronto con le parti sindacali in materia di lavoro agile.",
+				category: "Normativa lavoro agile"
+			},
+			{
+				question: "Quale percentuale del personale della Corte dei conti può aderire al lavoro agile per l'anno 2024?",
+				options: ["50%", "75%", "90%", "100%"],
+				correct: 3,
+				motivation: "La circolare segretariale n. 244 del 30 novembre 2023 conferma la possibilità per il 100% del personale della Corte dei conti di aderire volontariamente al lavoro agile.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Cosa comporta il mancato rispetto dei presupposti del lavoro agile?",
+				options: ["Solo una segnalazione scritta", "Sospensione temporanea, revoca o mancato rinnovo", "Riduzione dello stipendio", "Cambio di sede"],
+				correct: 1,
+				motivation: "Il mancato rispetto dei presupposti del lavoro agile può comportare la sospensione temporanea, la revoca dell'accordo in corso o il mancato rinnovo per l'anno successivo, anche in caso di sanzioni disciplinari.",
+				category: "Conseguenze lavoro agile"
+			},
+			{
+				question: "Quale strumento contrattuale regola individualmente il lavoro agile?",
+				options: ["Contratto di lavoro", "Accordo individuale", "Lettera di incarico", "Delibera amministrativa"],
+				correct: 1,
+				motivation: "L'accordo individuale di lavoro agile è lo strumento che regola la prestazione lavorativa in modalità agile, contenente il progetto, il calendario e il cronoprogramma delle attività.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Qual è il limite massimo di giorni di lavoro agile per i lavoratori fragili?",
+				options: ["92 giorni", "100 giorni", "110 giorni", "120 giorni"],
+				correct: 2,
+				motivation: "Per i lavoratori fragili il tetto massimo di lavoro agile è di 110 giorni per anno solare, superiore rispetto ai 92 giorni previsti per il personale ordinario.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale Direzione generale coordina il monitoraggio trimestrale sul lavoro agile?",
+				options: ["Direzione generale affari generali", "Direzione generale gestione risorse umane", "Direzione generale bilancio", "Direzione generale informatica"],
+				correct: 1,
+				motivation: "La Direzione generale gestione risorse umane coordina il monitoraggio trimestrale sul lavoro agile tramite riunioni di coordinamento con i dirigenti centrali e territoriali.",
+				category: "Organizzazione lavoro agile"
+			},
+			{
+				question: "Quale obiettivo strategico del PIT Cdc riguarda il lavoro agile?",
+				options: ["Obiettivo A.1.2", "Obiettivo A.2.3", "Obiettivo B.3.1", "Obiettivo C.2.4"],
+				correct: 1,
+				motivation: "L'obiettivo operativo A.2.3 del PIT Cdc riguarda l'implementazione del lavoro a distanza e di un nuovo sistema di indicatori per la prevenzione dell'assenteismo.",
+				category: "PIT e programmazione"
+			},
+			{
+				question: "Quale legge disciplina la gestione delle assenze per l'utilizzo dei permessi?",
+				options: ["Legge n. 81/2017", "Legge n. 104/1992", "Legge n. 165/2001", "Legge n. 191/1998"],
+				correct: 1,
+				motivation: "La legge n. 104/1992 disciplina le autorizzazioni e revoche per l'utilizzo dei permessi, rilevanti anche per la corretta fruizione del lavoro agile.",
+				category: "Normativa lavoro agile"
+			},
+			{
+				question: "Quale modalità di lavoro da remoto è attualmente in fase di studio di fattibilità?",
+				options: ["Smart working", "Lavoro agile", "Telelavoro", "Lavoro ibrido"],
+				correct: 2,
+				motivation: "Il telelavoro (lavoro da remoto), disciplinato dalla legge n. 191/1998, è attualmente oggetto di uno studio di fattibilità in corso di svolgimento presso la Corte dei conti.",
+				category: "Evoluzione lavoro agile"
+			},
+			{
+				question: "Cosa deve contenere la Scheda trimestrale di rendicontazione unificata?",
+				options: ["Solo le ore lavorate", "Solo gli obiettivi raggiunti", "Linee di attività, risultati raggiunti e indicatori specifici", "Solo il numero di giorni in agile"],
+				correct: 2,
+				motivation: "La Scheda trimestrale di rendicontazione unificata deve contenere l'indicazione analitica delle linee di attività previste nell'accordo individuale, i risultati raggiunti e la loro quantificazione con specifici indicatori.",
+				category: "Monitoraggio lavoro agile"
+			},
+			{
+				question: "Quale principio organizzativo caratterizza il lavoro agile secondo la circolare n. 270/2022?",
+				options: ["Lavoro per turni", "Lavoro per obiettivi", "Lavoro per mansioni", "Lavoro per progetti"],
+				correct: 1,
+				motivation: "La circolare segretariale n. 270/2022 introduce il lavoro per obiettivi come caratteristica fondamentale del lavoro agile, prevedendo un progetto individuale di lavoro in autonomia.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale struttura della Direzione generale gestione risorse umane gestisce specificamente il lavoro agile?",
+				options: ["Servizio concorsi", "Servizio mobilità", "Servizio per il trattamento giuridico del personale amministrativo", "Servizio relazioni sindacali"],
+				correct: 2,
+				motivation: "Il Servizio per il trattamento giuridico del personale amministrativo ha uno specifico settore dedicato alla gestione del lavoro agile, ai monitoraggi e alla verifica delle Schede di rendicontazione unificata.",
+				category: "Organizzazione lavoro agile"
+			},
+			{
+				question: "Quando è stato avviato il processo di semplificazione e monitoraggio trimestrale del lavoro agile?",
+				options: ["Dal 2022", "Dal 2023", "Dal 2024", "Dal 2025"],
+				correct: 2,
+				motivation: "A partire dal 2024 è stato avviato un processo di semplificazione e un attento monitoraggio trimestrale sulle modalità di fruizione del lavoro agile con l'implementazione di un sistema di indicatori.",
+				category: "Evoluzione lavoro agile"
+			},
+			{
+				question: "Quale documento del PIT Cdc descrive piani e linee guida per il personale?",
+				options: ["Piano operativo annuale", "Linee di indirizzo del Presidente", "Piano dei fabbisogni assunzionali", "Regolamento interno"],
+				correct: 2,
+				motivation: "Il PIT Cdc descrive piani e linee guida quali il piano dei fabbisogni assunzionali per il personale di magistratura, dirigenziale e amministrativo, le linee guida per il lavoro agile e la strategia della formazione.",
+				category: "PIT e programmazione"
+			},
+			{
+				question: "Quale aspetto NON è un vantaggio dell'approccio agile secondo i materiali formativi?",
+				options: ["Conciliazione tempi vita-lavoro", "Incremento comunicazione e collaborazione", "Riduzione della retribuzione", "Maggiore adattabilità ai cambiamenti"],
+				correct: 2,
+				motivation: "La riduzione della retribuzione non è un elemento del lavoro agile. I vantaggi includono la conciliazione dei tempi, l'incremento della comunicazione, la maggiore adattabilità e l'uso di strumenti digitali.",
+				category: "Vantaggi lavoro agile"
+			},
+			{
+				question: "Quale rischio è associato all'approccio agile secondo i materiali formativi?",
+				options: ["Aumento dello stipendio", "Isolamento e mancanza di supporto sociale", "Riduzione delle competenze", "Perdita del posto di lavoro"],
+				correct: 1,
+				motivation: "Tra i rischi principali dell'approccio agile vi sono l'isolamento e la mancanza di supporto sociale, oltre alle difficoltà nel separare i tempi di lavoro da quelli della vita privata.",
+				category: "Rischi lavoro agile"
+			},
+			{
+				question: "Cosa prevede il criterio della prevalenza nel lavoro agile?",
+				options: ["Più giorni in agile che in presenza", "Più giorni in presenza che in agile", "Uguale numero di giorni", "Libera scelta del dipendente"],
+				correct: 1,
+				motivation: "Il criterio della prevalenza (settimanale, mensile e trimestrale) richiede che i giorni di presenza in servizio siano sempre superiori ai giorni di lavoro agile.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale periodicità hanno gli incontri con i dirigenti per il monitoraggio del lavoro agile?",
+				options: ["Settimanale", "Mensile", "Trimestrale", "Semestrale"],
+				correct: 2,
+				motivation: "Il monitoraggio trimestrale mediante riunioni di coordinamento con i dirigenti centrali e territoriali è previsto per il supporto alla valutazione della performance.",
+				category: "Monitoraggio lavoro agile"
+			},
+			{
+				question: "Quale circolare ha confermato la possibilità del 100% di adesione al lavoro agile per il 2024?",
+				options: ["Circolare n. 244 del 30 novembre 2023", "Circolare n. 270 del 22 novembre 2022", "Circolare n. 180 del 15 ottobre 2023", "Circolare n. 300 del 31 dicembre 2023"],
+				correct: 0,
+				motivation: "La circolare segretariale n. 244 del 30 novembre 2023 ha confermato la possibilità per il 100% del personale della Corte dei conti di aderire volontariamente al lavoro agile nell'anno 2024.",
+				category: "Normativa lavoro agile"
+			},
+			{
+				question: "Come viene definito il lavoro agile orientato agli obiettivi?",
+				options: ["Lavoro subordinato", "Lavoro in autonomia", "Lavoro a chiamata", "Lavoro straordinario"],
+				correct: 1,
+				motivation: "Il lavoro agile è caratterizzato da un progetto individuale di lavoro in autonomia, con la definizione di obiettivi e indicatori misurabili.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale sistema informativo deve essere utilizzato per la gestione del personale?",
+				options: ["SIAP/Spring Cdc", "SAP HR", "Zucchetti", "Oracle HCM"],
+				correct: 0,
+				motivation: "Il sistema informativo SIAP/Spring Cdc è utilizzato per la gestione del personale, inclusa l'inserimento delle relazioni trimestrali ai fini della liquidazione.",
+				category: "Sistemi informativi"
+			},
+			{
+				question: "Quale elemento NON deve essere contenuto nell'accordo individuale di lavoro agile?",
+				options: ["Calendario delle attività", "Cronoprogramma", "Linee di attività/obiettivi", "Stipendio mensile"],
+				correct: 3,
+				motivation: "L'accordo individuale di lavoro agile deve contenere il progetto, il calendario e il cronoprogramma delle attività, non lo stipendio che resta invariato.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale attività NON può essere svolta in modalità agile?",
+				options: ["Attività di studio e ricerca", "Attività di front office con pubblico", "Attività di back office", "Redazione documenti"],
+				correct: 1,
+				motivation: "Le circolari segretariali prevedono l'esclusione di specifiche attività non lavorabili da remoto, come quelle che richiedono necessariamente la presenza fisica per il contatto con il pubblico.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Cosa caratterizza il PIT Cdc rispetto alla programmazione tradizionale?",
+				options: ["Separazione dei processi", "Integrazione e semplificazione", "Aumento della burocrazia", "Maggiore complessità"],
+				correct: 1,
+				motivation: "Il PIT Cdc si caratterizza per una logica di integrazione e semplificazione, finalizzata a una reductio ad unitatem dei diversi processi di programmazione.",
+				category: "PIT e programmazione"
+			},
+			{
+				question: "Quale sanzione NON è prevista per il mancato rispetto del lavoro agile?",
+				options: ["Sospensione temporanea", "Revoca dell'accordo", "Licenziamento immediato", "Mancato rinnovo"],
+				correct: 2,
+				motivation: "Per il mancato rispetto dei presupposti del lavoro agile sono previste la sospensione temporanea, la revoca dell'accordo o il mancato rinnovo, non il licenziamento immediato.",
+				category: "Conseguenze lavoro agile"
+			},
+			{
+				question: "Quale organo traccia le linee generali per l'indirizzo dell'azione amministrativa?",
+				options: ["Il Segretario generale", "Il Direttore generale", "L'Organo di vertice (Presidente)", "Il Collegio dei revisori"],
+				correct: 2,
+				motivation: "Il Piano Integrato Triennale è redatto in armonia con le linee generali per l'indirizzo dell'azione amministrativa tracciate dall'Organo di vertice della Corte dei conti.",
+				category: "PIT e programmazione"
+			},
+			{
+				question: "Quale vantaggio offre l'approccio agile in termini di strumenti?",
+				options: ["Riduzione degli strumenti digitali", "Incremento dell'uso degli strumenti digitali", "Eliminazione della tecnologia", "Uso esclusivo della carta"],
+				correct: 1,
+				motivation: "Tra i vantaggi dell'approccio agile vi è l'incremento dell'uso degli strumenti digitali, favorendo l'innovazione organizzativa e la modernizzazione dei processi.",
+				category: "Vantaggi lavoro agile"
+			},
+			{
+				question: "Come viene monitorata la capacità di raggiungimento degli obiettivi nel lavoro agile?",
+				options: ["Solo a fine anno", "Attraverso indicatori di risultato", "Con colloqui informali", "Non viene monitorata"],
+				correct: 1,
+				motivation: "L'aumento della capacità di monitoraggio dei progetti e degli obiettivi avviene attraverso indicatori di risultato definiti nell'accordo individuale e rendicontati trimestralmente.",
+				category: "Monitoraggio lavoro agile"
+			},
+			{
+				question: "Quale aspetto è essenziale nell'organizzazione di un team agile?",
+				options: ["La competizione interna", "La collaborazione e comunicazione continua", "La separazione dei ruoli", "L'individualismo"],
+				correct: 1,
+				motivation: "La collaborazione e la comunicazione continua con il team agile sono aspetti principali e essenziali per il corretto funzionamento del lavoro agile.",
+				category: "Organizzazione lavoro agile"
+			},
+			{
+				question: "Quale rischio del lavoro agile riguarda la sicurezza?",
+				options: ["Maggiori costi", "Accesso non autorizzato a informazioni riservate", "Riduzione dello stipendio", "Perdita di anzianità"],
+				correct: 1,
+				motivation: "Tra i rischi principali del lavoro agile vi è l'accesso non autorizzato a informazioni riservate, che richiede particolare attenzione alle misure di sicurezza informatica.",
+				category: "Rischi lavoro agile"
+			},
+			{
+				question: "Quale obiettivo persegue la programmazione integrata secondo il PIT Cdc?",
+				options: ["Complicare le procedure", "Razionalizzare aspetti organizzativi e gestionali", "Aumentare il personale", "Ridurre i servizi"],
+				correct: 1,
+				motivation: "Il PIT Cdc è finalizzato alla razionalizzazione degli aspetti organizzativi e gestionali e delle risorse umane, finanziarie, strumentali e informatiche.",
+				category: "PIT e programmazione"
+			},
+			{
+				question: "Quale rischio comportamentale è associato al lavoro agile?",
+				options: ["Maggiore socializzazione", "Difficoltà a separare tempi di lavoro da vita privata", "Aumento della retribuzione", "Minore autonomia"],
+				correct: 1,
+				motivation: "Uno dei principali rischi del lavoro agile è la difficoltà a separare i tempi dedicati al lavoro da quelli dedicati alla vita privata, richiedendo disciplina personale.",
+				category: "Rischi lavoro agile"
+			},
+			{
+				question: "Quale azione è prevista nel 2024 per il lavoro da remoto?",
+				options: ["Abolizione completa", "Sperimentazione di progetti di telelavoro", "Riduzione delle giornate", "Eliminazione del part-time"],
+				correct: 1,
+				motivation: "Nel 2024 è prevista una prima sperimentazione per la definizione di progetti di 'lavoro da remoto (telelavoro)' da assegnare prioritariamente a lavoratori fragili.",
+				category: "Evoluzione lavoro agile"
+			},
+			{
+				question: "Quale differenza esiste tra obiettivi generali e specifici?",
+				options: ["Non c'è differenza", "I generali sono definiti dal Vertice, gli specifici nel Piano della performance", "Gli specifici sono più importanti", "I generali sono annuali, gli specifici mensili"],
+				correct: 1,
+				motivation: "Gli obiettivi generali sono determinati con atti di indirizzo strategico dal Vertice dell'Istituto; quelli specifici sono definiti nel Piano integrato triennale-Piano della performance.",
+				category: "PIT e programmazione"
+			},
+			{
+				question: "Quale finalità ha l'aggiornamento annuale delle linee guida sul lavoro agile?",
+				options: ["Complicare le procedure", "Regolamentare l'anno solare successivo", "Ridurre i diritti dei dipendenti", "Aumentare le ore di lavoro"],
+				correct: 1,
+				motivation: "Le circolari segretariali annuali, pubblicate entro il 30 novembre, hanno la finalità di regolamentare lo svolgimento del lavoro agile per l'anno solare successivo.",
+				category: "Normativa lavoro agile"
+			},
+			{
+				question: "Quale tipo di controllo è previsto sulle Schede di rendicontazione?",
+				options: ["Nessun controllo", "Solo controllo annuale", "Verifica trimestrale da parte del Servizio competente", "Controllo casuale"],
+				correct: 2,
+				motivation: "Il Servizio per il trattamento giuridico del personale amministrativo effettua la verifica trimestrale delle Schede di rendicontazione unificata.",
+				category: "Monitoraggio lavoro agile"
+			},
+			{
+				question: "Quale aspetto NON caratterizza il lavoro per obiettivi?",
+				options: ["Definizione di indicatori di risultato", "Rendicontazione dei risultati", "Controllo orario rigido", "Programma di attività per obiettivi"],
+				correct: 2,
+				motivation: "Il lavoro per obiettivi si caratterizza per la definizione di programmi di attività, indicatori di risultato e rendicontazione, non per un controllo orario rigido.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale innovazione organizzativa favorisce il lavoro agile?",
+				options: ["Aumento della burocrazia", "Sviluppo di una cultura gestionale orientata al lavoro per obiettivi", "Riduzione dell'autonomia", "Centralizzazione delle decisioni"],
+				correct: 1,
+				motivation: "Il lavoro agile favorisce lo sviluppo di una cultura gestionale orientata al lavoro per obiettivi e risultati, introducendo nuove soluzioni organizzative.",
+				category: "Organizzazione lavoro agile"
+			},
+			{
+				question: "Quale documento deve essere sottoscritto per avviare il lavoro agile?",
+				options: ["Contratto a tempo determinato", "Accordo individuale di lavoro agile", "Lettera di dimissioni", "Patto di non concorrenza"],
+				correct: 1,
+				motivation: "Per avviare il lavoro agile è necessario sottoscrivere un accordo individuale che contenga il progetto, il calendario, il cronoprogramma e gli obiettivi.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale rischio organizzativo può derivare dal lavoro agile?",
+				options: ["Aumento dell'efficienza", "Decremento dell'efficienza dei servizi", "Maggiore collaborazione", "Riduzione dei costi"],
+				correct: 1,
+				motivation: "Tra i rischi del lavoro agile vi è il possibile decremento dell'efficienza dei servizi se non adeguatamente gestito e monitorato.",
+				category: "Rischi lavoro agile"
+			},
+			{
+				question: "Quale principio deve guidare la definizione degli accordi individuali?",
+				options: ["Massima flessibilità senza limiti", "Equilibrio tra esigenze organizzative e conciliazione vita-lavoro", "Solo interessi del dipendente", "Solo esigenze dell'ufficio"],
+				correct: 1,
+				motivation: "Gli accordi individuali devono bilanciare le esigenze organizzative dell'ufficio con le finalità di conciliazione dei tempi di vita e di lavoro del dipendente.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale modalità di lavoro è compatibile con il lavoro agile?",
+				options: ["Solo lavoro a tempo pieno", "Part-time con riparametrazione del calendario", "Solo lavoro straordinario", "Solo lavoro notturno"],
+				correct: 1,
+				motivation: "Il lavoro agile è compatibile con il part-time mediante riparametrazione del calendario per garantire sempre la prevalenza della presenza rispetto al lavoro agile.",
+				category: "Disciplina lavoro agile"
+			},
+			{
+				question: "Quale finalità NON è propria del Piano Integrato Triennale?",
+				options: ["Semplificare l'azione amministrativa", "Programmare gli interventi del triennio", "Aumentare la complessità procedurale", "Illustrare la correlazione tra attività"],
+				correct: 2,
+				motivation: "Il PIT Cdc è finalizzato a semplificare l'azione amministrativa, programmare gli interventi e illustrare le correlazioni, non ad aumentare la complessità.",
+				category: "PIT e programmazione"
+			},
+
+			
+			
+			
+			
+			// A03 - ROF e RAC
             {
                 question: "Quale articolo della Costituzione attribuisce alla Corte dei conti la funzione di controllo preventivo di legittimità sugli atti del Governo?",
                 options: ["Articolo 99", "Articolo 100", "Articolo 103", "Articolo 55"],
@@ -3920,7 +4284,7 @@
                 category: "Responsabilità Amministrativa"
 			},
 			{
-				question: "Qual è la funzione principale della responsabilità amministrativa secondo il Consigliere Parisi?",
+				question: "Qual è la funzione principale della responsabilità amministrativa?",
 				options: ["Sanzionatoria", "Prevalentemente risarcitoria", "Punitiva", "Deterrente"],
 				correct: 1,
 				motivation: "Nonostante la Corte Costituzionale (sent. 371 e 453/1998) abbia riconosciuto che la riforma ha accentuato i profili sanzionatori, la funzione principale resta RISARCITORIA: l'obiettivo è riparare il danno causato all'erario, ripristinare l'equilibrio patrimoniale, non principalmente 'punire' il colpevole.",
