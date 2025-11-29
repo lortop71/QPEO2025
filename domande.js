@@ -3829,8 +3829,8 @@
 			{
 				question: "Nel giudizio sanzionatorio, entro quale termine la parte può costituirsi dopo la notifica del ricorso?",
 				options: ["5 giorni", "10 giorni", "15 giorni", "30 giorni"],
-				correct: 1,
-				motivation: "Entro 10 giorni dalla notificazione del ricorso, la parte interessata può costituirsi in giudizio depositando la propria difesa, la copia del ricorso notificato e i documenti (art. 133 c.g.c.).",
+				correct: 3,
+				motivation: "Entro 30 giorni dalla notificazione del ricorso, la parte interessata può costituirsi in giudizio depositando la propria difesa, la copia del ricorso notificato e i documenti (art. 133 c.g.c.).",
 				category: "Responsabilità Sanzionatoria"
 			},
 			{
