@@ -359,10 +359,6 @@
 				motivation: "Il PIT Cdc è finalizzato a semplificare l'azione amministrativa, programmare gli interventi e illustrare le correlazioni, non ad aumentare la complessità.",
 				category: "PIT e programmazione"
 			},
-
-			
-			
-			
 			
 			// A03 - ROF e RAC
             {
@@ -7203,7 +7199,7 @@
 				category: "Procura Generale"
 			},
 			
-			//Esame del 3/12/2025
+			// Quiz del 3-12-2025
 			{
 				question: "Nel caso di un concorso di persone nell’obbligazione risarcitoria derivante dalla responsabilità amministrativa, il principio della solidarietà passiva in fase esecutiva si applica:",
 				options: ["Solo nei confronti dei compartecipi che hanno agito con colpa grave", "Mai", "Solo nei confronti dei concorrenti che hanno agito con dolo ovvero hanno conseguito un illecito arricchimento", "Sempre, in funzione dell’analogo canone civilistico"],
@@ -7268,7 +7264,7 @@
 				category: "Quiz del 3/12/2025"
 			},
 			{
-				question: "Cosa rappresentano gli "indicatori di risultato" in un contesto di lavoro per obiettivi?",
+				question: "Cosa rappresentano gli 'indicatori di risultato' in un contesto di lavoro per obiettivi?",
 				options: ["Dati oggettivi che misurano il raggiungimento degli obiettivi prefissati", "Il numero di riunioni a cui si partecipa durante il mese", "L'orario di inizio della giornata lavorativa", "Elementi utilizzati per valutare il tempo speso in attività specifiche"],
 				correct: 0,
 				motivation: "",
@@ -7543,7 +7539,7 @@
 				category: "Quiz del 25/10/2024"
 			},
 			{
-				question: "Come può essere definito il "Rischio" nell'ambito della sicurezza IT?",
+				question: "Come può essere definito il 'Rischio' nell'ambito della sicurezza IT?",
 				options: ["E' un tipo di contromisura informatica", "Il rischio è una combinazione fra la probabilità e l'impatto, normalmente negativo, di un evento", "E' l'impatto di un incidente di sicurezza informatica già avvenuto", "E' una misura della complessità delle password"],
 				correct: 1,
 				motivation: "",
