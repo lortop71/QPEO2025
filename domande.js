@@ -7201,5 +7201,287 @@
 				correct: 1,
 				motivation: "La decisione delle Sezioni Riunite sul giudizio di parificazione del Rendiconto generale dello Stato viene trasmessa al Parlamento e costituisce la base per l'approvazione parlamentare del rendiconto.",
 				category: "Procura Generale"
+			},
+			
+			//Esame del 3/12/2025
+			{
+				question: "Nel caso di un concorso di persone nell’obbligazione risarcitoria derivante dalla responsabilità amministrativa, il principio della solidarietà passiva in fase esecutiva si applica:",
+				options: ["Solo nei confronti dei compartecipi che hanno agito con colpa grave", "Mai", "Solo nei confronti dei concorrenti che hanno agito con dolo ovvero hanno conseguito un illecito arricchimento", "Sempre, in funzione dell’analogo canone civilistico"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "L’atto di contestazione degli addebiti disciplinari deve essere notificato al dipendente?",
+				options: ["Si", "Solo in caso di fatti costituenti reato", "No", "Solo laddove il dipendente lo abbia specificamente richiesto all'atto dell'assunzione"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "L'azione disciplinare nel pubblico impiego è:",
+				options: ["Rimessa al mero arbitrio del datore di lavoro", "Facoltativa", "Obbligatoria", "Espressiva di un interesse legittimo"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Le funzioni della Sezione di controllo sugli enti della Corte dei conti dove si collocano, a livello costituzionale?",
+				options: ["Nella funzione consultiva", "Nella funzione ausiliaria del Parlamento ai sensi dell'art. 100 Cost.", "Nella funzione di controllo preventivo di legittimità", "Nella funzione giurisdizionale"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Il giudizio per resa di conto:",
+				options: ["ha lo scopo di ottenere la presentazione e deposito del conto in caso di omissione", "viene attivato per la riscossione dell’importo della condanna per danno erariale", "è il giudizio attivato nei confronti dei debitori dell’ente locale", "serve solo per i controlli sulle società partecipate dell’Ente"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "È possibile rivolgere richieste di parere in materia di contabilità pubblica direttamente alla Sezione delle autonomie della Corte dei conti?",
+				options: ["solo da parte dei Comuni, per il tramite delle proprie componenti rappresentative nell'ambito della Conferenza unificata", "no, mai", "per le Regioni, dalla Conferenza delle Regioni e delle Province autonome e dalla Conferenza dei Presidenti delle Assemblee legislative delle Regioni e delle Province autonome; per i Comuni, le Province e le Città metropolitane, dalle rispettive componenti rappresentative nell'ambito della Conferenza unificata", "si, sempre, senza limitazioni soggettive e oggettive"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Per i Comuni la richiesta di parere alla Corte dei conti ai sensi dell’art. 7, comma 8, legge n. 131/2003:",
+				options: ["deve essere sempre formulata tramite il Consiglio nazionale dell'economia e del lavoro", "deve essere presentata per il tramite della Giunta comunale", "deve sempre provenire direttamente dall’ente per il tramite dell'organo di revisione", "deve essere formulata di norma tramite il Consiglio delle autonomie locali, se istituito"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Il Piano della prevenzione della corruzione della Corte dei conti è presente all'interno del Piano integrato triennale (P.i.t.)?",
+				options: ["Si, è inserito nella Sezione n. 2", "Si, è inserito nella Sezione n. 1", "No", "Si, è inserito nella Sezione n. 3"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Cosa prescrive l’art. 11 ter del D.P.R. n. 62/2013 in materia di utilizzo dei mezzi di informazione e dei social media?",
+				options: ["Nell’utilizzo dei propri account di social media, il dipendente non è tenuto ad osservare alcuna cautela", "Nell’utilizzo dei propri account di social media, il dipendente utilizza ogni mezzo per diffondere il più ampiamente possibile i propri giudizi e opinioni", "Nell’utilizzo dei propri account di social media, il dipendente utilizza ogni cautela affinché le proprie opinioni o giudizi non siano direttamente attribuibili alla pubblica amministrazione di appartenenza", "Nell’utilizzo dei propri account di social media, il dipendente utilizza ogni mezzo per rendere direttamente attribuibili alla pubblica amministrazione di appartenenza i propri giudizi e opinioni"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Cosa rappresentano gli "indicatori di risultato" in un contesto di lavoro per obiettivi?",
+				options: ["Dati oggettivi che misurano il raggiungimento degli obiettivi prefissati", "Il numero di riunioni a cui si partecipa durante il mese", "L'orario di inizio della giornata lavorativa", "Elementi utilizzati per valutare il tempo speso in attività specifiche"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Quale tra le seguenti è una caratteristica principale dello smartworking?",
+				options: ["Lavorare esclusivamente da casa", "Lavorare solo alcuni giorni della settimana", "Lavorare esclusivamente presso la sede di servizio", "Flessibilità nell'orario di lavoro e nel luogo di lavoro"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Quali tra i seguenti strumenti digitali sono più comunemente associati al lavoro agile?",
+				options: ["Fax", "Telefono fisso", "Posta ordinaria", "Software di gestione documentale e piattaforme di videoconferenza"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "La funzione di nomofilachia:",
+				options: ["Può essere svolta dalla Sezione delle Autonomie (art. 6, comma 4, d.l. n. 174 del 2012) o dalle Sezioni riunite (art. 17, comma 31, d.l. n. 78 del 2009)", "è incompatibile con l'autonomia e l'indipendenza del singolo magistrato", "è svolta dalle sole Sezioni riunite, ai sensi dell'art. 17, comma 31, d.l. n. 78 del 2009", "è svolta dalla sola Sezione delle Autonomie, ai sensi dell'art. 6, comma 4, d.l. n. 174 del 2012"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Qualora emergano fattispecie che possono costituire ipotesi di danno erariale, cosa deve fare il magistrato?",
+				options: ["deve solo segnalare il fatto al Presidente della Corte dei conti", "deve solo segnalare il fatto al Procuratore della Repubblica", "deve segnalare alla Procura regionale territorialmente competente ai sensi dell'art. 52, comma 4, del decreto legislativo n. 174/2016", "deve solo segnalare il fatto al Presidente della propria Sezione"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Come si misura la rappresentatività sindacale nelle pubbliche amministrazioni?",
+				options: ["Misurando la media tra dato associativo e dato elettorale", "Attraverso il solo voto espresso per le elezioni delle RSU", "Riconoscendo la rappresentatività alle sole Confederazioni sindacali", "Attraverso la sola rilevazione delle deleghe sindacali"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Nell'ambito del controllo sugli enti, l'ente oggetto della verifica può esaminare la relazione sulla gestione prima del deposito definitivo?",
+				options: ["Si, ma solo decorsi sei mesi dall'esame della relazione da parte del Parlamento", "Si, ma solo partecipando alla camera di consiglio della Sezione", "Si, può esaminare la bozza di relazione e formulare eventuali osservazioni", "No, deve attendere sempre il deposito della relazione pubblicata"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "In sede consultiva le Sezioni regionali di controllo:",
+				options: ["possono sempre sollevare questione di legittimità costituzionale", "possono sollevare questione di legittimità costituzionale limitatamente alla presunta violazione dell’art. 81 Cost.", "non possono sollevare questione di legittimità costituzionale", "possono sollevare questione di legittimità costituzionale limitatamente alla presunta violazione dell’art. 97 Cost."],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Quali sono le norme costituzionali su cui si fonda l'attività del Procuratore contabile?",
+				options: ["art. 23 Costituzione", "art. 95 Costituzione", "art. 53 Costituzione", "artt. 2, 3, 81 e 97 Costituzione"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Il Procuratore generale svolge attività davanti alle Sezioni riunite in materia di piani di riequilibrio degli enti locali?",
+				options: ["No, svolge unicamente attività davanti alle Sezioni riunite intervenendo in materia di giudizi a istanza di parte", "No, svolge attività unicamente davanti alle Sezioni centrali di appello", "No, svolge unicamente attività davanti alle Sezioni riunite in sede di questioni di massima", "Si, redige le sue conclusioni e partecipa all'udienza davanti alle Sezioni riunite in speciale composizione"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Le Sezioni riunite in sede di controllo sono composte da un numero congruo di magistrati designati da:",
+				options: ["Presidente Sezione centrale di controllo sulla gestione delle amministrazioni dello Stato", "Segretario generale", "Presidente Sezione delle autonomie", "Consiglio di Presidenza"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "L'Ufficio di Procura generale può interporre appelli avverso le sentenze delle Sezioni regionali?",
+				options: ["No, l'appello è riservato unicamente alle Procure regionali", "Si, direttamente", "Si, su autorizzazione dei Procuratori regionali", "Si, previa autorizzazione del Presidente della Corte dei conti"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "In caso di responsabilità sanzionatoria:",
+				options: ["la sanzione è stabilita dalla legge eventualmente tra un minimo e un massimo", "la sanzione corrisponde sempre al danno erariale", "la sanzione corrisponde sempre ad un importo non superiore al 30% del danno erariale", "è obbligatorio per l’Amministrazione procedere al licenziamento del responsabile"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Il giudizio sui conti:",
+				options: ["riguarda solo le Amministrazioni statali", "riguarda solo le Regioni", "riguarda generalmente tutte le Amministrazioni pubbliche", "riguarda solo il controllo sulle società in house"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Il giudizio sul conto si estingue:",
+				options: ["decorsi 10 anni dalla presentazione del conto all’Amministrazione di appartenenza", "decorsi 5 anni dal deposito del conto presso la segreteria della Sezione senza che sia stata depositata la relazione prevista dall'art.145 del decreto legislativo n. 174/2016 o siano state elevate contestazioni a carico del contabile", "decorsi 20 anni dal deposito del conto presso la segreteria della Sezione senza che sia stata depositata la relazione prevista dall'art.145 del decreto legislativo n. 174/2016 o siano state elevate contestazioni a carico del contabile", "decorsi 15 anni dalla decisione sulla resa del conto."],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Ai fini del riconoscimento dell’infortunio in itinere, l’utilizzo del mezzo privato:",
+				options: ["Deve essere giustificato e l'evento deve verificarsi lungo il normale percorso che il lavoratore deve compiere per i fini lavorativi", "È consentito esclusivamente in caso di mezzo preso a noleggio", "Non deve essere mai giustificato", "È consentito solo in caso di lavoro notturno"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "L'Aran è:",
+				options: ["un organismo tecnico dotato di personalità giuridica di diritto pubblico", "un Dipartimento del Ministero dell'interno", "Un'Agenzia comunale", "un Dipartimento del Ministero della Giustizia"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Le Sezioni riunite in sede di controllo della Corte dei conti deliberano sul rendiconto generale dello Stato:",
+				options: ["in sede di referto al Parlamento", "in sede di controllo preventivo di legittimità", "con le formalità della giurisdizione contenziosa", "esclusivamente con il rito del giudizio di conto"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Quali tipologie di vincoli ha sempre un progetto di trasformazione digitale?",
+				options: ["Vincoli temporali", "Vincoli di responsabilità diretta dei vertici", "Vincoli urbanistici, vincoli di costo, vincoli temporali", "Vincoli temporali, vincoli di costo, vincoli di qualità"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Come si definisce la Corte dei conti?",
+				options: ["Il Giudice delle Leggi", "Organo di rilievo costituzionale a composizione magistratuale", "Autorità indipendente", "Amministrazione pubblica"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Cosa si intende per contribuzione ordinaria dello Stato?",
+				options: ["ripiano periodico delle perdite dell'ente", "contribuzione ordinaria con carattere di periodicità o iscrizione in bilancio per almeno un biennio; imposizione di contributi da parte dell'ente", "contributi versati per almeno dieci anni da parte di amministrazioni statali", "versamenti disposti da parte delle amministrazioni statali esclusivamente in occasione di riassetti aziendali"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Cosa si intende per autonomia?",
+				options: ["Potere di farsi giustizia da sè", "Potere di giudicare controversie riguardanti propri dipendenti", "Potere di un soggetto a cui l’ordinamento sovrano riconosce la facoltà di darsi regole proprie", "Esclusivamente potere di emanare decreti legge"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Il Procuratore generale partecipa al giudizio di parifica del rendiconto generale dello Stato?",
+				options: ["No, Il Procuratore generale non partecipa al giudizio", "Si, depositando unicamente memorie scritte", "Si,collaborando alla redazione della deliberazione e della relazione allegata del Collegio", "Si, svolgendo la requisitoria orale e depositando una memoria di osservazioni e conclusioni"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "In quale atto normativo è contenuto il “Codice disciplinare dei pubblici dipendenti”?",
+				options: ["Il D.P.R. n. 62/2013", "Il decreto legislativo n. 165/2001", "La Costituzione", "La Legge n. 241/1990"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Quale effetto determina la mancata convocazione del dipendente per l’audizione a difesa decorsi trenta giorni dalla segnalazione della condotta rilevante ai fini disciplinari?",
+				options: ["Nessun effetto, l’audizione è facoltativa", "L’obbligo di rinnovare l’atto di contestazione", "La nullità del procedimento", "Il diritto al risarcimento del danno per il dipendente"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Qual è uno dei principali obiettivi del lavoro agile nella pubblica amministrazione?",
+				options: ["Aumentare il controllo diretto dei dipendenti", "Migliorare l’equilibrio tra vita professionale e vita privata", "Incrementare le ore di lavoro settimanali", "Ridurre i costi delle utenze elettriche"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "La funzione di coordinamento della Sezione delle Autonomie:",
+				options: ["Viene svolta impartendo istruzioni alle varie Sezioni, principalmente attraverso la Conferenza dei Presidenti di Sezione", "Viene svolta attraverso le linee guida e le questioni di massima di interesse generale (QMIG)", "Viene svolta esclusivamente attraverso le linee guida", "Viene svolta esclusivamente attraverso le questioni di massima di interesse generale (QMIG)"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "In relazione alla funzione consultiva esercitata dalla Corte dei conti ai sensi dell’art. 7, comma 8, della legge n. 131/2003 sono da considerarsi ammissibili richieste di pareri:",
+				options: ["solo su questioni di responsabilità erariale", "sull’opportunità di assumere un provvedimento amministrativo a contenuto discrezionale", "in materia di contabilità pubblica, come definita dalla stessa giurisprudenza contabile", "esclusivamente su schemi di accordi transattivi"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "In caso di occultamento doloso del danno, la prescrizione decorre:",
+				options: ["Dal momento in cui sono concluse le attività di controllo", "Dalla conclusione del procedimento disciplinare", "Dal momento della scoperta", "Trascorso un anno dal momento in cui si è verificato il fatto dannoso"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "Quando va rivista la Valutazione dei Rischi?",
+				options: ["Quando lo ritiene discrezionalmente il Datore di lavoro", "Con cadenza annuale", "In occasione di modifiche significative del processo produttivo o della organizzazione del lavoro", "In occasione di verifiche da parte delle competenti autorità anche se da questi ritenuta adeguata alla situazione riscontrata."],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
+			},
+			{
+				question: "A cosa serve l'MFA (Multi-Factor Authentication)?",
+				options: ["Ad utilizzare al meglio la memoria del PC", "A rendere più difficile indovinare la password di un utente", "A rendere più robusto il processo di autenticazione degli utenti, associando ad username e password un ulteriore fattore di autenticazione", "A delegare alcuni compiti ad altri utenti autorizzati"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 3/12/2025"
 			}
         ];
