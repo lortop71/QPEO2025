@@ -7483,5 +7483,357 @@
 				correct: 2,
 				motivation: "",
 				category: "Quiz del 3/12/2025"
+			},
+			
+			// Quiz del 25/10/2024
+			{
+				question: "Il giudizio per resa di conto:",
+				options: ["si conclude sempre con sentenza collegiale", "si conclude con un decreto di esibizione del P.M. se non c’è opposizione", "si conclude con decreto del Giudice monocratico se non c’è opposizione", "si conclude con deliberazione della competente Sezione di controllo"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "La responsabilità sanzionatoria:",
+				options: ["richiede la condanna penale definitiva del responsabile", "richiede il previo licenziamento del responsabile", "richiede il previo accertamento della responsabilità amministrativa per lo stesso fatto", "non richiede il previo accertamento della responsabilità amministrativa per lo stesso fatto"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Le richieste istruttorie nell'ambito del controllo sulla gestione sono indirizzate",
+				options: ["al Governo", "alle amministrazioni soggette al controllo", "alle Commissioni parlamentari", "al Parlamento"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Quali tipologie di vincoli ha sempre un progetto di trasformazione digitale?",
+				options: ["Vincoli di responsabilità diretta dei vertici", "Solo vincoli temporali", "Vincoli temporali, vincoli di costo, vincoli di qualità", "Solo vincoli autorizzativi e temporali"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "La responsabilità sanzionatoria ricorre:",
+				options: ["quando è stata accertata la responsabilità amministrativa per il medesimo fatto", "in caso di violazione di una norma anche in assenza di danno", "solo in caso di danno erariale", "solo quando il danno erariale ha un importo non superiore a 10.000 euro"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "In materia di sicurezza sul lavoro può nominare il Medico competente?",
+				options: ["solo ed esclusivamente il datore di lavoro", "il datore di lavoro o un suo delegato", "solo ed esclusivamente il delegato del datore di lavoro", "solo ed esclusivamente il preposto"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Quanti tipi di part time sono in vigore attualmente presso la Corte dei conti?",
+				options: ["Solo part time misto", "Non è previsto il part time", "Solo part time orizzontale e verticale", "Part time verticale, orizzontale e misto"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "I requisiti tecnici delle piattaforme di approvvigionamento digitale sono stabiliti:",
+				options: ["dall'AGID di intesa con l'ANAC e la Presidenza del Consiglio, Dipartimento per la trasformazione digitale", "nessuna delle altre risposte è corretta", "dall'AGID di intesa con il Ministero delle Infrastrutture e dei Trasporti e la Presidenza del Consiglio, Dipartimento per la trasformazione digitale", "dall'AGID di intesa con l'ANAC e Consip"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Come può essere definito il "Rischio" nell'ambito della sicurezza IT?",
+				options: ["E' un tipo di contromisura informatica", "Il rischio è una combinazione fra la probabilità e l'impatto, normalmente negativo, di un evento", "E' l'impatto di un incidente di sicurezza informatica già avvenuto", "E' una misura della complessità delle password"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "I due presupposti per l’esercizio dell’azione risarcitoria intestata al PM contabile sono:",
+				options: ["Qualifica di dipendente pubblico e condotta a titolo di colpa grave", "Qualifica dirigenziale e rapporto di impiego o di servizio", "Rapporto di impiego o di servizio e la causazione del danno nell’esercizio delle proprie funzioni, secondo il principio dell’occasionalità necessaria", "Qualifica di agente pubblico e condotta a titolo di dolo"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Ai sensi dell'art. 243-quater, co. 6, del Tuel, ai fini del controllo sull'attuazione del piano di riequilibrio approvato, l'organo di revisione economico-finanziaria dell'ente trasmette al Ministero dell'interno e alla competente Sezione regionale di controllo della Corte dei conti una relazione sullo stato di attuazione del piano:",
+				options: ["entro quindici giorni successivi alla scadenza di ciascun semestre", "entro sessanta giorni successivi alla scadenza di ciascun semestre", "entro quindici giorni successivi alla scadenza di ciascun anno", "entro trenta giorni successivi alla scadenza di ciascun semestre"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Il dipendente per assistere il coniuge o un parente o un affine entro il terzo grado, disabile grave ai sensi dell’art. 3, comma 3, della legge 104/92, può fruire:",
+				options: ["di 3 giorni o di 18 ore mensili", "di un solo giorno al mese", "di due ore di assenza al giorno", "di sei giorni al mese"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Quale documento è fondamentale per definire un programma di attività per obiettivi da svolgere in smartworking?",
+				options: ["La carta dei servizi", "Il contratto di lavoro", "L’accordo individuale di lavoro agile", "La nota integrativa al bilancio di previsione"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "L'amministrazione danneggiata può avviare l'azione di danno innanzi al giudice civile contestualmente a quella di responsabilità amministrativa?",
+				options: ["si, la giurisprudenza della Cassazione lo consente", "no perché la giurisprudenza del Consiglio di Stato si oppone", "no perché il PM contabile si oppone", "si, ma solo con l'autorizzazione del Ministero vigilante"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "La responsabilità patrimoniale degli amministratori, dei dipendenti e degli agenti pubblici, secondo la definizione più accreditata, comprende:",
+				options: ["La responsabilità contabile in senso stretto e la responsabilità extracontrattuale da fatto illecito", "La responsabilità amministrativa, la responsabilità contabile in senso stretto e la responsabilità civile verso terzi nell’ottica del danno indiretto", "La responsabilità amministrativa, la responsabilità contabile e la responsabilità disciplinare", "La responsabilità penale, la responsabilità amministrativa e la responsabilità civile verso terzi"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Cosa prescrive l’art. 11 bis del DPR n. 62/2013 in materia di utilizzo delle risorse informatiche?",
+				options: ["L’utilizzo di account istituzionali è consentito anche per fini connessi all’attività personale", "L’utilizzo di account istituzionali è consentito per i soli fini connessi all’attività lavorative", "L’utilizzo di account istituzionali è consentito solo previa autorizzazione della DGSIA", "L’utilizzo di account istituzionali non è mai è consentito."],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Con quale mezzo può essere notificato al dipendente l’atto di contestazione degli addebiti disciplinari?",
+				options: ["Solo con Raccomandata A.R.", "Solo con PEC", "Pec / Consegna a mano / Raccomandata A.R.", "Solo con mail"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Secondo il d.lgs. n. 36/2023, in caso di aggiudicazione di contratti sotto soglia, con il criterio dell'offerta economicamente più vantaggiosa, il RUP (Responsabile unico di Progetto)",
+				options: ["può partecipare ai lavori della commissione giudicatrice, anche in qualità di Presidente", "può partecipare solo come segretario verbalizzante", "non può partecipare ai lavori della commissione giudicatrice", "può partecipare ai lavori della commissione giudicatrice, ma non in qualità di Presidente"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Ai sensi dell'art. 243-bis, co. 4, del Tuel, le procedure esecutive intraprese nei confronti dell'ente che ha aderito alla procedura di riequilibrio:",
+				options: ["sono sospese dalla data di approvazione del piano di riequilibrio da parte della competente Sezione regionale di controllo della Corte dei conti", "sono sospese dalla data di deliberazione di ricorso alla procedura di riequilibrio fino alla data di deliberazione del piano di riequilibrio", "sono sospese dalla data di deliberazione di ricorso alla procedura di riequilibrio fino alla data di approvazione o di diniego di approvazione del piano di riequilibrio", "sono sospese dalla data di deliberazione del piano di riequilibrio fino alla data di approvazione o di diniego di approvazione del piano di riequilibrio"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "In relazione alla funzione consultiva esercitata dalla Corte dei conti ai sensi dell’art. 7, comma 8, della legge n. 131/2013 sono da considerarsi ammissibili richieste di pareri:",
+				options: ["in materia di contabilità pubblica, come definita dalla stessa giurisprudenza contabile", "solo su questioni concernenti l’organizzazione dell’ente", "su qualsiasi argomento", "solo su questioni di bilancio e responsabilità erariale"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "L’azione per danno all’immagine può essere esercitata dalla Procura Regionale della Corte dei conti, a fronte di reati tipici contro la Pubblica Amministrazione, escludendo le altre fattispecie tipizzate",
+				options: ["A seguito della sentenza penale di condanna di primo grado", "A prescindere da una sentenza penale di condanna", "A seguito di una sentenza penale di condanna di secondo grado", "A seguito di una sentenza penale di condanna irrevocabile"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Quando va rivista la Valutazione dei Rischi?",
+				options: ["In occasione di verifiche da parte delle competenti autorità anche se da questi ritenuta adeguata alla situazione riscontrata", "Con cadenza annuale", "In occasione di modifiche significative del processo produttivo o della organizzazione del lavoro", "Quando lo ritiene il RSPP o il Datore di lavoro"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "La legittimazione c.d. esterna a presentare richieste di parere alle Sezioni regionali di controllo della Corte dei conti è riconosciuta:",
+				options: ["ai soli enti locali", "alle sole Regioni ad autonomia ordinaria", "ai soli Comuni", "a Regioni, Province, Comuni, Città metropolitana"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "A quale tipo di classificazione delle spese in bilancio appartiene la distinzione tra spese correnti e spese in conto capitale o d’investimento?",
+				options: ["Classificazione programmatica", "Classificazione economica", "Classificazione funzionale", "Classificazione amministrativa"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Che cosa è l'ACN?",
+				options: ["Un altro nome per il Garante della Privacy", "Agenzia per il Controllo Nazionale", "Agenzia per la protezione della privacy", "Agenzia per la Cybersicurezza Nazionale"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Secondo la prevalente giurisprudenza contabile in materia, istanze di parere ai sensi dell’art. 7, comma 8, della legge n. 131/2003:",
+				options: ["possono essere presentate dagli enti presso cui opera un commissario straordinario prefettizio solo in casi di necessità e urgenza per prevenire pregiudizi patrimoniali all’ente interessato", "negli enti presso cui opera un commissario straordinario prefettizio che sostituisce, in ipotesi di scioglimento, rimozione o sospensione degli organi comunali, l’organo politico, devono essere formulate dal Prefetto competente per territorio", "possono essere sempre presentate anche dagli enti presso cui opera un commissario straordinario prefettizio", "non possono essere presentate, in via temporanea, dagli enti presso cui opera un commissario straordinario prefettizio in quanto privo di legittimazione democratica"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Quando è necessaria la redazione del DUVRI?",
+				options: ["Nel caso di affidamento di appalto per mera fornitura di materiale", "Nel caso di affidamenti di servizi di architettura e ingegneria", "Su indicazione e valutazione del RSPP", "Nel caso di affidamento di lavori e servizi in appalto per i quali si prevedono interferenze tra l'attività del committente e dell'appaltatore"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "In che consiste il principio contabile dell’equilibrio di bilancio in senso strutturale?",
+				options: ["Le entrate e le spese devono pareggiare senza il ricorso al credito", "Le entrate e le spese devono pareggiare, ivi compresi gli eventuali disavanzi degli esercizi pregressi", "Le entrate finali devono pareggiare con le spese finali", "Le entrate e le spese devono pareggiare nel loro totale"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Per la responsabilità sanzionatoria:",
+				options: ["si applicano le norme del Codice di procedura penale", "il codice di giustizia contabile ha previsto uno specifico rito", "si applica il rito previsto per la responsabilità per danno erariale", "si applicano le norme procedurali previste dal d.lgs. n.165/2001"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Per l'applicazione del nuovo Codice dei contratti pubblici (D.lgs. n. 36/2023), la soglie di rilevanza europea aggiornata per gli appalti pubblici di forniture, di servizi e per i concorsi pubblici di progettazione aggiudicati da stazioni appaltanti sub-centrali è:",
+				options: ["750.000 euro", "143.000 euro", "221.000 euro", "5.538.000 euro"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "All’esito dell’esame di una richiesta di parere ai sensi dell’art. 7, comma 8, della l. n. 131/2003:",
+				options: ["la riscontrata inammissibilità soggettiva o oggettiva dell’istanza non preclude l’esame del merito", "solo la riscontrata inammissibilità oggettiva dell’istanza preclude l’esame del merito", "la riscontrata inammissibilità soggettiva o oggettiva dell’istanza preclude l’esame del merito", "solo la riscontrata inammissibilità soggettiva dell’istanza preclude l’esame del merito"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Gli atti sottoposti al controllo preventivo di legittimità rientrano in un elenco tassativo?",
+				options: ["Si, l’elenco non è in alcun modo modificabile", "Si, è considerato un numerus clausus, ma il Legislatore può ampliarne o ridurne la portata", "No, ciascuna amministrazione può decidere di trasmettere qualsiasi atto che intende sottoporre alla Corte dei conti", "Si, è considerato un numerus clausus, ma oggetto di possibili modifiche da parte del Parlamento"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "La rilevazione dell’orario di lavoro del dipendente è effettuato con:",
+				options: ["Sistemi satellitari di rilevazione della localizzazione", "Firma su apposito registro", "Forme di controllo obiettivo ed automatico: per esempio tornelli, orologi marcatempo che confluiscono nel sistema di gestione del personale", "Non c’è bisogno di alcun controllo, basta una dichiarazione a fine mese con cui si attestano le proprie presenze"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Per quante ore di lavoro al videoterminale è obbligatoria la sorveglianza sanitaria?",
+				options: ["Almeno 20 ore a settimana", "Sopra le 30 ore a settimana", "Non ci sono limiti di legge", "Almeno 36 ore a settimana"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Nel procedimento disciplinare quale effetto determina la mancata convocazione del dipendente per l’audizione a difesa decorsi 30 giorni dalla segnalazione della condotta rilevante ai fini disciplinari?",
+				options: ["L’obbligo di rinnovare l’atto di contestazione", "Nessun effetto, l’audizione è facoltativa", "La nullità del procedimento", "Il diritto al risarcimento del danno per il dipendente"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "L'accesso agli atti è consentito:",
+				options: ["a tutti indistintamente", "solo agli interessati qualificati", "non è mai consentito", "è consentito solo in casi di motivata urgenza e con congruo preavviso"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "La Sezione regionale di controllo, nella resa dei pareri di cui all’art. 7, comma 8, l. n. 131/2003:",
+				options: ["può discostarsi dai principi di diritto espressi in materia dalla Sezione delle autonomie della Corte dei conti rimettendo la questione al Consiglio di Stato", "è tenuta a conformarsi ai principi di diritto espressi dalla Sezione delle autonomie della Corte dei conti con succinta motivazione e solo nel caso in cui essa stessa abbia sollevato in materia una questione di massima di valenza generale", "può sempre discostarsi, rimettendo la questione alla Corte costituzionale, dai principi di diritto espressi in materia dalla Sezione delle autonomie della Corte dei conti", "è sempre tenuta a conformarsi ai principi di diritto espressi in materia dalla Sezione delle autonomie della Corte dei conti"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Quali sono i compiti del Responsabile della prevenzione della corruzione e della trasparenza?",
+				options: ["Fare esclusivamente formazione in materia", "Vigilare esclusivamente sulla corretta attuazione del sistema della prevenzione della corruzione e della trasparenza", "Individuare le aree di rischio, predisporre il Piano triennale di prevenzione della corruzione e della trasparenza, effettuare il monitoraggio, ricevere le segnalazioni di illecito, redigere le relazioni annuali", "Organizzare esclusivamente il sistema della prevenzione della corruzione e della trasparenza"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Nella responsabilità amministrativa il requisito soggettivo è integrato, in linea di massima, e prescindendo da disposizioni speciali a carattere transitorio, da:",
+				options: ["Dolo e colpa lieve", "Dolo e colpa grave", "Dolo e colpa", "Colpa grave e colpa lieve"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "In caso di assenza per malattia è obbligatorio produrre il certificato medico?",
+				options: ["No, mai", "A scelta del dipendente", "Si, ma solo per malattie superiori a 10 giorni", "Si sempre"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "L’atto di contestazione degli addebiti deve essere comunicato al dipendente:",
+				options: ["Con comunicazione scritta da parte del Servizio procedimenti disciplinari", "Oralmente", "Con notifica da parte dell’autorità giudiziaria", "Con comunicazione scritta da parte del Presidente della Corte dei conti"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Le delibere di controllo preventivo di legittimità sono direttamente impugnabili?",
+				options: ["Si, sempre", "Si, solo quelle della Sezione centrale di controllo", "No", "Si, solo dalla Presidenza del Consiglio dei ministri"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Quale tra le seguenti è una caratteristica principale dello smartworking?",
+				options: ["Lavorare esclusivamente presso la sede di servizio", "Lavorare esclusivamente da casa", "Necessità di essere fisicamente presenti presso la sede di servizio per tutte le riunioni", "Flessibilità nell'orario di lavoro e nel luogo di lavoro"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Per la responsabilità sanzionatoria la prescrizione decorre:",
+				options: ["dalla segnalazione di danno", "dalla realizzazione della condotta prevista dal legislatore", "dal passaggio in giudicato della sentenza penale di condanna", "dal danno"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Entro quanti giorni il responsabile dell’ufficio presso cui è assegnato il dipendente incolpato deve segnalare al Servizio competente i fatti valutati rilevanti sotto il profilo disciplinare",
+				options: ["10 giorni", "30 giorni", "5 giorni", "40 giorni"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Nel giudizio pensionistico l'appello, a pena di inammissibilità, deve essere proposto entro:",
+				options: ["novanta giorni dalla data di notifica della sentenza di primo grado", "quarantacinque giorni dalla data di notifica della sentenza di primo grado", "sessanta giorni dalla data di notifica della sentenza di primo grado", "trenta giorni dalla data di notifica della sentenza di primo grado"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Qual è una delle principali differenze tra lavoro agile e lavoro tradizionale?",
+				options: ["Il lavoro agile richiede una presenza costante in ufficio", "Il lavoro agile prevede solo la riduzione delle ore lavorative", "Il lavoro agile implica l'assenza di qualsiasi controllo da parte del datore di lavoro", "Il lavoro agile si basa sulla flessibilità di luogo e orari, orientandosi sui risultati"],
+				correct: 3,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Ai sensi dell'art. 5, comma 1, del D.Lgs. n. 33/2013, in materia di accesso civico a dati e documenti:",
+				options: ["E' sempre possibile presentare istanze per ottenere informazioni o documenti", "L'obbligo previsto dalla normativa vigente in capo alle pubbliche amministrazioni di pubblicare documenti, informazioni o dati, comporta il diritto di chiunque di richiedere i medesimi, nei casi in cui sia stata omessa la loro pubblicazione.", "E' sempre consentita la partecipazione ad un procedimento amministrativo", "E' sempre consentito il diritto di accesso ai documenti tramite organizzazione sindacale"],
+				correct: 1,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "La giurisdizione sulla responsabilità dell'agente contabile è una",
+				options: ["giurisdizione della Corte dei conti", "giurisdizione ordinaria", "giurisdizione amministrativa", "giurisdizione tributaria"],
+				correct: 0,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
+			},
+			{
+				question: "Nell'ambito del controllo sulla gestione le attività istruttorie possono essere svolte:",
+				options: ["solo in forma orale", "solo con accessi diretti", "sia in forma cartolare, sia in altre forme", "solo in forma cartolare"],
+				correct: 2,
+				motivation: "",
+				category: "Quiz del 25/10/2024"
 			}
         ];
